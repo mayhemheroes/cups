@@ -1,0 +1,7 @@
+project: cups
+target: fuzz_raster
+testsuite:
+  - file:///mayhem/mayhem/testsuite/fuzz_raster
+cmds:
+  - cmd: /mayhem/fuzz_raster
+    libfuzzer: true

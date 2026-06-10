@@ -1,0 +1,8 @@
+project: cups
+target: fuzz_ppd_gen_cache
+testsuite:
+  - file:///mayhem/mayhem/testsuite/fuzz_ppd_gen_cache
+cmds:
+  - cmd: /mayhem/fuzz_ppd_gen_cache
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_ppd.dict

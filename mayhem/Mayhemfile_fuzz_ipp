@@ -1,0 +1,8 @@
+project: cups
+target: fuzz_ipp
+testsuite:
+  - file:///mayhem/mayhem/testsuite/fuzz_ipp
+cmds:
+  - cmd: /mayhem/fuzz_ipp
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_ipp.dict

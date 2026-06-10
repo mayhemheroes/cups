@@ -1,0 +1,8 @@
+project: cups
+target: fuzz_ppd_gen_conflicts
+testsuite:
+  - file:///mayhem/mayhem/testsuite/fuzz_ppd_gen_conflicts
+cmds:
+  - cmd: /mayhem/fuzz_ppd_gen_conflicts
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_ppd.dict
