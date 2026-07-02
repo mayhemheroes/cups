@@ -1,0 +1,6 @@
+project: cups
+target: fuzz_ipp_gen
+cmds:
+  - cmd: /mayhem/fuzz_ipp_gen
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_ipp_gen.dict

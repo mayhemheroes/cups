@@ -1,0 +1,5 @@
+project: cups
+target: fuzz_http_core
+cmds:
+  - cmd: /mayhem/fuzz_http_core
+    libfuzzer: true

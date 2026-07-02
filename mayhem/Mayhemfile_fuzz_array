@@ -1,0 +1,5 @@
+project: cups
+target: fuzz_array
+cmds:
+  - cmd: /mayhem/fuzz_array
+    libfuzzer: true
