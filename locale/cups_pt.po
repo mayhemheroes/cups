@@ -23,16 +23,16 @@ msgstr ""
 "Project-Id-Version: CUPS 2.5\n"
 "Report-Msgid-Bugs-To: https://github.com/openprinting/cups/issues\n"
 "POT-Creation-Date: 2026-06-25 14:51-0400\n"
-"PO-Revision-Date: 2026-06-08 11:02+0000\n"
+"PO-Revision-Date: 2026-07-04 10:01+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/cups/cups/pt/"
-">\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/cups/cups/pt/>"
+"\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.6\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 
 msgid "\t\t(all)"
 msgstr "\t\t(todos)"
@@ -241,7 +241,7 @@ msgstr "        PASSOU  ShortNickName"
 
 #, c-format
 msgid "        WARN    %s has no corresponding options."
-msgstr "        AVISO   %s não possui as opções correspondentes."
+msgstr "        AVISO   %s não tem opções correspondentes."
 
 #, c-format
 msgid ""
@@ -257,62 +257,61 @@ msgid ""
 "be named Duplex.\n"
 "                REF: Page 122, section 5.17"
 msgstr ""
-"        AVISO   A opção da palavra-chave ‘Duplex %s’ pode não funcionar como "
-"esperado e deve ser renomeada para ‘Duplex’ (frente e verso).\n"
+"        AVISO   A palavra-chave %s da opção Duplex pode não funcionar como "
+"esperado e deve ser renomeada para Duplex.\n"
 "                REF: Página 122, secção 5.17"
 
 msgid "        WARN    File contains a mix of CR, LF, and CR LF line endings."
 msgstr ""
-"        AVISO   O ficheiro contém no fim das linhas uma mistura dos formatos "
-"CR, LF e CR LF."
+"        AVISO   O ficheiro contém uma mistura dos formatos CR, LF e CR LF no "
+"fim das linhas."
 
 msgid ""
 "        WARN    LanguageEncoding required by PPD 4.3 spec.\n"
 "                REF: Pages 56-57, section 5.3."
 msgstr ""
 "        AVISO   A codificação do idioma (LanguageEncoding) é necessária pela "
-"especificação do PPD 4.3.\n"
+"especificação PPD 4.3.\n"
 "                REF: Páginas 56-57, secção 5.3."
 
 #, c-format
 msgid "        WARN    Line %d only contains whitespace."
-msgstr "        AVISO   A linha %d contém somente espaços em branco."
+msgstr "        AVISO   A linha %d só contém espaços em branco."
 
 msgid ""
 "        WARN    Manufacturer required by PPD 4.3 spec.\n"
 "                REF: Pages 58-59, section 5.3."
 msgstr ""
-"        AVISO   O fabricante é necessário pela especificação do PPD 4.3.\n"
+"        AVISO   O fabricante é necessário pela especificação PPD 4.3.\n"
 "                REF: Páginas 58-59, secção 5.3."
 
 msgid ""
 "        WARN    Non-Windows PPD files should use lines ending with only LF, "
 "not CR LF."
 msgstr ""
-"        AVISO   Os ficheiros PPD dos sistemas operativos que não são da "
-"família Windows deveriam utilizar o fim da linha somente com formato LR e "
-"não o CR LF."
+"        AVISO   Os ficheiros PPD não-Windows devem usar linhas a terminar "
+"apenas com LF e não o CR LF."
 
 #, c-format
 msgid ""
 "        WARN    Obsolete PPD version %.1f.\n"
 "                REF: Page 42, section 5.2."
 msgstr ""
-"        AVISO   O PPD da versão %.1f está obsoleto.\n"
+"        AVISO   Versão de PPD obsoleta %.1f.\n"
 "                REF: Página 42, secção 5.2."
 
 msgid ""
 "        WARN    PCFileName longer than 8.3 in violation of PPD spec.\n"
 "                REF: Pages 61-62, section 5.3."
 msgstr ""
-"        AVISO   O PCFileName maior que 8.3 viola a especificação do PPD.\n"
+"        AVISO   PCFileName maior que 8.3 viola a especificação PPD.\n"
 "                REF: Páginas 61-62, secção 5.3."
 
 msgid ""
 "        WARN    PCFileName should contain a unique filename.\n"
 "                REF: Pages 61-62, section 5.3."
 msgstr ""
-"        AVISO   O PCFileName deveria conter um nome de ficheiro único.\n"
+"        AVISO   PCFileName deve conter um nome de ficheiro único.\n"
 "                REF: Páginas 61-62, secção 5.3."
 
 msgid ""
@@ -327,15 +326,14 @@ msgid ""
 "        WARN    Protocols contains both PJL and BCP; expected TBCP.\n"
 "                REF: Pages 78-79, section 5.7."
 msgstr ""
-"        AVISO   Os protocolos contêm ambos, o PJL e o BCP, mas era esperado "
-"o TBCP.\n"
+"        AVISO   Os protocolos contêm ambos PJL e BCP; esperado TBCP.\n"
 "                REF: Páginas 78-79, secção 5.7."
 
 msgid ""
 "        WARN    ShortNickName required by PPD 4.3 spec.\n"
 "                REF: Pages 64-65, section 5.3."
 msgstr ""
-"        AVISO   O ShortNickName é necessário pela especificação do PPD 4.3.\n"
+"        AVISO   O ShortNickName é necessário pela especificação PPD 4.3.\n"
 "                REF: Páginas 64-65, secção 5.3."
 
 #, c-format
@@ -343,8 +341,8 @@ msgid ""
 "      %s  \"%s %s\" conflicts with \"%s %s\"\n"
 "                (constraint=\"%s %s %s %s\")."
 msgstr ""
-"      %s  \"%s %s\" conflita com \"%s %s\"\n"
-"                (possui a restrição=\"%s %s %s %s\")."
+"      %s  \"%s %s\" faz conflito com \"%s %s\"\n"
+"                (restrição=\"%s %s %s %s\")."
 
 #, c-format
 msgid "      %s  %s %s does not exist."
@@ -352,73 +350,68 @@ msgstr "      %s  %s %s não existe."
 
 #, c-format
 msgid "      %s  %s file \"%s\" has the wrong capitalization."
-msgstr "      %s  ficheiro de %s \"%s\" possui letra maiúscula incorreta."
+msgstr "      %s  ficheiro %s \"%s\" possui letra maiúscula incorreta."
 
 #, c-format
 msgid ""
 "      %s  Bad %s choice %s.\n"
 "                REF: Page 122, section 5.17"
 msgstr ""
-"      %s  Não é válido %s , escolha %s.\n"
+"      %s  Má %s escolha %s.\n"
 "                REF: Página 122, secção 5.17"
 
 #, c-format
 msgid "      %s  Bad UTF-8 \"%s\" translation string for option %s, choice %s."
 msgstr ""
-"      %s  A cadeia da tradução \"%s\" no formato UTF-8 não é válida para a "
-"opção %s, escolha %s."
+"      %s  Má cadeia de tradução \"%s\" em UTF-8 para opção %s, escolha %s."
 
 #, c-format
 msgid "      %s  Bad UTF-8 \"%s\" translation string for option %s."
-msgstr ""
-"      %s  A cadeia da tradução de \"%s\" no formato UTF-8 não é válido para "
-"a opção %s."
+msgstr "      %s  Má cadeia de tradução \"%s\" em UTF-8 para a opção %s."
 
 #, c-format
 msgid "      %s  Bad cupsFilter value \"%s\"."
-msgstr "      %s  O valor \"%s\" não é válido para o cupsFilter."
+msgstr "      %s  Mau valor de cupsFilter \"%s\"."
 
 #, c-format
 msgid "      %s  Bad cupsFilter2 value \"%s\"."
-msgstr "      %s  O valor \"%s\" não é válido para o cupsFilter2."
+msgstr "      %s  Mau valor de cupsFilter2 \"%s\"."
 
 #, c-format
 msgid "      %s  Bad cupsICCProfile %s."
-msgstr "      %s  O valor %s\" não é válido para o cupsICCProfile."
+msgstr "      %s  Mau cupsICCProfile %s."
 
 #, c-format
 msgid "      %s  Bad cupsPreFilter value \"%s\"."
-msgstr "      %s  O valor \"%s\" não é válido para o cupsPreFilter."
+msgstr "      %s  Mau valor de cupsPreFilter \"%s\"."
 
 #, c-format
 msgid "      %s  Bad cupsUIConstraints %s: \"%s\""
-msgstr "      %s  %s não é válido para o cupsUIConstraints: \"%s\""
+msgstr "      %s  Mau cupsUIConstraints %s: \"%s\""
 
 #, c-format
 msgid "      %s  Bad language \"%s\"."
-msgstr "      %s  O idioma \"%s\" não é válido."
+msgstr "      %s  Mau idioma \"%s\"."
 
 #, c-format
 msgid "      %s  Bad permissions on %s file \"%s\"."
-msgstr "      %s  As permissões %s do ficheiro não são válidas para \"%s\"."
+msgstr "      %s  Más permissões no ficheiro %s \"%s\"."
 
 #, c-format
 msgid "      %s  Bad spelling of %s - should be %s."
-msgstr "      %s  Ocorreu um erro ortográfico em %s, deveria ser %s."
+msgstr "      %s  Má ortografia de %s - deveria ser %s."
 
 #, c-format
 msgid "      %s  Cannot provide both APScanAppPath and APScanAppBundleID."
-msgstr ""
-"      %s  Não é possível fornecer ambos, o APScanAppPath e o "
-"APScanAppBundleID."
+msgstr "      %s  Não pode fornecer ambos, APScanAppPath e APScanAppBundleID."
 
 #, c-format
 msgid "      %s  Default choices conflicting."
-msgstr "      %s  As escolhas padrão estão em conflito."
+msgstr "      %s  Escolhas predefinidas em conflito."
 
 #, c-format
 msgid "      %s  Empty cupsUIConstraints %s"
-msgstr "      %s  O cupsUIConstraints %s está vazio"
+msgstr "      %s  cupsUIConstraints %s está vazio"
 
 #, c-format
 msgid "      %s  Missing \"%s\" translation string for option %s, choice %s."
@@ -431,14 +424,14 @@ msgstr "      %s  Falta a cadeia da tradução de \"%s\" para a opção %s."
 
 #, c-format
 msgid "      %s  Missing %s file \"%s\"."
-msgstr "      %s  Falta %s ficheiro \"%s\"."
+msgstr "      %s  Falta ficheiro %s \"%s\"."
 
 #, c-format
 msgid ""
 "      %s  Missing REQUIRED PageRegion option.\n"
 "                REF: Page 100, section 5.14."
 msgstr ""
-"      %s  Falta a opção PageRegion que é NECESSÁRIA.\n"
+"      %s  Falta a opção PageRegion OBRIGATÓRIA.\n"
 "                REF: Página 100, secção 5.14."
 
 #, c-format
@@ -446,13 +439,12 @@ msgid ""
 "      %s  Missing REQUIRED PageSize option.\n"
 "                REF: Page 99, section 5.14."
 msgstr ""
-"      %s  Falta a opção PageSize que é NECESSÁRIA.\n"
+"      %s  Falta a opção PageSize OBRIGATÓRIA.\n"
 "                REF: Página 99, secção 5.14."
 
 #, c-format
 msgid "      %s  Missing choice *%s %s in UIConstraints \"*%s %s *%s %s\"."
-msgstr ""
-"      %s  Falta a escolha de *%s %s no UIConstraints \"*%s %s *%s %s\"."
+msgstr "      %s  Falta a escolha de *%s %s em UIConstraints \"*%s %s *%s %s\"."
 
 #, c-format
 msgid "      %s  Missing choice *%s %s in cupsUIConstraints %s: \"%s\""
