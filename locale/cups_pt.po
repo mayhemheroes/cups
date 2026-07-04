@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: CUPS 2.5\n"
 "Report-Msgid-Bugs-To: https://github.com/openprinting/cups/issues\n"
 "POT-Creation-Date: 2026-06-25 14:51-0400\n"
-"PO-Revision-Date: 2026-07-04 10:01+0000\n"
+"PO-Revision-Date: 2026-07-04 21:57+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/cups/cups/pt/>"
 "\n"
@@ -448,7 +448,7 @@ msgstr "      %s  Falta a escolha de *%s %s em UIConstraints \"*%s %s *%s %s\"."
 
 #, c-format
 msgid "      %s  Missing choice *%s %s in cupsUIConstraints %s: \"%s\""
-msgstr "      %s  Falta a escolha *%s %s no cupsUIConstraints %s: \"%s\""
+msgstr "      %s  Falta a escolha *%s %s em cupsUIConstraints %s: \"%s\""
 
 #, c-format
 msgid "      %s  Missing cupsUIResolver %s"
@@ -456,15 +456,15 @@ msgstr "      %s  Falta %s do cupsUIResolver"
 
 #, c-format
 msgid "      %s  Missing option %s in UIConstraints \"*%s %s *%s %s\"."
-msgstr "      %s  Falta a opção %s no UIConstraints \"*%s %s *%s %s\"."
+msgstr "      %s  Falta a opção %s em UIConstraints \"*%s %s *%s %s\"."
 
 #, c-format
 msgid "      %s  Missing option %s in cupsUIConstraints %s: \"%s\""
-msgstr "      %s  Falta a opção %s no cupsUIConstraints %s: \"%s\""
+msgstr "      %s  Falta a opção %s em cupsUIConstraints %s: \"%s\""
 
 #, c-format
 msgid "      %s  No base translation \"%s\" is included in file."
-msgstr "      %s  Nenhuma tradução base de \"%s\" está inclusa no ficheiro."
+msgstr "      %s  Nenhuma tradução base de \"%s\" está incluída no ficheiro."
 
 #, c-format
 msgid ""
@@ -476,7 +476,7 @@ msgstr ""
 
 #, c-format
 msgid "      %s  Size \"%s\" defined for %s but not for %s."
-msgstr "      %s  O tamanho \"%s\" foi definido para %s, mas não foi para %s."
+msgstr "      %s  O tamanho \"%s\" definido para %s, mas não para %s."
 
 #, c-format
 msgid "      %s  Size \"%s\" has unexpected dimensions (%gx%g)."
@@ -489,12 +489,11 @@ msgstr "      %s  O tamanho \"%s\" deveria ser \"%s\"."
 #, c-format
 msgid "      %s  Size \"%s\" should be the Adobe standard name \"%s\"."
 msgstr ""
-"      %s  O tamanho \"%s\" deveria ser o mesmo do padrão do Adobe chamado de "
-"\"%s\"."
+"      %s  O tamanho \"%s\" deveria ser o nome da normalização Adobe \"%s\"."
 
 #, c-format
 msgid "      %s  cupsICCProfile %s hash value collides with %s."
-msgstr "      %s  O valor do hash %s do cupsICCProfile colide com %s."
+msgstr "      %s  O valor do hash %s de cupsICCProfile colide com %s."
 
 #, c-format
 msgid "      %s  cupsUIResolver %s causes a loop."
@@ -511,7 +510,7 @@ msgid ""
 "      **FAIL**  %s must be 1284DeviceID\n"
 "                REF: Page 72, section 5.5"
 msgstr ""
-"      **Ocorreu uma FALHA** %s deve ser 1284DeviceID\n"
+"      **FALHA** %s tem de ser 1284DeviceID\n"
 "                REF: Página 72, secção 5.5"
 
 #, c-format
@@ -519,7 +518,7 @@ msgid ""
 "      **FAIL**  Bad Default%s %s\n"
 "                REF: Page 40, section 4.5."
 msgstr ""
-"      **Ocorreu uma FALHA** O padrão %s não é válido para %s\n"
+"      **FALHA** Má Predefinição%s %s\n"
 "                REF: Página 40, secção 4.5."
 
 #, c-format
@@ -527,7 +526,7 @@ msgid ""
 "      **FAIL**  Bad DefaultImageableArea %s\n"
 "                REF: Page 102, section 5.15."
 msgstr ""
-"      **Ocorreu uma FALHA** O DefaultImageableArea %s não é válido\n"
+"      **FALHA** Mau DefaultImageableArea %s\n"
 "                REF: Página 102, secção 5.15."
 
 #, c-format
@@ -535,7 +534,7 @@ msgid ""
 "      **FAIL**  Bad DefaultPaperDimension %s\n"
 "                REF: Page 103, section 5.15."
 msgstr ""
-"      **Ocorreu uma FALHA**  O DefaultPaperDimension %s não é válido\n"
+"      **FALHA**  Mau DefaultPaperDimension %s\n"
 "                REF: Página 103, secção 5.15."
 
 #, c-format
@@ -543,7 +542,7 @@ msgid ""
 "      **FAIL**  Bad FileVersion \"%s\"\n"
 "                REF: Page 56, section 5.3."
 msgstr ""
-"      **FAIL**  O FileVersion \"%s\" não é válido\n"
+"      **FALHA**  Mau FileVersion \"%s\"\n"
 "                REF: Página 56, secção 5.3."
 
 #, c-format
@@ -551,35 +550,30 @@ msgid ""
 "      **FAIL**  Bad FormatVersion \"%s\"\n"
 "                REF: Page 56, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  O FormatVersion \"%s\"não é válido\n"
+"      **FALHA**  Mau FormatVersion \"%s\"\n"
 "                REF: Página 56, secção 5.3."
 
 msgid ""
 "      **FAIL**  Bad JobPatchFile attribute in file\n"
 "                REF: Page 24, section 3.4."
 msgstr ""
-"      **Ocorreu uma FALHA**  O atributo do JobPatchFile não é válido para o "
-"ficheiro\n"
+"      **FALHA**  Mau atributo de JobPatchFile em ficheiro\n"
 "                REF: Página 24, secção 3.4."
 
 #, c-format
 msgid "      **FAIL**  Bad LanguageEncoding %s - must be ISOLatin1."
-msgstr ""
-"      **Ocorreu uma FALHA**  O LanguageEncoding %s não é válido e tem que "
-"ser o ISOLatin1."
+msgstr "      **FALHA**  Mau LanguageEncoding %s - tem de ser ISOLatin1."
 
 #, c-format
 msgid "      **FAIL**  Bad LanguageVersion %s - must be English."
-msgstr ""
-"      **Ocorreu uma FALHA**  O LanguageVersion %s tem que ser o inglês."
+msgstr "      **FALHA**  Mau LanguageVersion %s - tem que ser Inglês."
 
 #, c-format
 msgid ""
 "      **FAIL**  Bad Manufacturer (should be \"%s\")\n"
 "                REF: Page 211, table D.1."
 msgstr ""
-"      **Ocorreu uma FALHA**  O Manufacturer não é válido e deveria ser \"%s"
-"\"\n"
+"      **FALHA**  Mau Manufacturer (deve ser \"%s\")\n"
 "                REF: Página 211, tabela D.1."
 
 #, c-format
@@ -587,32 +581,29 @@ msgid ""
 "      **FAIL**  Bad ModelName - \"%c\" not allowed in string.\n"
 "                REF: Pages 59-60, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  O ModelName não é válido, a cadeia \"%c\" não é "
-"permitida.\n"
+"      **FALHA** Mau ModelName - \"%c\" não permitido na sequência de "
+"caracteres.\n"
 "                REF: Páginas 59-60, secção 5.3."
 
 msgid ""
 "      **FAIL**  Bad PSVersion - not \"(string) int\".\n"
 "                REF: Pages 62-64, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  O PSVersion não é válido e não pode ser do tipo "
-"\"(string) int\".\n"
+"      **FALHA**  Mau PSVersion - não é \"(string) int\".\n"
 "                REF: Páginas 62-64, secção 5.3."
 
 msgid ""
 "      **FAIL**  Bad Product - not \"(string)\".\n"
 "                REF: Page 62, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  O Product não é válido e não pode ser do tipo "
-"\"(string)\".\n"
+"      **FALHA**  Mau Product - não é \"(string)\".\n"
 "                REF: Página 62, secção 5.3."
 
 msgid ""
 "      **FAIL**  Bad ShortNickName - longer than 31 chars.\n"
 "                REF: Pages 64-65, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  O ShortNickName não é válido e tem que ter mais "
-"do que 31 caracteres.\n"
+"      **FALHA**  Mau ShortNickName - maior que 31 caracteres.\n"
 "                REF: Páginas 64-65, secção 5.3."
 
 #, c-format
@@ -620,89 +611,86 @@ msgid ""
 "      **FAIL**  Bad option %s choice %s\n"
 "                REF: Page 84, section 5.9"
 msgstr ""
-"      **Ocorreu uma FALHA**  A opção %s não é válida, escolha %s\n"
+"      **FALHA**  Má opção %s escolha %s\n"
 "                REF: Página 84, secção 5.9"
 
 #, c-format
 msgid "      **FAIL**  Default option code cannot be interpreted: %s"
 msgstr ""
-"      **Ocorreu uma FALHA**   O código da opção padrão %s não pode ser "
-"interpretado"
+"      **FALHA**   O código da opção predefinida não pode ser interpretado: %s"
 
 #, c-format
 msgid ""
 "      **FAIL**  Default translation string for option %s choice %s contains "
 "8-bit characters."
 msgstr ""
-"      **Ocorreu uma FALHA**   A cadeia da tradução padrão para opção %s, "
-"escolha %s que contém os caracteres de 8 bits."
+"      **FALHA**   A cadeia da tradução predefinida para opção %s, escolha %s "
+"contém caracteres de 8 bits."
 
 #, c-format
 msgid ""
 "      **FAIL**  Default translation string for option %s contains 8-bit "
 "characters."
 msgstr ""
-"      **Ocorreu uma FALHA**   A cadeia da tradução padrão para opção %s "
-"contém os caracteres de 8 bits."
+"      **FALHA**   A cadeia da tradução predefinida para opção %s contém "
+"caracteres de 8 bits."
 
 #, c-format
 msgid "      **FAIL**  Group names %s and %s differ only by case."
 msgstr ""
-"      **Ocorreu uma FALHA*  Os nomes dos grupos %s e %s diferem somente por "
-"serem maiúsculo e minúsculo."
+"      **FALHA**  Os nomes dos grupos %s e %s diferem apenas por maiúscula e "
+"minúscula."
 
 #, c-format
 msgid "      **FAIL**  Multiple occurrences of option %s choice name %s."
-msgstr ""
-"      **Ocorreu uma FALHA**  Várias ocorrências da opção %s, escolha o nome "
-"%s."
+msgstr "      **FALHA**  Várias ocorrências da opção %s, escolha de nome %s."
 
 #, c-format
 msgid "      **FAIL**  Option %s choice names %s and %s differ only by case."
 msgstr ""
-"      **Ocorreu uma FALHA**  Na opção %s, escolheu os nomes %s e %s que "
-"diferem-se somente por serem maiúsculo e minúsculo."
+"      **FALHA**  Na opção %s, escolha de nomes %s e %s diferem-se apenas por "
+"maiúsculas e minúsculas."
 
 #, c-format
 msgid "      **FAIL**  Option names %s and %s differ only by case."
 msgstr ""
-"      **Ocorreu uma FALHA**  Os nomes da opção %s e %s diferem-se somente "
-"por serem maiúsculo e minúsculo."
+"      **FALHA**  Os nomes das opções %s e %s diferem-se apenas por "
+"maiúsculas e minúsculas."
 
 #, c-format
 msgid ""
 "      **FAIL**  REQUIRED Default%s\n"
 "                REF: Page 40, section 4.5."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO que Default seja %s\n"
+"      **FALHA**  Predefinição%s OBRIGATÓRIA\n"
 "                REF: Página 40, secção 4.5."
 
 msgid ""
 "      **FAIL**  REQUIRED DefaultImageableArea\n"
 "                REF: Page 102, section 5.15."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o DefaultImageableArea\n"
+"      **FALHA**  DefaultImageableArea OBRIGATÓRIO\n"
 "                REF: Página 102, secção 5.15."
 
 msgid ""
 "      **FAIL**  REQUIRED DefaultPaperDimension\n"
 "                REF: Page 103, section 5.15."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o DefaultPaperDimension\n"
+"      **FALHA**  DefaultPaperDimension OBRIGATÓRIO\n"
 "                REF: Página 103, secção 5.15."
 
 msgid ""
 "      **FAIL**  REQUIRED FileVersion\n"
 "                REF: Page 56, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o FileVersion\n"
+"      **FALHA**  FileVersion OBRIGATÓRIO\n"
 "                REF: Página 56, secção 5.3."
 
 msgid ""
 "      **FAIL**  REQUIRED FormatVersion\n"
 "                REF: Page 56, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o FormatVersion\n"
+"      **FALHA**  FormatVersion OBRIGATÓRIO\n"
 "                REF: Página 56, secção 5.3."
 
 #, c-format
@@ -711,8 +699,7 @@ msgid ""
 "                REF: Page 41, section 5.\n"
 "                REF: Page 102, section 5.15."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o ImageableArea para o PageSize "
-"%s\n"
+"      **FALHA**  ImageableArea para PageSize OBRIGATÓRIO %s\n"
 "                REF: Página 41, secção 5.\n"
 "                REF: Página 102, secção 5.15."
 
@@ -720,56 +707,56 @@ msgid ""
 "      **FAIL**  REQUIRED LanguageEncoding\n"
 "                REF: Pages 56-57, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o LanguageEncoding\n"
+"      **FALHA**  LanguageEncoding OBRIGATÓRIO\n"
 "                REF: Páginas 56-57, secção 5.3."
 
 msgid ""
 "      **FAIL**  REQUIRED LanguageVersion\n"
 "                REF: Pages 57-58, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o LanguageVersion\n"
+"      **FALHA**  LanguageVersion OBRIGATÓRIO\n"
 "                REF: Páginas 57-58, secção 5.3."
 
 msgid ""
 "      **FAIL**  REQUIRED Manufacturer\n"
 "                REF: Pages 58-59, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o Manufacturer\n"
+"      **FALHA**  Manufacturer OBRIGATÓRIO\n"
 "                REF: Páginas 58-59, secção 5.3."
 
 msgid ""
 "      **FAIL**  REQUIRED ModelName\n"
 "                REF: Pages 59-60, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o ModelName\n"
+"      **FALHA** ModelName OBRIGATÓRIO\n"
 "                REF: Páginas 59-60, secção 5.3."
 
 msgid ""
 "      **FAIL**  REQUIRED NickName\n"
 "                REF: Page 60, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o NickName\n"
+"      **FALHA**  NickName OBRIGATÓRIO\n"
 "                REF: Página 60, secção 5.3."
 
 msgid ""
 "      **FAIL**  REQUIRED PCFileName\n"
 "                REF: Pages 61-62, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o PCFileName\n"
+"      **FALHA**  PCFileName OBRIGATÓRIO\n"
 "                REF: Páginas 61-62, secção 5.3."
 
 msgid ""
 "      **FAIL**  REQUIRED PSVersion\n"
 "                REF: Pages 62-64, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o PSVersion\n"
+"      **FALHA**  PSVersion OBRIGATÓRIO\n"
 "                REF: Páginas 62-64, secção 5.3."
 
 msgid ""
 "      **FAIL**  REQUIRED PageRegion\n"
 "                REF: Page 100, section 5.14."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o PageRegion\n"
+"      **FALHA**  PageRegion OBRIGATÓRIO\n"
 "                REF: Página 100, secção 5.14."
 
 msgid ""
@@ -777,7 +764,7 @@ msgid ""
 "                REF: Page 41, section 5.\n"
 "                REF: Page 99, section 5.14."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o PageSize\n"
+"      **FALHA**  PageSize OBRIGATÓRIO\n"
 "                REF: Página 41, secção 5.\n"
 "                REF: Página 99, secção 5.14."
 
@@ -785,7 +772,7 @@ msgid ""
 "      **FAIL**  REQUIRED PageSize\n"
 "                REF: Pages 99-100, section 5.14."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o PageSize\n"
+"      **FALHA**  PageSize OBRIGATÓRIO\n"
 "                REF: Páginas 99-100, secção 5.14."
 
 #, c-format
@@ -794,8 +781,7 @@ msgid ""
 "                REF: Page 41, section 5.\n"
 "                REF: Page 103, section 5.15."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o PaperDimension para o PageSize "
-"%s\n"
+"      **FALHA**  PaperDimension para PageSize OBRIGATÓRIO %s\n"
 "                REF: Página 41, secção 5.\n"
 "                REF: Página 103, secção 5.15."
 
@@ -803,164 +789,134 @@ msgid ""
 "      **FAIL**  REQUIRED Product\n"
 "                REF: Page 62, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o Product\n"
+"      **FALHA**  Product OBRIGATÓRIO\n"
 "                REF: Página 62, secção 5.3."
 
 msgid ""
 "      **FAIL**  REQUIRED ShortNickName\n"
 "                REF: Page 64-65, section 5.3."
 msgstr ""
-"      **Ocorreu uma FALHA**  É NECESSÁRIO o ShortNickName\n"
+"      **FALHA**  ShortNickName OBRIGATÓRIO\n"
 "                REF: Página 64-65, secção 5.3."
 
 #, c-format
 msgid "      **FAIL**  Unable to open PPD file - %s on line %d."
-msgstr ""
-"      **Ocorreu uma FALHA**  Não foi possível abrir o ficheiro do formato "
-"PPD, %s na linha %d."
+msgstr "      **FALHA**  Incapaz de abrir o ficheiro PPD - %s na linha %d."
 
 #, c-format
 msgid "    %d ERRORS FOUND"
-msgstr "    %d ERROS FORAM ENCONTRADOS"
+msgstr "    %d ERROS ENCONTRADOS"
 
 msgid "    NO ERRORS FOUND"
-msgstr "    NENHUM ERRO FOI ENCONTRADO"
+msgstr "    NENHUM ERRO ENCONTRADO"
 
 msgid "  --cr                    End lines with CR (Mac OS 9)."
-msgstr ""
-"  --cr                    Permite aplicar o fim de linhas com o CR (Mac OS "
-"9)."
+msgstr "  --cr                    Termina linhas com o CR (Mac OS 9)."
 
 msgid "  --crlf                  End lines with CR + LF (Windows)."
-msgstr ""
-"  --crlf                  Permite aplicar o fim de linhas com o CR + LF "
-"(Windows)."
+msgstr "  --crlf                  Termina linhas com o CR + LF (Windows)."
 
 msgid "  --lf                    End lines with LF (UNIX/Linux/macOS)."
-msgstr ""
-"  --lf                    Permite aplicar o fim de linhas com o LF (UNIX, "
-"GNU/Linux e macOS)."
+msgstr "  --lf                    Termina linhas com o LF (UNIX/Linux/macOS)."
 
 msgid "  --list-all              List all filters with the MIME media types."
-msgstr ""
-"  --listar-todos              Permite listar todos os filtros com os tipos "
-"de média MIME."
+msgstr "  ---list-all      Listar todos os filtros com os tipos de média MIME."
 
 msgid "  --list-filters          List filters that will be used."
-msgstr ""
-"  --list-filters          Permite listar os filtros que serão utilizados."
+msgstr "  --list-filters          Listar os filtros que vão ser utilizados."
 
 msgid "  -D                      Remove the input file when finished."
 msgstr ""
-"  -D                      Permite remover o ficheiro da entrada ao finalizar."
+"  -D                      Remove o ficheiro da entrada quando finalizado."
 
 msgid "  -D name=value           Set named variable to value."
-msgstr ""
-"  -D nome=valor           Permite definir a variável \"nome\" com \"valor\"."
+msgstr "  -D nome=valor           Define a variável de nome para valor."
 
 msgid "  -I include-dir          Add include directory to search path."
 msgstr ""
-"  -I include-dir          Permite adicionar o diretório de inclusão no "
-"caminho da pesquisa."
+"  -I include-dir          Adiciona diretório a incluir no caminho da busca."
 
 msgid "  -P FILENAME.ppd         Set PPD file."
-msgstr ""
-"  -P FILENAME.ppd         Permite definir o ficheiro com o formato PPD."
+msgstr "  -P NOME-FICHEIRO.ppd         Define ficheiro PPD."
 
 msgid "  -U USERNAME             Specify username."
-msgstr ""
-"  -U nome-de-utilizador             Permite especificar o nome do utilizador."
+msgstr "  -U NOME-DE-UTILIZADOR             Especifica o nome do utilizador."
 
 msgid "  -c catalog.po           Load the specified message catalog."
-msgstr ""
-"  -c catálogo.po          Permite carregar o catálogo das mensagens que foi "
-"especificado."
+msgstr "  -c catálogo.po          Carrega o catálogo de mensagens especificado."
 
 msgid "  -c cups-files.conf      Set cups-files.conf file to use."
 msgstr ""
-"  -c cups-files.conf      Permite definir o ficheiro cups-files.conf para "
-"ser utilizado."
+"  -c cups-files.conf      Define o ficheiro cups-files.conf a ser usado."
 
 msgid "  -d PRINTER              Use the named printer."
-msgstr "  -d PRINTER              Permite utilizar a impressora indicada."
+msgstr "  -d IMPRESSORA              Utiliza a impressora indicada."
 
 msgid "  -d output-dir           Specify the output directory."
-msgstr "  -d dir-saída            Permite especificar o diretório de saída."
+msgstr "  -d dir-saída            Especifica o diretório de saída."
 
 msgid "  -e                      Use every filter from the PPD file."
-msgstr ""
-"  -e                      Permite utilizar todos os filtros do ficheiro no "
-"formato PPD."
+msgstr "  -e                      Utiliza todos os filtros do ficheiro PPD."
 
 msgid "  -i MIME/TYPE            Set input MIME type (otherwise auto-typed)."
 msgstr ""
-"  -i MIME/TYPE            Permite definir o tipo do MIME da entrada, caso "
-"contrário, será preenchido automaticamente."
+"  -i MIME/TIPO            Define o tipo do MIME da entrada (caso contrário "
+"preenchido automaticamente)."
 
 msgid ""
 "  -j JOB-ID[,N]           Filter file N from the specified job (default is "
 "file 1)."
 msgstr ""
-"  -j JOB-ID[,N]           Permite filtrar o ficheiro N do trabalho "
-"especificado, o padrão é o ficheiro 1."
+"  -j JOB-ID[,N]           Filtra o ficheiro N do trabalho especificado (a "
+"predefinição é o ficheiro 1)."
 
 msgid "  -l lang[,lang,...]      Specify the output language(s) (locale)."
-msgstr ""
-"  -l idioma[,idioma,...]  Permite especificar o(s) idioma(s) de saída "
-"(locale)."
+msgstr "  -l idioma[,idioma,...]  Especifica o(s) idioma(s) de saída (locale)."
 
 msgid "  -m                      Use the ModelName value as the filename."
 msgstr ""
-"  -m                      Permite utilizar o valor de ModelName como o nome "
-"do ficheiro."
+"  -m                      Utiliza o valor de ModelName como nome do ficheiro."
 
 msgid ""
 "  -m MIME/TYPE            Set output MIME type (otherwise application/pdf)."
 msgstr ""
-"  -m MIME/TYPE            Permite definir o tipo do MIME da saída, caso "
-"contrário, será programa/pdf)."
+"  -m MIME/TIPO            Define o tipo MIME da saída, caso contrário será "
+"aplicação/pdf)."
 
 msgid "  -n COPIES               Set number of copies."
-msgstr "  -n CÓPIAS               Permite definir a quantidade de cópias."
+msgstr "  -n CÓPIAS               Define o número de cópias."
 
 msgid "  -o NAME=VALUE           Set option(s)."
-msgstr "  -o NAME=VALUE           Permite definir as opções."
+msgstr "  -o NOME=VALOR           Define opção (ou opções)."
 
 msgid ""
 "  -o filename.drv         Set driver information file (otherwise ppdi.drv)."
 msgstr ""
-"  -o ficheiro.drv          Permite definir o ficheiro de informações do "
-"controlador                           (driver), caso contrário, será "
-"utilizado o ppdi.drv."
+"  -o nome-ficheiro.drv          Define o ficheiro de informações do "
+"controlador (driver), caso contrário, será ppdi.drv)."
 
 msgid "  -o filename.ppd[.gz]    Set output file (otherwise stdout)."
 msgstr ""
-"  -o ficheiro.ppd[.gz]     Permite definir o ficheiro da saída, caso "
-"contrário, será o utilizado o stdout."
+"  -o nome-ficheiro.ppd[.gz]     Define o ficheiro da saída (caso contrário, "
+"será o utilizado o stdout)."
 
 msgid "  -p FILENAME.ppd         Set PPD file."
-msgstr "  -p FILENAME.ppd         Permite definir o ficheiro do formato PPD."
+msgstr "  -p NOME-FICHEIRO.ppd         Define o ficheiro PPD."
 
 msgid "  -t                      Test PPDs instead of generating them."
-msgstr ""
-"  -t                      Permite testar os ficheiros PPDs ao invés de criá-"
-"los."
+msgstr "  -t                      Testa os ficheiros PPDs ao invés de os gerar."
 
 msgid "  -t TITLE                Set title."
-msgstr "  -t TITLE                Permite definir o título ."
+msgstr "  -t TITULO                Define o título."
 
 msgid "  -u                      Remove the PPD file when finished."
-msgstr ""
-"  -u                      Permite remover o ficheiro do formato PPD quando "
-"terminar."
+msgstr "  -u                      Remove o ficheiro PPD quando terminar."
 
 msgid "  -v                      Be verbose."
-msgstr "  -v                      Permite ativar o modo detalhado."
+msgstr "  -v                      Fica detalhado."
 
 msgid "  -z                      Compress PPD files using GNU zip."
-msgstr ""
-"  -z                      Permite compactar os ficheiros PPD utilizando o "
-"pacote zip do GNU."
+msgstr "  -z                     Compacta os ficheiros PPD usando o zip do GNU."
 
 msgid " FAIL"
 msgstr " FALHA"
@@ -969,254 +925,228 @@ msgid " PASS"
 msgstr " PASSOU"
 
 msgid "! expression            Unary NOT of expression"
-msgstr "! expressão             NÃO unário da expressão"
+msgstr "! expressão             Operador NOT unário da expressão"
 
 #, c-format
 msgid "\"%s\": Bad URI value \"%s\" - %s (RFC 8011 section 5.1.6)."
-msgstr ""
-"\"%s\": O valor do URI \"%s\" não é válido para o %s (RFC 8011 da secção "
-"5.1.6)."
+msgstr "\"%s\": Mau valor de URI \"%s\" - %s (RFC 8011 secção 5.1.6)."
 
 #, c-format
 msgid "\"%s\": Bad URI value \"%s\" - bad length %d (RFC 8011 section 5.1.6)."
 msgstr ""
-"\"%s\": O valor do URI \"%s\" não é válido, o comprimento %d não é válido "
-"(RFC 8011 da secção 5.1.6)."
+"\"%s\": Mau valor de URI \"%s\"- mau comprimento %d (RFC 8011 secção 5.1.6)."
 
 #, c-format
 msgid "\"%s\": Bad attribute name - bad length %d (RFC 8011 section 5.1.4)."
 msgstr ""
-"\"%s\": O nome do atributo não é válido, o comprimento %d não é válido (RFC "
-"8011 da secção 5.1.4)."
+"\"%s\": Mau nome de atributo - mau comprimento %d (RFC 8011 secção 5.1.4)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad attribute name - invalid character (RFC 8011 section 5.1.4)."
 msgstr ""
-"\"%s\": O nome do atributo não é válido devido a um caractere não ser válido "
-"(RFC 8011 da secção 5.1.4)."
+"\"%s\": Mau nome de atributo  - caractere inválido (RFC 8011 secção 5.1.4)."
 
 #, c-format
 msgid "\"%s\": Bad boolean value %d (RFC 8011 section 5.1.21)."
-msgstr "\"%s\": O Valor booleano %d não é válido (RFC 8011 da secção 5.1.21)."
+msgstr "\"%s\": Mau valor booleano %d (RFC 8011 na secção 5.1.21)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad charset value \"%s\" - bad characters (RFC 8011 section 5.1.8)."
 msgstr ""
-"\"%s\": O valor do conjunto de caracteres \"%s\" não é válido, devido alguns "
-"caracteres não serem válidos (RFC 8011 da secção 5.1.8)."
+"\"%s\": Mau valor de conjunto de caracteres \"%s\" - maus caracteres (RFC "
+"8011 na secção 5.1.8)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad charset value \"%s\" - bad length %d (RFC 8011 section 5.1.8)."
 msgstr ""
-"\"%s\": O valor do conjunto de caracteres \"%s\" não é válido, devido o "
-"comprimento %d não ser válido (RFC 8011 da secção 5.1.8)."
+"\"%s\": Mau valor de conjunto de caracteres \"%s\" - mau comprimento %d (RFC "
+"8011 na secção 5.1.8)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime UTC hours %u (RFC 8011 section 5.1.15)."
-msgstr ""
-"\"%s\": O dateTime (data e hora) %u não é válido para o formato do UTC (RFC "
-"8011 da secção 5.1.15)."
+msgstr "\"%s\": Mau dateTime nas horas UTC %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime UTC minutes %u (RFC 8011 section 5.1.15)."
-msgstr ""
-"\"%s\": O dateTime (data e hora) de %u em minutos não é válido do UTC (RFC "
-"8011 da secção 5.1.15)."
+msgstr "\"%s\": Mau dateTime nos minutos UTC %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime UTC sign '%c' (RFC 8011 section 5.1.15)."
-msgstr ""
-"\"%s\": O dateTime (data e hora) com o sinal '%c' não é válido para o UTC "
-"(RFC 8011 da secção 5.1.15)."
+msgstr "\"%s\": Mau dateTime no sinal UTC '%c' (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime day %u (RFC 8011 section 5.1.15)."
-msgstr ""
-"\"%s\": O dateTime (data e hora) de %u dia(s) não é válido (RFC 8011 da "
-"secção 5.1.15)."
+msgstr "\"%s\": Mau dateTime no dia %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime deciseconds %u (RFC 8011 section 5.1.15)."
 msgstr ""
-"\"%s\": O dateTime (data e hora) de %u em decisegundos não é válido (RFC "
-"8011 secção 5.1.15)."
+"\"%s\": Mau dateTime nos décimos de segundo %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime hours %u (RFC 8011 section 5.1.15)."
-msgstr ""
-"\"%s\": O dateTime (data e hora) de %u em horas não é válido (RFC 8011 "
-"secção 5.1.15)."
+msgstr "\"%s\": Mau dateTime nas horas %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime minutes %u (RFC 8011 section 5.1.15)."
-msgstr ""
-"\"%s\": O dateTime (data e hora) de %u em minutos não é válido (RFC 8011 da "
-"secção 5.1.15)."
+msgstr "\"%s\": Mau dateTime nos minutos %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime month %u (RFC 8011 section 5.1.15)."
-msgstr ""
-"\"%s\": O dateTime (data e hora) de %u em meses não é válido (RFC 8011 da "
-"secção 5.1.15)."
+msgstr "\"%s\": Mau dateTime no mês %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime seconds %u (RFC 8011 section 5.1.15)."
-msgstr ""
-"\"%s\": O dateTime (data e hora) de %u em segundos não é válido (RFC 8011 da "
-"secção 5.1.15)."
+msgstr "\"%s\": Mau dateTime nos segundos %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad enum value %d - out of range (RFC 8011 section 5.1.5)."
-msgstr ""
-"\"%s\": O valor %d não é válido porque está fora do intervalo (RFC 8011 da "
-"secção 5.1.5)."
+msgstr "\"%s\": Mau valor enum %d - fora de alcance (RFC 8011 secção 5.1.5)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad keyword value \"%s\" - bad length %d (RFC 8011 section 5.1.4)."
 msgstr ""
-"\"%s\": O valor da palavra-chave \"%s\" não é válido porque o seu "
-"comprimento %d não é válido (RFC 8011 da secção 5.1.4)."
+"\"%s\": Mau valor de palavra-chave \"%s\"  - mau comprimento %d (RFC 8011 "
+"secção 5.1.4)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad keyword value \"%s\" - invalid character (RFC 8011 section "
 "5.1.4)."
 msgstr ""
-"\"%s\": O valor da palavra-chave \"%s\" não é válido porque o tipo do "
-"caractere não é válido (RFC 8011 da secção 5.1.4)."
+"\"%s\": Mau valor de palavra-chave \"%s\" - caractere inválido (RFC 8011 "
+"secção 5.1.4)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad mimeMediaType value \"%s\" - bad characters (RFC 8011 section "
 "5.1.10)."
 msgstr ""
-"\"%s\": O valor do mimeMediaType \"%s\" não é válido porque os caracteres "
-"não são válidos (RFC 8011 da secção 5.1.10)."
+"\"%s\": Mau valor de mimeMediaType \"%s\" - maus caracteres (RFC 8011 secção "
+"5.1.10)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad mimeMediaType value \"%s\" - bad length %d (RFC 8011 section "
 "5.1.10)."
 msgstr ""
-"\"%s\": O valor do mimeMediaType \"%s\" não é válido porque o comprimento %d "
-"não é válido (RFC 8011 da secção 5.1.10)."
+"\"%s\": Mau valor de mimeMediaType \"%s\" - mau comprimento %d (RFC 8011 "
+"secção 5.1.10)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad name value \"%s\" - bad UTF-8 sequence (RFC 8011 section 5.1.3)."
 msgstr ""
-"\"%s\": O name (nome) \"%s\" não é válido porque não é no padrão UTF-8 (RFC "
-"8011 da secção 5.1.3)."
+"\"%s\": Mau valor de nome \"%s\" - má sequência UTF-8 (RFC 8011 secção 5.1.3)"
+"."
 
 #, c-format
 msgid ""
 "\"%s\": Bad name value \"%s\" - bad control character (PWG 5100.14 section "
 "8.1)."
 msgstr ""
-"\"%s\": O name (nome) \"%s\" não é válido porque o caractere de controle não "
-"é válido (PWG 5100.14 da secção 8.1)."
+"\"%s\": Mau valor de nome \"%s\" - mau caractere de controle (PWG 5100.14 "
+"secção 8.1)."
 
 #, c-format
 msgid "\"%s\": Bad name value \"%s\" - bad length %d (RFC 8011 section 5.1.3)."
 msgstr ""
-"\"%s\": O name (nome) \"%s\" não é válido porque o comprimento %d não é "
-"válido (RFC 8011 da secção 5.1.3)."
+"\"%s\": Mau valor de nome \"%s\" - mau comprimento %d (RFC 8011 secção 5.1.3)"
+"."
 
 #, c-format
 msgid ""
 "\"%s\": Bad naturalLanguage value \"%s\" - bad characters (RFC 8011 section "
 "5.1.9)."
 msgstr ""
-"\"%s\": O valor do naturalLanguage \"%s\" não é válido porque os caracteres "
-"não são válidos (RFC 8011 da secção 5.1.9)."
+"\"%s\": Mau valor de naturalLanguage \"%s\" - maus caracteres (RFC 8011 "
+"secção 5.1.9)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad naturalLanguage value \"%s\" - bad length %d (RFC 8011 section "
 "5.1.9)."
 msgstr ""
-"\"%s\": O valor do naturalLanguage \"%s\" não é válido porque o comprimento "
-"%d não é válido (RFC 8011 da secção 5.1.9)."
+"\"%s\": Mau valor de naturalLanguage \"%s\" - mau comprimento %d (RFC 8011 "
+"secção 5.1.9)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad octetString value - bad length %d (RFC 8011 section 5.1.20)."
 msgstr ""
-"\"%s\": O valor do octetString não é válido porque o comprimento %d não é "
-"válido (RFC 8011 da secção 5.1.20)."
+"\"%s\": Mau valor de octetString - mau comprimento %d (RFC 8011 secção "
+"5.1.20)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad rangeOfInteger value %d-%d - lower greater than upper (RFC 8011 "
 "section 5.1.14)."
 msgstr ""
-"\"%s\": O valor do rangeOfInteger %d de %d não é válido porque o valor "
-"inferior é maior que o valor superior (RFC 8011 da secção 5.1.14)."
+"\"%s\": Mau valor de rangeOfInteger %d-%d - valor inferior maior que valor "
+"superior (RFC 8011 secção 5.1.14)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad resolution value %dx%d%s - bad units value (RFC 8011 section "
 "5.1.16)."
 msgstr ""
-"\"%s\": O valor do resolution (resolução) %dx%d%s não é válido porque a "
-"unidade não é válida (RFC 8011 da secção 5.1.16)."
+"\"%s\": Mau valor de resolução %dx%d%s - mau valor de unidades (RFC 8011 "
+"secção 5.1.16)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad resolution value %dx%d%s - cross feed resolution must be "
 "positive (RFC 8011 section 5.1.16)."
 msgstr ""
-"\"%s\": O valor do resolution (resolução) %dx%d%s não é válido porque a "
-"resolução da alimentação cruzada deve ter um valor positivo (RFC 8011 da "
-"secção 5.1.16)."
+"\"%s\": Mau valor de resolução %dx%d%s - resolução de alimentação cruzada "
+"tem de ser positiva (RFC 8011 secção 5.1.16)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad resolution value %dx%d%s - feed resolution must be positive (RFC "
 "8011 section 5.1.16)."
 msgstr ""
-"\"%s\": O valor do resolution (resolução) %dx%d%s não é válido porque o "
-"valor da resolução da alimentação tem que ser positivo (RFC 8011 da secção "
-"5.1.16)."
+"\"%s\": Mau valor de resolução %dx%d%s - resolução da alimentação tem de ser "
+"positiva (RFC 8011 secção 5.1.16)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad text value \"%s\" - bad UTF-8 sequence (RFC 8011 section 5.1.2)."
 msgstr ""
-"\"%s\": O text (texto) \"%s\" não é válido porque não é no padrão UTF-8 (RFC "
-"8011 da secção 5.1.2)."
+"\"%s\": Mau valor de texto \"%s\" - má sequência UTF-8 (RFC 8011 secção "
+"5.1.2)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad text value \"%s\" - bad control character (PWG 5100.14 section "
 "8.3)."
 msgstr ""
-"\"%s\": O text (texto) \"%s\" não é válido porque o caractere de controle "
-"não é válido (PWG 5100.14 da secção 8.3)."
+"\"%s\": Mau valor de texto \"%s\" - mau caractere de controle (PWG 5100.14 "
+"secção 8.3)."
 
 #, c-format
 msgid "\"%s\": Bad text value \"%s\" - bad length %d (RFC 8011 section 5.1.2)."
 msgstr ""
-"\"%s\": O text (texto) \"%s\" não é válido porque o comprimento %d não é "
-"válido (RFC 8011 da secção 5.1.2)."
+"\"%s\": Mau valor de texto \"%s\" - mau comprimento %d (RFC 8011 secção "
+"5.1.2)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad uriScheme value \"%s\" - bad characters (RFC 8011 section 5.1.7)."
 msgstr ""
-"\"%s\": O valor do uriScheme \"%s\" não é válido porque os caracteres não "
-"são válidos (RFC 8011 da secção 5.1.7)."
+"\"%s\": Mau valor de uriScheme \"%s\" - maus caracteres (RFC 8011 secção "
+"5.1.7)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad uriScheme value \"%s\" - bad length %d (RFC 8011 section 5.1.7)."
 msgstr ""
-"\"%s\": O valor do uriScheme \"%s\" não é válido porque o comprimento %d não "
-"é válido (RFC 8011 da secção 5.1.7)."
+"\"%s\": Mau valor de uriScheme \"%s\" - mau comprimento %d (RFC 8011 secção "
+"5.1.7)."
 
 msgid "\"requesting-user-name\" attribute in wrong group."
 msgstr "O atributo \"requesting-user-name\" está no grupo errado."
@@ -1258,7 +1188,7 @@ msgstr "%s (Sem borda, %s, %s)"
 
 #, c-format
 msgid "%s accepting requests since %s"
-msgstr "O %s está a aceitar as requisições desde %s"
+msgstr "O %s a aceitar as pedidos desde %s"
 
 #, c-format
 msgid "%s cannot be changed."
@@ -1278,33 +1208,31 @@ msgstr "A %s está pronta"
 
 #, c-format
 msgid "%s is ready and printing"
-msgstr "A %s está pronta e imprimindo"
+msgstr "A %s está pronta e a imprimir"
 
 #, c-format
 msgid "%s job-id user title copies options [file]"
-msgstr ""
-"O ID (identificador) de trabalho %s do utilizador, título, cópias e opções "
-"[ficheiro]"
+msgstr "%s job-id utilizador título cópias opções [ficheiro]"
 
 #, c-format
 msgid "%s not accepting requests since %s -"
-msgstr "O %s não está a aceitar as requisições desde %s -"
+msgstr "O %s não está a aceitar pedidos desde %s -"
 
 #, c-format
 msgid "%s not supported."
-msgstr "O %s não é compatível."
+msgstr "O %s não é suportado."
 
 #, c-format
 msgid "%s/%s accepting requests since %s"
-msgstr "O %s/%s está a aceitar as requisições desde %s"
+msgstr "O %s/%s está a aceitar pedidos desde %s"
 
 #, c-format
 msgid "%s/%s not accepting requests since %s -"
-msgstr "O %s/%s não está a aceitar as requisições desde %s -"
+msgstr "O %s/%s não está a aceitar pedidos desde %s -"
 
 #, c-format
 msgid "%s: %-33.33s [job %d localhost]"
-msgstr "O %s: %-33.33s [trabalho %d hospedeiro local]"
+msgstr "%s: %-33.33s [tarefa %d máquina-local]"
 
 #. TRANSLATORS: Message is "subject: error"
 #, c-format
@@ -1321,47 +1249,44 @@ msgstr "%s: '-i' e '-n' são incompatíveis com '--ippfile', '-P', e '-X'."
 
 #, c-format
 msgid "%s: Bad version %s for \"-V\"."
-msgstr "%s: A versão %s não é válida para o parâmetro \"-V\"."
+msgstr "%s: Má versão %s para \"-V\"."
 
 #, c-format
 msgid "%s: Don't know what to do."
-msgstr "%s: Não sei o que posso fazer."
+msgstr "%s: Não sabe o que fazer."
 
 #, c-format
 msgid "%s: Error - %s"
-msgstr "%s: Ocorreu o erro - %s"
+msgstr "%s: Erro - %s"
 
 #, c-format
 msgid ""
 "%s: Error - %s environment variable names non-existent destination \"%s\"."
 msgstr ""
-"%s: Ocorreu o erro. A variável de ambiente %s contém o destino \"%s\" que "
-"não existente."
+"%s: Erro - destino não existente de nomes de variável de ambiente %s \"%s\"."
 
 #, c-format
 msgid "%s: Error - The printer or class does not exist."
-msgstr "%s: Ocorreu um erro. A impressora ou a classe não existe."
+msgstr "%s: Erro - A impressora ou classe não existe."
 
 #, c-format
 msgid "%s: Error - add '/version=1.1' to server name."
-msgstr ""
-"%s: Ocorreu um erro. Adicione o parâmetro '/version=1.1' ao nome do servidor."
+msgstr "%s: Erro -  adicione '/version=1.1' ao nome do servidor."
 
 #, c-format
 msgid "%s: Error - bad job ID."
-msgstr "%s: Ocorreu um erro. O ID (identificador) de trabalho não é válido."
+msgstr "%s: Erro - Mau ID de tarefa."
 
 #, c-format
 msgid "%s: Error - cannot print files and alter jobs simultaneously."
 msgstr ""
-"%s: Ocorreu um erro. Não foi possível imprimir os ficheiros e alterar os "
-"trabalhos simultaneamente."
+"%s: Erro - não pode imprimir ficheiros e alterar as tarefas em simultâneo."
 
 #, c-format
 msgid "%s: Error - cannot print from stdin if files or a job ID are provided."
 msgstr ""
-"%s: Ocorreu um erro. Não é possível imprimir a partir do stdin se os "
-"ficheiros ou um ID (identificador) de trabalho não forem fornecidos."
+"%s: Erro - não pode imprimir do stdin se ficheiros ou um ID de tarefa forem "
+"fornecidos."
 
 #, c-format
 msgid "%s: Error - copies must be 1 or more."
