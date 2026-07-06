@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: CUPS 2.5\n"
 "Report-Msgid-Bugs-To: https://github.com/openprinting/cups/issues\n"
 "POT-Creation-Date: 2026-06-25 14:51-0400\n"
-"PO-Revision-Date: 2026-07-05 23:01+0000\n"
+"PO-Revision-Date: 2026-07-07 00:01+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/cups/cups/pt/>"
 "\n"
@@ -929,88 +929,89 @@ msgstr "! expressão             Operador NOT unário da expressão"
 
 #, c-format
 msgid "\"%s\": Bad URI value \"%s\" - %s (RFC 8011 section 5.1.6)."
-msgstr "\"%s\": Mau valor de URI \"%s\" - %s (RFC 8011 secção 5.1.6)."
+msgstr "\"%s\": Valor de URI errado \"%s\" - %s (RFC 8011 secção 5.1.6)."
 
 #, c-format
 msgid "\"%s\": Bad URI value \"%s\" - bad length %d (RFC 8011 section 5.1.6)."
 msgstr ""
-"\"%s\": Mau valor de URI \"%s\"- mau comprimento %d (RFC 8011 secção 5.1.6)."
+"\"%s\": Valor de URI errado \"%s\"- mau comprimento %d (RFC 8011 secção "
+"5.1.6)."
 
 #, c-format
 msgid "\"%s\": Bad attribute name - bad length %d (RFC 8011 section 5.1.4)."
 msgstr ""
-"\"%s\": Mau nome de atributo - mau comprimento %d (RFC 8011 secção 5.1.4)."
+"\"%s\": Nome de atributo errado - mau comprimento %d (RFC 8011 secção 5.1.4)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad attribute name - invalid character (RFC 8011 section 5.1.4)."
 msgstr ""
-"\"%s\": Mau nome de atributo  - caractere inválido (RFC 8011 secção 5.1.4)."
+"\"%s\": Nome de atributo errado - caractere inválido (RFC 8011 secção 5.1.4)."
 
 #, c-format
 msgid "\"%s\": Bad boolean value %d (RFC 8011 section 5.1.21)."
-msgstr "\"%s\": Mau valor booleano %d (RFC 8011 na secção 5.1.21)."
+msgstr "\"%s\": Valor booleano errado %d (RFC 8011 na secção 5.1.21)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad charset value \"%s\" - bad characters (RFC 8011 section 5.1.8)."
 msgstr ""
-"\"%s\": Mau valor de conjunto de caracteres \"%s\" - maus caracteres (RFC "
+"\"%s\": Valor de conjunto de caracteres errado \"%s\" - maus caracteres (RFC "
 "8011 na secção 5.1.8)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad charset value \"%s\" - bad length %d (RFC 8011 section 5.1.8)."
 msgstr ""
-"\"%s\": Mau valor de conjunto de caracteres \"%s\" - mau comprimento %d (RFC "
-"8011 na secção 5.1.8)."
+"\"%s\": Valor de conjunto de caracteres errado \"%s\" - mau comprimento %d "
+"(RFC 8011 na secção 5.1.8)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime UTC hours %u (RFC 8011 section 5.1.15)."
-msgstr "\"%s\": Mau dateTime nas horas UTC %u (RFC 8011 secção 5.1.15)."
+msgstr "\"%s\": dateTime errado nas horas UTC %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime UTC minutes %u (RFC 8011 section 5.1.15)."
-msgstr "\"%s\": Mau dateTime nos minutos UTC %u (RFC 8011 secção 5.1.15)."
+msgstr "\"%s\": dateTime errado nos minutos UTC %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime UTC sign '%c' (RFC 8011 section 5.1.15)."
-msgstr "\"%s\": Mau dateTime no sinal UTC '%c' (RFC 8011 secção 5.1.15)."
+msgstr "\"%s\": dateTime errado no sinal UTC '%c' (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime day %u (RFC 8011 section 5.1.15)."
-msgstr "\"%s\": Mau dateTime no dia %u (RFC 8011 secção 5.1.15)."
+msgstr "\"%s\": dateTime errado no dia %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime deciseconds %u (RFC 8011 section 5.1.15)."
 msgstr ""
-"\"%s\": Mau dateTime nos décimos de segundo %u (RFC 8011 secção 5.1.15)."
+"\"%s\": dateTime errado nos décimos de segundo %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime hours %u (RFC 8011 section 5.1.15)."
-msgstr "\"%s\": Mau dateTime nas horas %u (RFC 8011 secção 5.1.15)."
+msgstr "\"%s\": dateTime errado nas horas %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime minutes %u (RFC 8011 section 5.1.15)."
-msgstr "\"%s\": Mau dateTime nos minutos %u (RFC 8011 secção 5.1.15)."
+msgstr "\"%s\": dateTime errado nos minutos %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime month %u (RFC 8011 section 5.1.15)."
-msgstr "\"%s\": Mau dateTime no mês %u (RFC 8011 secção 5.1.15)."
+msgstr "\"%s\": dateTime errado no mês %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad dateTime seconds %u (RFC 8011 section 5.1.15)."
-msgstr "\"%s\": Mau dateTime nos segundos %u (RFC 8011 secção 5.1.15)."
+msgstr "\"%s\": dateTime errado nos segundos %u (RFC 8011 secção 5.1.15)."
 
 #, c-format
 msgid "\"%s\": Bad enum value %d - out of range (RFC 8011 section 5.1.5)."
-msgstr "\"%s\": Mau valor enum %d - fora de alcance (RFC 8011 secção 5.1.5)."
+msgstr "\"%s\": valor enum errado %d - fora de alcance (RFC 8011 secção 5.1.5)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad keyword value \"%s\" - bad length %d (RFC 8011 section 5.1.4)."
 msgstr ""
-"\"%s\": Mau valor de palavra-chave \"%s\"  - mau comprimento %d (RFC 8011 "
+"\"%s\": valor de palavra-chave errado \"%s\"  - mau comprimento %d (RFC 8011 "
 "secção 5.1.4)."
 
 #, c-format
@@ -1018,7 +1019,7 @@ msgid ""
 "\"%s\": Bad keyword value \"%s\" - invalid character (RFC 8011 section "
 "5.1.4)."
 msgstr ""
-"\"%s\": Mau valor de palavra-chave \"%s\" - caractere inválido (RFC 8011 "
+"\"%s\": valor de palavra-chave errado \"%s\" - caractere inválido (RFC 8011 "
 "secção 5.1.4)."
 
 #, c-format
@@ -1026,44 +1027,44 @@ msgid ""
 "\"%s\": Bad mimeMediaType value \"%s\" - bad characters (RFC 8011 section "
 "5.1.10)."
 msgstr ""
-"\"%s\": Mau valor de mimeMediaType \"%s\" - maus caracteres (RFC 8011 secção "
-"5.1.10)."
+"\"%s\": valor de mimeMediaType errado \"%s\" - maus caracteres (RFC 8011 "
+"secção 5.1.10)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad mimeMediaType value \"%s\" - bad length %d (RFC 8011 section "
 "5.1.10)."
 msgstr ""
-"\"%s\": Mau valor de mimeMediaType \"%s\" - mau comprimento %d (RFC 8011 "
+"\"%s\": valor de mimeMediaType errado \"%s\" - mau comprimento %d (RFC 8011 "
 "secção 5.1.10)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad name value \"%s\" - bad UTF-8 sequence (RFC 8011 section 5.1.3)."
 msgstr ""
-"\"%s\": Mau valor de nome \"%s\" - má sequência UTF-8 (RFC 8011 secção 5.1.3)"
-"."
+"\"%s\": valor de nome errado \"%s\" - má sequência UTF-8 (RFC 8011 secção "
+"5.1.3)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad name value \"%s\" - bad control character (PWG 5100.14 section "
 "8.1)."
 msgstr ""
-"\"%s\": Mau valor de nome \"%s\" - mau caractere de controle (PWG 5100.14 "
+"\"%s\": valor de nome errado \"%s\" - mau caractere de controle (PWG 5100.14 "
 "secção 8.1)."
 
 #, c-format
 msgid "\"%s\": Bad name value \"%s\" - bad length %d (RFC 8011 section 5.1.3)."
 msgstr ""
-"\"%s\": Mau valor de nome \"%s\" - mau comprimento %d (RFC 8011 secção 5.1.3)"
-"."
+"\"%s\": valor de nome errado \"%s\" - mau comprimento %d (RFC 8011 secção "
+"5.1.3)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad naturalLanguage value \"%s\" - bad characters (RFC 8011 section "
 "5.1.9)."
 msgstr ""
-"\"%s\": Mau valor de naturalLanguage \"%s\" - maus caracteres (RFC 8011 "
+"\"%s\": valor de naturalLanguage errado \"%s\" - maus caracteres (RFC 8011 "
 "secção 5.1.9)."
 
 #, c-format
@@ -1071,14 +1072,14 @@ msgid ""
 "\"%s\": Bad naturalLanguage value \"%s\" - bad length %d (RFC 8011 section "
 "5.1.9)."
 msgstr ""
-"\"%s\": Mau valor de naturalLanguage \"%s\" - mau comprimento %d (RFC 8011 "
-"secção 5.1.9)."
+"\"%s\": valor de naturalLanguage errado \"%s\" - mau comprimento %d (RFC "
+"8011 secção 5.1.9)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad octetString value - bad length %d (RFC 8011 section 5.1.20)."
 msgstr ""
-"\"%s\": Mau valor de octetString - mau comprimento %d (RFC 8011 secção "
+"\"%s\": valor de octetString errado - mau comprimento %d (RFC 8011 secção "
 "5.1.20)."
 
 #, c-format
@@ -1086,15 +1087,15 @@ msgid ""
 "\"%s\": Bad rangeOfInteger value %d-%d - lower greater than upper (RFC 8011 "
 "section 5.1.14)."
 msgstr ""
-"\"%s\": Mau valor de rangeOfInteger %d-%d - valor inferior maior que valor "
-"superior (RFC 8011 secção 5.1.14)."
+"\"%s\": valor de rangeOfInteger errado %d-%d - valor inferior maior que "
+"valor superior (RFC 8011 secção 5.1.14)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad resolution value %dx%d%s - bad units value (RFC 8011 section "
 "5.1.16)."
 msgstr ""
-"\"%s\": Mau valor de resolução %dx%d%s - mau valor de unidades (RFC 8011 "
+"\"%s\": valor de resolução errado %dx%d%s - mau valor de unidades (RFC 8011 "
 "secção 5.1.16)."
 
 #, c-format
@@ -1102,7 +1103,7 @@ msgid ""
 "\"%s\": Bad resolution value %dx%d%s - cross feed resolution must be "
 "positive (RFC 8011 section 5.1.16)."
 msgstr ""
-"\"%s\": Mau valor de resolução %dx%d%s - resolução de alimentação cruzada "
+"\"%s\": valor de resolução errado %dx%d%s - resolução de alimentação cruzada "
 "tem de ser positiva (RFC 8011 secção 5.1.16)."
 
 #, c-format
@@ -1110,14 +1111,14 @@ msgid ""
 "\"%s\": Bad resolution value %dx%d%s - feed resolution must be positive (RFC "
 "8011 section 5.1.16)."
 msgstr ""
-"\"%s\": Mau valor de resolução %dx%d%s - resolução da alimentação tem de ser "
-"positiva (RFC 8011 secção 5.1.16)."
+"\"%s\": valor de resolução errado %dx%d%s - resolução da alimentação tem de "
+"ser positiva (RFC 8011 secção 5.1.16)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad text value \"%s\" - bad UTF-8 sequence (RFC 8011 section 5.1.2)."
 msgstr ""
-"\"%s\": Mau valor de texto \"%s\" - má sequência UTF-8 (RFC 8011 secção "
+"\"%s\": valor de texto errado \"%s\" - má sequência UTF-8 (RFC 8011 secção "
 "5.1.2)."
 
 #, c-format
@@ -1125,28 +1126,28 @@ msgid ""
 "\"%s\": Bad text value \"%s\" - bad control character (PWG 5100.14 section "
 "8.3)."
 msgstr ""
-"\"%s\": Mau valor de texto \"%s\" - mau caractere de controle (PWG 5100.14 "
-"secção 8.3)."
+"\"%s\": valor de texto errado \"%s\" - mau caractere de controle (PWG "
+"5100.14 secção 8.3)."
 
 #, c-format
 msgid "\"%s\": Bad text value \"%s\" - bad length %d (RFC 8011 section 5.1.2)."
 msgstr ""
-"\"%s\": Mau valor de texto \"%s\" - mau comprimento %d (RFC 8011 secção "
+"\"%s\": valor de texto errado \"%s\" - mau comprimento %d (RFC 8011 secção "
 "5.1.2)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad uriScheme value \"%s\" - bad characters (RFC 8011 section 5.1.7)."
 msgstr ""
-"\"%s\": Mau valor de uriScheme \"%s\" - maus caracteres (RFC 8011 secção "
+"\"%s\": valor de uriScheme errado \"%s\" - maus caracteres (RFC 8011 secção "
 "5.1.7)."
 
 #, c-format
 msgid ""
 "\"%s\": Bad uriScheme value \"%s\" - bad length %d (RFC 8011 section 5.1.7)."
 msgstr ""
-"\"%s\": Mau valor de uriScheme \"%s\" - mau comprimento %d (RFC 8011 secção "
-"5.1.7)."
+"\"%s\": valor de uriScheme errado \"%s\" - mau comprimento %d (RFC 8011 "
+"secção 5.1.7)."
 
 msgid "\"requesting-user-name\" attribute in wrong group."
 msgstr "O atributo \"requesting-user-name\" está no grupo errado."
@@ -3327,187 +3328,187 @@ msgstr "B9"
 
 #, c-format
 msgid "Bad \"attributes-natural-language\" value '%s'."
-msgstr "Mau valor de \"attributes-natural-language\" '%s'."
+msgstr "Valor de \"attributes-natural-language\" errado '%s'."
 
 #, c-format
 msgid "Bad \"printer-id\" value %d."
-msgstr "Mau valor de \"printer-id\" %d."
+msgstr "Valor de \"printer-id\" errado %d."
 
 #, c-format
 msgid "Bad '%s' value."
-msgstr "Mau valor de '%s'."
+msgstr "Valor de '%s' errado."
 
 #, c-format
 msgid "Bad 'document-format' value \"%s\"."
-msgstr "Mau valor de 'document-format' \"%s\"."
+msgstr "Valor de 'document-format' errado \"%s\"."
 
 msgid "Bad CloseUI/JCLCloseUI"
-msgstr "Mau CloseUI/JCLCloseUI"
+msgstr "CloseUI/JCLCloseUI errado"
 
 msgid "Bad JOB_PRINTER_URI variable."
-msgstr "Má variável JOB_PRINTER_URI"
+msgstr "Variável JOB_PRINTER_URI errada."
 
 msgid "Bad NULL dests pointer"
-msgstr "Mau ponteiro de destino NULO"
+msgstr "Ponteiro de destino NULO errado"
 
 msgid "Bad OpenGroup"
-msgstr "Mau OpenGroup"
+msgstr "OpenGroup errado"
 
 msgid "Bad OpenUI/JCLOpenUI"
-msgstr "Mau OpenUI/JCLOpenUI"
+msgstr "OpenUI/JCLOpenUI errado"
 
 msgid "Bad OrderDependency"
-msgstr "Mau OrderDependency"
+msgstr "OrderDependency errado"
 
 msgid "Bad PPD cache file."
-msgstr "Mau ficheiro de cache PPD."
+msgstr "Ficheiro de cache PPD errado."
 
 msgid "Bad PPD file."
-msgstr "Mau ficheiro PPD."
+msgstr "Ficheiro PPD errado."
 
 msgid "Bad Request"
-msgstr "Mau Pedido"
+msgstr "Pedido Errado"
 
 msgid "Bad SNMP version number"
-msgstr "Mau número de versão SNMP"
+msgstr "Número de versão SNMP errado"
 
 msgid "Bad UIConstraints"
-msgstr "Mau UIConstraints"
+msgstr "UIConstraints errado"
 
 msgid "Bad URI."
-msgstr "Mau URI."
+msgstr "URI errado."
 
 msgid "Bad arguments to function"
-msgstr "Maus argumentos para função"
+msgstr "Argumentos para função errados"
 
 msgid "Bad certificate."
-msgstr "Mau certificado."
+msgstr "Certificado errado."
 
 #, c-format
 msgid "Bad copies value %d."
-msgstr "Mau valor de cópias %d."
+msgstr "Valor de cópias errado %d."
 
 msgid "Bad custom parameter"
-msgstr "Mau parâmetro personalizado"
+msgstr "Parâmetro personalizado errado"
 
 #, c-format
 msgid "Bad device-uri \"%s\"."
-msgstr "Mau uri de dispositivo \"%s\"."
+msgstr "uri de dispositivo errado \"%s\"."
 
 #, c-format
 msgid "Bad device-uri scheme \"%s\"."
-msgstr "Mau esquema de uri de dispositivo \"%s\"."
+msgstr "Esquema de uri de dispositivo errado \"%s\"."
 
 #, c-format
 msgid "Bad document-format \"%s\"."
-msgstr "Mau formato de documento \"%s\"."
+msgstr "Formato de documento errado \"%s\"."
 
 #, c-format
 msgid "Bad document-format-default \"%s\"."
-msgstr "Mau formato predefinido de documento \"%s\"."
+msgstr "Formato predefinido de documento errado \"%s\"."
 
 msgid "Bad extKeyUsage extension in X.509 certificate request."
-msgstr "Má extensão extKeyUsage em pedido de certificado X.509."
+msgstr "Extensão extKeyUsage errada em pedido de certificado X.509."
 
 msgid "Bad filename buffer"
-msgstr "Mau buffer de nome de ficheiro"
+msgstr "Buffer de nome de ficheiro errado"
 
 msgid "Bad hostname/address in URI"
-msgstr "Mau nome da máquina/endereço em URI"
+msgstr "Nome da máquina/endereço em URI errado"
 
 #, c-format
 msgid "Bad job-name value: %s"
-msgstr "Mau valor de job-name: %s"
+msgstr "Valor de job-name errado: %s"
 
 msgid "Bad job-name value: Wrong type or count."
-msgstr "Mau valor de job-name: Tipo de contagem errado."
+msgstr "Valor de job-name errado: Tipo de contagem errado."
 
 msgid "Bad job-priority value."
-msgstr "Mau valor de prioridade de tarefa."
+msgstr "Valor de prioridade de tarefa errado."
 
 #, c-format
 msgid "Bad job-sheets value \"%s\"."
-msgstr "Mau valor de job-sheets \"%s\"."
+msgstr "Valor de job-sheets errado \"%s\"."
 
 msgid "Bad job-sheets value type."
-msgstr "Mau tipo de valor de job-sheets,"
+msgstr "Tipo de valor de job-sheets errado."
 
 msgid "Bad job-state value."
-msgstr "Mau valor de estado de tarefa."
+msgstr "Valor de estado de tarefa errado."
 
 #, c-format
 msgid "Bad job-uri \"%s\"."
-msgstr "Mau uri de tarefa \"%s\"."
+msgstr "uri de tarefa errado \"%s\"."
 
 msgid "Bad keyUsage extension in X.509 certificate request."
-msgstr "Má extensão de keyUsage em pedido de certificado X.509."
+msgstr "Extensão de keyUsage errada em pedido de certificado X.509."
 
 #, c-format
 msgid "Bad notify-pull-method \"%s\"."
-msgstr "Mau notify-pull-method \"%s\"."
+msgstr "notify-pull-method errado \"%s\"."
 
 #, c-format
 msgid "Bad notify-recipient-uri \"%s\"."
-msgstr "Mau notify-recipient-uri \"%s\"."
+msgstr "notify-recipient-uri errado \"%s\"."
 
 #, c-format
 msgid "Bad notify-recipient-uri URI \"%s\"."
-msgstr "Mau URI de notify-recipient-uri \"%s\"."
+msgstr "URI de notify-recipient-uri errado \"%s\"."
 
 #, c-format
 msgid "Bad notify-user-data \"%s\"."
-msgstr "Mau notify-user-data \"%s\"."
+msgstr "notify-user-data errado \"%s\"."
 
 #, c-format
 msgid "Bad number-up value %d."
-msgstr "Mau valor de number-up %d."
+msgstr "Valor de number-up errado %d."
 
 #, c-format
 msgid "Bad page-ranges values %d-%d."
-msgstr "Maus valores de page-ranges %d-%d."
+msgstr "Valores de page-ranges errados %d-%d."
 
 msgid "Bad port number in URI"
-msgstr "Mau número de porto em URI"
+msgstr "Número de porto em URI errado"
 
 #, c-format
 msgid "Bad port-monitor \"%s\"."
-msgstr "Mau monitor de porto \"%s\"."
+msgstr "Monitor de porto errado \"%s\"."
 
 #, c-format
 msgid "Bad printer-state value %d."
-msgstr "Mau valor de printer-state %d."
+msgstr "Valor de printer-state errado %d."
 
 msgid "Bad printer-uri."
-msgstr "Mau uri de impressora."
+msgstr "uri de impressora errado."
 
 msgid "Bad private key."
-msgstr "Má chave privada."
+msgstr "Chave privada errada."
 
 #, c-format
 msgid "Bad request ID %d."
-msgstr "Mau ID de pedido %d."
+msgstr "ID de pedido errado %d."
 
 #, c-format
 msgid "Bad request version number %d.%d."
-msgstr "Mau número de versão de pedido %d.%d."
+msgstr "Número de versão de pedido errado %d.%d."
 
 msgid "Bad resource in URI"
-msgstr "Mau recurso em URI"
+msgstr "Recurso em URI errado"
 
 msgid "Bad scheme in URI"
-msgstr "Mau esquema em URI"
+msgstr "Esquema em URI errado"
 
 msgid "Bad subjectAltName extension in X.509 certificate request."
-msgstr "Má extensão de subjectAltName em pedido de certificado X.509."
+msgstr "Extensão de subjectAltName errada em pedido de certificado X.509."
 
 msgid "Bad username in URI"
-msgstr "Mau nome de utilizador em URI"
+msgstr "Nome de utilizador em URI errado"
 
 msgid "Bad value string"
-msgstr "Má sequência de valor"
+msgstr "Sequência de valor errada"
 
 msgid "Bad/empty URI"
-msgstr "URI mau/vazio"
+msgstr "URI errado/vazio"
 
 #, fuzzy
 msgid "Banners"
@@ -3607,7 +3608,7 @@ msgstr "A copiar os dados da impressão."
 
 #, c-format
 msgid "Couldn't resolve mDNS URI \"%s\"."
-msgstr "Não foi possível resolver o URI de mDNS \"%s\"."
+msgstr "Incapaz de resolver o URI de mDNS \"%s\"."
 
 msgid "Created"
 msgstr "Criada"
@@ -4124,10 +4125,10 @@ msgid "IPP endCollection value not 0 bytes."
 msgstr "O valor de endCollection do IPP não é de 0 bytes."
 
 msgid "IPP enum value not 4 bytes."
-msgstr "O valor do enum (numeração) do IPP não contém 4 bytes."
+msgstr "O valor de enum do IPP não é de 4 bytes."
 
 msgid "IPP integer value not 4 bytes."
-msgstr "O valor inteiro do IPP não contém 4 bytes."
+msgstr "O valor inteiro do IPP não é de 4 bytes."
 
 msgid "IPP language length overflows value."
 msgstr "O comprimento do idioma do IPP excede o valor."
@@ -4142,7 +4143,7 @@ msgid "IPP member name is not empty."
 msgstr "O nome do membro do IPP não está vazio."
 
 msgid "IPP memberName value is empty."
-msgstr "O valor do memberName (nome do membro) do IPP está vazio."
+msgstr "O valor de memberName do IPP está vazio."
 
 msgid "IPP message nested too deeply."
 msgstr "A mensagem do IPP está aninhada muito profundamente."
@@ -4151,26 +4152,22 @@ msgid "IPP name larger than 32767 bytes."
 msgstr "O nome do IPP é maior do que 32767 bytes."
 
 msgid "IPP nameWithLanguage value less than minimum 4 bytes."
-msgstr ""
-"O valor do nameWithLanguage (nome com idioma) do IPP é menor do que o mínimo "
-"de 4 bytes."
+msgstr "O valor de nameWithLanguage do IPP é menor do que o mínimo de 4 bytes."
 
 msgid "IPP octetString length too large."
 msgstr "O comprimento do octetString do IPP é muito grande."
 
 msgid "IPP rangeOfInteger value not 8 bytes."
-msgstr "O valor do rangeOfInteger do IPP não contém 8 bytes."
+msgstr "O valor de rangeOfInteger do IPP não é de 8 bytes."
 
 msgid "IPP resolution value not 9 bytes."
-msgstr "O valor da resolução do IPP não contém 9 bytes."
+msgstr "O valor de resolução do IPP não é de 9 bytes."
 
 msgid "IPP string length overflows value."
-msgstr "O comprimento da cadeia de caracteres do IPP excede o valor."
+msgstr "O comprimento da sequência de caracteres do IPP excede o valor."
 
 msgid "IPP textWithLanguage value less than minimum 4 bytes."
-msgstr ""
-"O valor do textWithLanguage (texto com idioma) do IPP é menor do que o "
-"mínimo de 4 bytes."
+msgstr "O valor do textWithLanguage do IPP é menor do que o mínimo de 4 bytes."
 
 msgid "IPP value larger than 32767 bytes."
 msgstr "O valor do IPP é maior do que 32767 bytes."
@@ -4183,19 +4180,19 @@ msgid ""
 "                        Fully-qualified domain name"
 msgstr ""
 "IPPFIND_SERVICE_HOSTNAME\n"
-"                        O nome do domínio é absoluto"
+"                        Nome de domínio totalmente qualificado"
 
 msgid "IPPFIND_SERVICE_NAME    Service instance name"
 msgstr "IPPFIND_SERVICE_NAME    Nome da instância do serviço"
 
 msgid "IPPFIND_SERVICE_PORT    Port number"
-msgstr "IPPFIND_SERVICE_PORT    Número da porta"
+msgstr "IPPFIND_SERVICE_PORT    Número do porto"
 
 msgid "IPPFIND_SERVICE_REGTYPE DNS-SD registration type"
-msgstr "IPPFIND_SERVICE_REGTYPE Tipo de registo do DNS-SD"
+msgstr "IPPFIND_SERVICE_REGTYPE Tipo de registo de DNS-SD"
 
 msgid "IPPFIND_SERVICE_SCHEME  URI scheme"
-msgstr "IPPFIND_SERVICE_SCHEME  Esquema do URI"
+msgstr "IPPFIND_SERVICE_SCHEME  Esquema de URI"
 
 msgid "IPPFIND_SERVICE_URI     URI"
 msgstr "IPPFIND_SERVICE_URI     URI"
@@ -4204,22 +4201,22 @@ msgid "IPPFIND_TXT_*           Value of TXT record key"
 msgstr "IPPFIND_TXT_*           Valor da chave do registo do TXT"
 
 msgid "ISOLatin1"
-msgstr ""
+msgstr "ISO Latino 1"
 
 msgid "Illegal control character"
-msgstr "O caractere de controle não é legal"
+msgstr "Caractere de controle ilegal"
 
 msgid "Illegal main keyword string"
-msgstr "A cadeia da palavra-chave principal não é legal"
+msgstr "A sequência da palavra-chave principal não é legal"
 
 msgid "Illegal option keyword string"
-msgstr "A cadeia da palavra-chave da opção não é legal"
+msgstr "A sequência da palavra-chave de opção não é legal"
 
 msgid "Illegal translation string"
-msgstr "A cadeia de caracteres da tradução não é legal"
+msgstr "A sequência de caracteres da tradução não é legal"
 
 msgid "Illegal whitespace character"
-msgstr "O caractere de espaço em branco não é legal"
+msgstr "Caractere de espaço em branco ilegal"
 
 msgid "Installable Options"
 msgstr "Opções Instaláveis"
@@ -4231,13 +4228,13 @@ msgid "IntelliBar Label Printer"
 msgstr "Impressora de Etiquetas IntelliBar"
 
 msgid "Intellitech"
-msgstr ""
+msgstr "Intellitech"
 
 msgid "Internal Server Error"
-msgstr "Ocorreu um erro interno no servidor"
+msgstr "Erro Interno no Servidor"
 
 msgid "Internal error"
-msgstr "Ocorreu um erro interno"
+msgstr "Erro interno"
 
 msgid "Internet Postage 2-Part"
 msgstr "Parte 2 da Postagem na Internet"
@@ -4249,10 +4246,10 @@ msgid "Internet Printing Protocol"
 msgstr "Protocolo de Impressão na Internet (IPP)"
 
 msgid "Invalid JSON data."
-msgstr "Os dados do JSON não são válidos."
+msgstr "Dados JSON inválidos."
 
 msgid "Invalid JSON web token."
-msgstr "A chave do portador do JSON para internet não é válida."
+msgstr "Testemunho de web JSON inválido."
 
 msgid "Invalid form data."
 msgstr "Os dados do formulário não são válidos."
@@ -4267,14 +4264,14 @@ msgid "Invalid media size."
 msgstr "O tamanho da média não é válido."
 
 msgid "Invalid named IPP attribute in collection."
-msgstr "O atributo do nome do IPP incluso na coleção não é válido."
+msgstr "Atributo de IPP nomeado inválido na coleção."
 
 msgid "Invalid ppd-name value."
 msgstr "O valor do ppd-name não é válido."
 
 #, c-format
 msgid "Invalid printer command \"%s\"."
-msgstr "O comando \"%s\" da impressora não é válido."
+msgstr "Comando da impressora inválido \"%s\"."
 
 msgid "JCL"
 msgstr "JCL"
@@ -4322,12 +4319,11 @@ msgid "JIS B9"
 msgstr "JIS B9"
 
 msgid "JSON file too large."
-msgstr "O ficheiro do JSON é muito grande."
+msgstr "O ficheiro JSON é muito grande."
 
 #, c-format
 msgid "Job #%d cannot be restarted - no files."
-msgstr ""
-"O trabalho #%d não pode ser reiniciado, porque o ficheiro não foi encontrado."
+msgstr "O trabalho #%d não pode ser reiniciado - sem ficheiros."
 
 #, c-format
 msgid "Job #%d does not exist."
@@ -4335,46 +4331,46 @@ msgstr "O trabalho #%d não existe."
 
 #, c-format
 msgid "Job #%d is already aborted - can't cancel."
-msgstr "O trabalho #%d já foi abortado e não é possível cancelar."
+msgstr "O trabalho #%d já foi abortado - não pode cancelar."
 
 #, c-format
 msgid "Job #%d is already canceled - can't cancel."
-msgstr "O trabalho #%d já foi cancelado e não é possível cancelar."
+msgstr "O trabalho #%d já foi cancelado - não pode cancelar."
 
 #, c-format
 msgid "Job #%d is already completed - can't cancel."
-msgstr "O trabalho #%d já foi concluído e não é possível cancelar."
+msgstr "O trabalho #%d já foi concluído  - não pode cancelar."
 
 #, c-format
 msgid "Job #%d is finished and cannot be altered."
-msgstr "O trabalho #%d já foi finalizado e não pode ser alterado."
+msgstr "O trabalho #%d está terminado e não pode ser alterado."
 
 #, c-format
 msgid "Job #%d is not complete."
-msgstr "O trabalho #%d não foi concluído."
+msgstr "O trabalho #%d não está completo."
 
 #, c-format
 msgid "Job #%d is not held for authentication."
-msgstr "O trabalho #%d não foi mantido para a autenticação."
+msgstr "O trabalho #%d não está retido para a autenticação."
 
 #, c-format
 msgid "Job #%d is not held."
-msgstr "O trabalho #%d não foi mantido."
+msgstr "O trabalho #%d não está retido."
 
 msgid "Job Completed"
-msgstr "O trabalho foi concluído"
+msgstr "Trabalho Concluído"
 
 msgid "Job Created"
-msgstr "O trabalho foi criado"
+msgstr "Trabalho Criado"
 
 msgid "Job Options Changed"
-msgstr "As opções do trabalho foram alteradas"
+msgstr "Opções de Trabalho Alteradas"
 
 msgid "Job Stopped"
-msgstr "O trabalho parou"
+msgstr "Trabalho Parado"
 
 msgid "Job is completed and cannot be changed."
-msgstr "O trabalho foi concluído e não pode ser alterado."
+msgstr "O trabalho está concluído e não pode ser alterado."
 
 msgid "Job operation failed"
 msgstr "A operação do trabalho falhou"
@@ -4383,31 +4379,32 @@ msgid "Job state cannot be changed."
 msgstr "O estado do trabalho não pode ser alterado."
 
 msgid "Job subscriptions cannot be renewed."
-msgstr "As assinaturas do trabalho não podem ser renovadas."
+msgstr "As subscrições de trabalho não podem ser renovadas."
 
 msgid "Jobs"
 msgstr "Trabalhos"
 
 msgid "LPD/LPR Host or Printer"
-msgstr "Impressora ou máquina LPD/LPR"
+msgstr "Impressora ou Máquina LPD/LPR"
 
 msgid ""
 "LPDEST environment variable names default destination that does not exist."
 msgstr ""
-"Os nomes das variáveis de ambiente LPDEST do destino padrão que não existe."
+"Os nomes das variáveis de ambiente LPDEST do destino predefinido que não "
+"existe."
 
 msgid "Label Printer"
 msgstr "Impressora de Etiquetas"
 
 msgid "Label Top"
-msgstr "Parte superior da etiqueta"
+msgstr "Topo da Etiqueta"
 
 #, c-format
 msgid "Language \"%s\" not supported."
-msgstr "O idioma \"%s\" não é compatível."
+msgstr "O idioma \"%s\" não é suportado."
 
 msgid "Large Address"
-msgstr "Endereço grande"
+msgstr "Endereço Grande"
 
 msgid "LaserJet Series PCL 4/5"
 msgstr "LaserJet Series PCL 4/5"
@@ -4416,20 +4413,20 @@ msgid "Letter Oversize"
 msgstr "Carta Grande"
 
 msgid "Letter Oversize Long Edge"
-msgstr "Carta com a Borda Muito Maior"
+msgstr "Carta Grande com a Borda Maior"
 
 msgid "Light"
-msgstr "Leve"
+msgstr "Claro"
 
 msgid "Line longer than the maximum allowed (255 characters)"
 msgstr "Linha maior do que o máximo permitido de 255 caracteres"
 
 msgid "List Available Printers"
-msgstr "Lista de Impressoras Disponíveis"
+msgstr "Lista as Impressoras Disponíveis"
 
 #, c-format
 msgid "Listening on port %d."
-msgstr "A escutar na porta %d."
+msgstr "A escutar no porto %d."
 
 msgid "Local printer created."
 msgstr "A impressora local foi criada."
@@ -4450,7 +4447,7 @@ msgid "Media Source"
 msgstr "Fonte da Média"
 
 msgid "Media Tracking"
-msgstr "Rastreamento da Média"
+msgstr "Rastreio da Média"
 
 msgid "Media Type"
 msgstr "Tipo de Média"
@@ -4468,7 +4465,7 @@ msgid "Missing CloseUI/JCLCloseUI"
 msgstr "Falta o CloseUI/JCLCloseUI"
 
 msgid "Missing DEVICE_URI variable."
-msgstr ""
+msgstr "Variável DEVICE_URI em falta"
 
 msgid "Missing PPD-Adobe-4.x header"
 msgstr "Falta o cabeçalho do PPD-Adobe-4.x"
@@ -4477,13 +4474,13 @@ msgid "Missing asterisk in column 1"
 msgstr "Falta o asterisco na coluna 1"
 
 msgid "Missing document-number attribute."
-msgstr "Falta o atributo do document-number."
+msgstr "Falta o atributo do número de documento"
 
 msgid "Missing form variable"
 msgstr "Falta a variável do formulário"
 
 msgid "Missing last-document attribute in request."
-msgstr "Falta o atributo do last-document na requisição."
+msgstr "Falta o atributo do último documento no pedido"
 
 msgid "Missing media or media-col."
 msgstr "Falta o media ou o media-col."
@@ -4495,7 +4492,7 @@ msgid "Missing notify-subscription-ids attribute."
 msgstr "Falta o atributo notify-subscription-ids."
 
 msgid "Missing option keyword"
-msgstr "Falta a palavra-chave na opção"
+msgstr "Falta a palavra-chave da opção"
 
 msgid "Missing requesting-user-name attribute."
 msgstr "Falta o atributo requesting-user-name."
@@ -4505,7 +4502,7 @@ msgid "Missing required attribute \"%s\"."
 msgstr "Falta o atributo \"%s\" que é necessário."
 
 msgid "Missing required attributes."
-msgstr "Estão faltando os atributos necessários."
+msgstr "Estão a faltar atributos necessários."
 
 msgid "Missing resource in URI"
 msgstr "Falta o recurso no URI"
@@ -4514,7 +4511,7 @@ msgid "Missing scheme in URI"
 msgstr "Falta o esquema no URI"
 
 msgid "Missing value string"
-msgstr "Falta uma cadeia de caracteres"
+msgstr "Falta sequência de valor"
 
 msgid "Missing x-dimension in media-size."
 msgstr "Falta o x-dimension no media-size."
@@ -4550,16 +4547,16 @@ msgid "Move Job"
 msgstr "Mover o Trabalho"
 
 msgid "Moved Permanently"
-msgstr "Mover Permanentemente"
+msgstr "Movido Permanentemente"
 
 msgid "NULL PPD file pointer"
 msgstr "O ponteiro do ficheiro PPD é NULO"
 
 msgid "Name OID uses indefinite length"
-msgstr "O nome do OID utiliza um comprimento que não é definido"
+msgstr "O OID de nome utiliza um comprimento que não é definido"
 
 msgid "Nested classes are not allowed."
-msgstr "Não é permitido aninhar as classes."
+msgstr "Classes aninhadas não são permitidas."
 
 msgid "Never"
 msgstr "Nunca"
@@ -4585,67 +4582,67 @@ msgid "No JWKS URI in authorization server metadata."
 msgstr "Nenhum URI JWKS nos metadados do servidor de autorização."
 
 msgid "No PPD name"
-msgstr "O PPD não tem um nome"
+msgstr "Nenhum nome de PPD"
 
 msgid "No VarBind SEQUENCE"
-msgstr "Não tem a SEQUENCE para o VarBind"
+msgstr "Nenhuma SEQUENCE de VarBind"
 
 msgid "No active connection"
-msgstr "Não tem uma conexão ativa"
+msgstr "Nenhuma ligação ativa"
 
 msgid "No active connection."
-msgstr "Não tem uma conexão ativa."
+msgstr "Nenhuma ligação ativa."
 
 #, c-format
 msgid "No active jobs on %s."
-msgstr "Não tem um trabalho ativo em %s."
+msgstr "Nenhum trabalho ativo em %s."
 
 msgid "No attributes in request."
-msgstr "Não têm os atributos na requisição."
+msgstr "Nenhuns atributos no pedido."
 
 msgid "No authentication information provided."
-msgstr "As informações de autenticação não foram fornecidas."
+msgstr "Nenhuma informação de autenticação fornecida."
 
 msgid "No client ID configured for this server."
 msgstr "Nenhum ID de cliente configurado para este servidor."
 
 msgid "No community name"
-msgstr "Não tem o nome da comunidade"
+msgstr "Nenhum nome de comunidade"
 
 msgid "No default destination."
-msgstr "Não tem o destino padrão."
+msgstr "Nenhum destino predefinido."
 
 msgid "No default printer."
-msgstr "Não tem uma impressora padrão."
+msgstr "Nenhuma impressora predefinida."
 
 msgid "No destinations added."
-msgstr "Não foi adicionado um destino."
+msgstr "Nenhuns destinos adicionados."
 
 msgid "No device URI found in argv[0] or in DEVICE_URI environment variable."
 msgstr ""
-"Não foi encontrado o URI do dispositivo no argumento argv[0] ou na variável "
-"de ambiente DEVICE_URI."
+"Nenhum URI de dispositivo encontrado em argv[0] nem na variável de ambiente "
+"DEVICE_URI."
 
 msgid "No error-index"
-msgstr "Não ocorreu o error-index"
+msgstr "Nenhum índice de erros"
 
 msgid "No error-status"
-msgstr "Não ocorreu o error-estado"
+msgstr "Nenhum estado de erro"
 
 msgid "No file in print request."
-msgstr "Não tem um ficheiro na requisição da impressão."
+msgstr "Nenhum ficheiro no pedido de impressão."
 
 msgid "No modification time"
-msgstr "Não tem um horário da modificação"
+msgstr "Nenhuma hora de modificação"
 
 msgid "No name OID"
-msgstr "Não tem o nome do OID"
+msgstr "Nenhum OID de nome"
 
 msgid "No pages were found."
 msgstr "Nenhuma página foi encontrada."
 
 msgid "No printer name"
-msgstr "Não tem um nome da impressora"
+msgstr "Nenhum nome de impressora"
 
 msgid "No printer-uri found"
 msgstr "Não foi encontrado um printer-uri"
@@ -4654,70 +4651,70 @@ msgid "No printer-uri found for class"
 msgstr "Não foi encontrado um printer-uri para a classe"
 
 msgid "No printer-uri in request."
-msgstr "Não foi encontrado um printer-uri na requisição."
+msgstr "Não foi encontrado um printer-uri no pedido."
 
 msgid "No printer-uri-supported attribute."
-msgstr ""
+msgstr "Nenhum atributo printer-uri-supported"
 
 msgid "No request URI."
-msgstr "Não foi tem um URI na requisição."
+msgstr "Nenhum URI de pedido."
 
 msgid "No request protocol version."
-msgstr "Não tem uma versão do protocolo da requisição."
+msgstr "Não tem uma versão do protocolo do pedido."
 
 msgid "No request sent."
-msgstr "Nenhuma requisição foi enviada."
+msgstr "Nenhum pedido enviado."
 
 msgid "No request-id"
-msgstr "Não tem um request-id"
+msgstr "Nenhum id de pedido"
 
 msgid "No stored credentials, not valid for name."
 msgstr "Nenhuma das credenciais armazenadas são válidas para o nome."
 
 msgid "No subscription attributes in request."
-msgstr "Não tem o atributo da assinatura na requisição."
+msgstr "Nenhuns atributos de subscrição no pedido."
 
 msgid "No subscriptions found."
-msgstr "Nenhuma assinatura foi encontrada."
+msgstr "Nenhumas subscrições encontradas."
 
 msgid "No variable-bindings SEQUENCE"
-msgstr "Não tem a SEQUENCE no variable-bindings"
+msgstr "Nenhuma SEQUENCE variable-bindings"
 
 msgid "No version number"
-msgstr "Não tem o número de versão"
+msgstr "Nenhum número de versão"
 
 msgid "Non-continuous (Mark sensing)"
-msgstr "Não contínua (detecção da marca)"
+msgstr "Não contínua (deteção da marca)"
 
 msgid "Non-continuous (Web sensing)"
-msgstr "Não contínua (detecção da internet)"
+msgstr "Não contínua (deteção de Web)"
 
 msgid "Normal"
 msgstr "Normal"
 
 msgid "Not Found"
-msgstr "Não foi encontrado"
+msgstr "Não Encontrado"
 
 msgid "Not Implemented"
-msgstr "Não foi implementado"
+msgstr "Não Implementado"
 
 msgid "Not Installed"
-msgstr "Não foi instalado"
+msgstr "Não Instalado"
 
 msgid "Not Modified"
-msgstr "Não foi modificado"
+msgstr "Não Modificado"
 
 msgid "Not Supported"
-msgstr "Não tem suporte"
+msgstr "Não Suportado"
 
 msgid "Not allowed to print."
-msgstr "Não é permitido imprimir."
+msgstr "Não tem permissão de imprimir."
 
 msgid "Note"
-msgstr "Observação"
+msgstr "Nota"
 
 msgid "OAuth Login"
-msgstr ""
+msgstr "Login de OAuth"
 
 msgid "OK"
 msgstr "OK"
@@ -4732,7 +4729,7 @@ msgid "Online Help"
 msgstr "Ajuda na Internet"
 
 msgid "Only WGS-84 coordinates are supported."
-msgstr "Somente as coordenadas do WGS-84 são compatíveis."
+msgstr "Apenas coordenadas WGS-84 são suportadas."
 
 msgid "Only local users can create a local printer."
 msgstr "Somente os utilizadores locais podem criar uma impressora local."
@@ -4742,10 +4739,10 @@ msgid "Open of %s failed: %s"
 msgstr "A abertura de %s falhou: %s"
 
 msgid "OpenGroup without a CloseGroup first"
-msgstr "O OpenGroup está sem um CloseGroup"
+msgstr "OpenGroup sem primeiro um CloseGroup"
 
 msgid "OpenUI/JCLOpenUI without a CloseUI/JCLCloseUI first"
-msgstr "O OpenUI/JCLOpenUI está sem um CloseUI/JCLCloseUI"
+msgstr "OpenUI/JCLOpenUI sem primeiro um CloseUI/JCLCloseUI"
 
 msgid "Operation Policy"
 msgstr "Política de operação"
@@ -4755,25 +4752,25 @@ msgid "Option \"%s\" cannot be included via %%%%IncludeFeature."
 msgstr "A opção \"%s\" não pode ser incluída via %%%%IncludeFeature."
 
 msgid "Options Installed"
-msgstr "Opções que estão instaladas"
+msgstr "Opções Instaladas"
 
 msgid "Options:"
 msgstr "Opções:"
 
 msgid "Other Media"
-msgstr "Outra média"
+msgstr "Outra Média"
 
 msgid "Other Tray"
-msgstr "Outra bandeja"
+msgstr "Outra Bandeja"
 
 msgid "Out of date PPD cache file."
 msgstr "O ficheiro de cache do PPD não está atualizado."
 
 msgid "Out of memory."
-msgstr "A quantidade de memória não é suficiente."
+msgstr "Memória esgotada."
 
 msgid "Output Mode"
-msgstr "Modo de saída"
+msgstr "Modo de Saída"
 
 msgid "PCL Laser Printer"
 msgstr "Impressora Laser PCL"
@@ -4798,50 +4795,51 @@ msgstr "PRC32K com a Borda Muito Maior"
 
 msgid ""
 "PRINTER environment variable names default destination that does not exist."
-msgstr "A variável de ambiente PRINTER nomeia o destino padrão que não existe."
+msgstr ""
+"A variável de ambiente PRINTER nomeia destino predefinido que não existe."
 
 msgid "Packet does not contain a Get-Response-PDU"
-msgstr "O pacote não contém o Get-Response-PDU"
+msgstr "O pacote não contém um Get-Response-PDU"
 
 msgid "Packet does not start with SEQUENCE"
-msgstr "O pacote não inicia com o SEQUENCE"
+msgstr "O pacote não começa com o SEQUENCE"
 
 msgid "ParamCustominCutInterval"
-msgstr ""
+msgstr "ParamCustominCutInterval"
 
 msgid "ParamCustominTearInterval"
-msgstr ""
+msgstr "ParamCustominTearInterval"
 
 #, c-format
 msgid "Password for %s on %s? "
 msgstr "A palavra-passe para %s em %s? "
 
 msgid "Pause Class"
-msgstr "Pausar a classe"
+msgstr "Pausar a Classe"
 
 msgid "Pause Printer"
-msgstr "Pausar a impressora"
+msgstr "Pausar a Impressora"
 
 msgid "Peel-Off"
-msgstr "Destacador de etiquetas"
+msgstr "Descascador"
 
 msgid "Photo"
 msgstr "Foto"
 
 msgid "Photo Labels"
-msgstr "Foto pequena"
+msgstr "Etiquetas de Foto"
 
 msgid "Plain Paper"
-msgstr "Papel normal"
+msgstr "Papel Normal"
 
 msgid "Policies"
 msgstr "Políticas"
 
 msgid "Port Monitor"
-msgstr "Monitor da porta"
+msgstr "Monitor de Porto"
 
 msgid "PostScript Printer"
-msgstr "Impressora do PostScript"
+msgstr "Impressora PostScript"
 
 msgid "Postcard"
 msgstr "Cartão Postal"
@@ -4871,7 +4869,7 @@ msgid "Print Rate"
 msgstr "Taxa de Impressão"
 
 msgid "Print Self-Test Page"
-msgstr "Imprimir uma página de autoteste"
+msgstr "Imprimir Página de Auto Teste"
 
 msgid "Print Speed"
 msgstr "Velocidade da Impressão"
@@ -4883,10 +4881,10 @@ msgid "Print and Cut"
 msgstr "Imprimir e cortar"
 
 msgid "Print and Tear"
-msgstr "Imprimir e destacar"
+msgstr "Imprimir e Rasgar"
 
 msgid "Print file sent."
-msgstr "O ficheiro foi enviado para impressão."
+msgstr "Ficheiro de impressão enviado."
 
 msgid "Print job canceled at printer."
 msgstr "O trabalho de impressão foi cancelado na impressora."
@@ -4895,44 +4893,43 @@ msgid "Print job too large."
 msgstr "O trabalho de impressão é muito grande."
 
 msgid "Print job was not accepted."
-msgstr "O trabalho de impressão não foi aceito."
+msgstr "O trabalho de impressão não foi aceite."
 
 #, c-format
 msgid "Printer \"%s\" already exists."
 msgstr "A impressora \"%s\" já existe."
 
 msgid "Printer Added"
-msgstr "A impressora foi adicionada"
+msgstr "Impressora Adicionada"
 
 msgid "Printer Default"
-msgstr "Impressora padrão"
+msgstr "Impressora Predefinida"
 
 msgid "Printer Deleted"
-msgstr "A impressora foi apagada"
+msgstr "Impressora Apagada"
 
 msgid "Printer Modified"
-msgstr "A impressora foi modificada"
+msgstr "Impressora Modificada"
 
 msgid "Printer Paused"
-msgstr "A impressora está pausada"
+msgstr "Impressora em Pausa"
 
 msgid "Printer Settings"
-msgstr "Configurações da impressora"
+msgstr "Configurações da Impressora"
 
 msgid "Printer cannot print supplied content."
-msgstr "A impressora não consegue imprimir o conteúdo  fornecido."
+msgstr "A impressora não pode imprimir o conteúdo  fornecido."
 
 msgid "Printer cannot print with supplied options."
-msgstr "A impressora não consegue imprimir com as opções fornecidas."
+msgstr "A impressora não pode imprimir com as opções fornecidas."
 
 msgid "Printer does not support required IPP attributes or document formats."
 msgstr ""
-"A impressora não é compatível com os atributos do IPP ou com as formatações "
-"do documento."
+"A impressora não suporta os atributos do IPP ou os formatos do documento."
 
 #, c-format
 msgid "Printer returned invalid data: %s"
-msgstr "A impressora retornou com dados inválidos: %s"
+msgstr "A impressora retornou dados inválidos: %s"
 
 msgid "Printer:"
 msgstr "Impressora:"
@@ -4942,10 +4939,10 @@ msgstr "Impressoras"
 
 #, c-format
 msgid "Printing page %d, %u%% complete."
-msgstr "A imprimir a página %d, %u%% concluída(s)."
+msgstr "A imprimir a página %d, %u%% concluído."
 
 msgid "Quarto"
-msgstr ""
+msgstr "Quarto"
 
 msgid "Quota limit reached."
 msgstr "O limite da cota foi alcançado."
@@ -4956,7 +4953,7 @@ msgstr ""
 "Tamanho Total"
 
 msgid "Reject Jobs"
-msgstr "Rejeitar trabalhos"
+msgstr "Rejeitar Trabalhos"
 
 #, c-format
 msgid "Remote host did not accept control file (%d)."
@@ -4967,79 +4964,79 @@ msgid "Remote host did not accept data file (%d)."
 msgstr "A máquina remota não aceitou ficheiro de dados (%d)."
 
 msgid "Reprint After Error"
-msgstr "Ocorreu um erro após a reimpressão"
+msgstr "Re-Imprimir Após Erro"
 
 msgid "Request Entity Too Large"
-msgstr "A entidade de requisição é muito grande"
+msgstr "Entidade do Pedido é Muito Grande"
 
 msgid "Resolution"
 msgstr "Resolução"
 
 msgid "Resume Class"
-msgstr "Retomar a classe"
+msgstr "Retomar a Classe"
 
 msgid "Resume Printer"
-msgstr "Retomar a impressão"
+msgstr "Retomar Impressora"
 
 msgid "Return Address"
-msgstr "Retornar o endereço"
+msgstr "Retornar o Endereço"
 
 msgid "Rewind"
 msgstr "Rebobinar"
 
 msgid "SEQUENCE uses indefinite length"
-msgstr "A SEQUENCE utiliza um comprimento que não é definido"
+msgstr "A SEQUENCE utiliza um comprimento indefinido"
 
 msgid "SSL/TLS Negotiation Error"
-msgstr "Ocorreu um erro de negociação do SSL/TLS"
+msgstr "Ocorreu um erro de negociação de SSL/TLS"
 
 msgid "Second Roll (DUO/Twin Only)"
-msgstr "Rolete secundário (somente para o DUO/duplo)"
+msgstr "Segundo Rolo (Apenas DUO/duplo)"
 
 msgid "See Other"
-msgstr "Exibir o outro"
+msgstr "Ver Outro"
 
 msgid "See remote printer."
-msgstr "Exibir a impressora remota."
+msgstr "Mostrar a impressora remota."
 
 msgid "Self-signed credentials are blocked."
-msgstr "As credenciais autoassinadas estão bloqueadas."
+msgstr "As credenciais auto-assinadas estão bloqueadas."
 
 msgid "Sending data to printer."
 msgstr "A enviar os dados à impressora."
 
 msgid "Server Restarted"
-msgstr "O servidor foi reiniciado"
+msgstr "Servidor Reiniciado"
 
 msgid "Server Security Auditing"
 msgstr "Auditoria de Segurança do Servidor"
 
 msgid "Server Started"
-msgstr "O servidor foi iniciado"
+msgstr "Servidor Iniciado"
 
 msgid "Server Stopped"
-msgstr "O servidor está parado"
+msgstr "Servidor Parado"
 
 msgid "Server credentials not set."
 msgstr "As credenciais no servidor não estão definidas."
 
 msgid "Service Unavailable"
-msgstr "O serviço não está disponível"
+msgstr "Serviço Indisponível"
 
 msgid "Set Allowed Users"
-msgstr "Definir os utilizadores que são permitidos"
+msgstr "Definir os Utilizadores com Permissão"
 
 msgid "Set As Server Default"
-msgstr "Definir como padrão do servidor"
+msgstr "Definir Como Predefinição do Servidor"
 
 msgid "Set Class Options"
-msgstr "Definir as opções da classe"
+msgstr "Definir as Opções da Classe"
 
 msgid "Set Printer Options"
-msgstr "Definir as opções da impressora"
+msgstr "Definir as Opções da Impressora"
 
 msgid "Shipping Address"
-msgstr "Endereço de entrega"
+msgstr "Endereço de Entrega"
 
 msgid "Short-Edge (Landscape)"
 msgstr "Borda Menor (Paisagem)"
@@ -5049,15 +5046,16 @@ msgstr "Papel Especial"
 
 #, c-format
 msgid "Spooling job, %.0f%% complete."
-msgstr ""
-"O trabalho %.0f%% que estava na área da memória temporária foi concluído."
+msgstr "A colocar trabalho em spool, %.0f%% completo."
 
 msgid "Standard"
-msgstr "Padrão"
+msgstr "Normalização"
 
 #. TRANSLATORS: Banner/cover sheet before the print job.
+#, fuzzy
 msgid "Starting Banner"
-msgstr "Faixa no início da folha da impressão"
+msgstr ""
+"Faixa no início da folha da impressão preciso de boa tradução para banner"
 
 #, c-format
 msgid "Starting page %d."
@@ -5067,11 +5065,11 @@ msgid "Statement"
 msgstr "Declaração"
 
 msgid "Sub-Commands:"
-msgstr ""
+msgstr "Sub-Comandos:"
 
 #, c-format
 msgid "Subscription #%d does not exist."
-msgstr "A assinatura #%d não existe."
+msgstr "A subscrição #%d não existe."
 
 msgid "Substitutions:"
 msgstr "Substituições:"
@@ -5086,7 +5084,7 @@ msgid "Super B/A3"
 msgstr "Super B/A3"
 
 msgid "Switching Protocols"
-msgstr "A alternar os protocolos"
+msgstr "A Alternar os Protocolos"
 
 msgid "Tabloid"
 msgstr "Tabloide"
@@ -5098,13 +5096,13 @@ msgid "Tabloid Oversize Long Edge"
 msgstr "Tabloide com a Borda Muito Maior"
 
 msgid "Tear"
-msgstr "Destacar"
+msgstr "Descasca"
 
 msgid "Tear-Off"
-msgstr "Destacar"
+msgstr "Descascar"
 
 msgid "Tear-Off Adjust Position"
-msgstr "Ajustar a Posição do Destaque"
+msgstr "Posição de Ajuste de Descascar"
 
 #, c-format
 msgid "The \"%s\" attribute is required for print jobs."
@@ -5118,15 +5116,14 @@ msgstr "O atributo %s não pode ser fornecido com o job-ids."
 msgid ""
 "The '%s' Job Status attribute cannot be supplied in a job creation request."
 msgstr ""
-"O atributo de estado do trabalho '%s' não pode ser fornecido numa requisição "
-"de criação do trabalho."
+"O atributo de Estado do Trabalho '%s' não pode ser fornecido num pedido de "
+"criação de trabalho."
 
 #, c-format
 msgid ""
 "The '%s' operation attribute cannot be supplied in a Create-Job request."
 msgstr ""
-"O atributo da operação '%s' não pode ser fornecido numa requisição de "
-"criação do trabalho do Create-Job."
+"O atributo da operação '%s' não pode ser fornecido num pedido de Create-Job."
 
 #, c-format
 msgid "The PPD file \"%s\" could not be found."
@@ -5134,7 +5131,7 @@ msgstr "O ficheiro PPD \"%s\" não pôde ser encontrado."
 
 #, c-format
 msgid "The PPD file \"%s\" could not be opened: %s"
-msgstr "O ficheiro PPD \"%s\" não pôde ser aberto por %s"
+msgstr "O ficheiro PPD \"%s\" não pôde ser aberto: %s"
 
 msgid "The PPD file could not be opened."
 msgstr "O ficheiro PPD não pôde ser aberto."
@@ -5143,26 +5140,25 @@ msgid ""
 "The class name may only contain up to 127 printable characters and may not "
 "contain spaces, slashes (/), or the pound sign (#)."
 msgstr ""
-"O nome da classe pode conter até 127 caracteres imprimíveis e não pode "
-"conter espaços, barras (/), o sinal do octótropo ou da cerquilha (#)."
+"O nome da classe apenas pode conter até 127 caracteres imprimíveis e não "
+"pode conter espaços, barras (/), ou o cardinal (#)."
 
 msgid "The client ID is not configured for this server."
-msgstr ""
+msgstr "O ID de cliente não está configurado para este servidor."
 
 msgid ""
 "The notify-lease-duration attribute cannot be used with job subscriptions."
 msgstr ""
-"O atributo notify-lease-duration não pode ser utilizado para a assinatura "
-"dos trabalhos."
+"O atributo notify-lease-duration não pode ser utilizado com subscrições de "
+"trabalhos."
 
 #, c-format
 msgid "The notify-user-data value is too large (%d > 63 octets)."
-msgstr "O valor notify-user-data está muito grande (%d > 63 octetos)."
+msgstr "O valor notify-user-data é demasiado grande (%d > 63 octetos)."
 
 msgid "The printer configuration is incorrect or the printer no longer exists."
 msgstr ""
-"A configuração da impressora não está correta ou a impressora não existe "
-"mais."
+"A configuração da impressora está incorreta ou a impressora já não existe."
 
 msgid "The printer did not respond."
 msgstr "A impressora não respondeu."
@@ -5172,22 +5168,22 @@ msgstr ""
 "A impressora não fornece os atributos necessários para o IPP Everywhere."
 
 msgid "The printer is in use."
-msgstr "A impressora a ser utilizada."
+msgstr "A impressora está a ser utilizada."
 
 msgid "The printer is not connected."
-msgstr "A impressora não está conectada."
+msgstr "A impressora não está ligada."
 
 msgid "The printer is not responding."
 msgstr "A impressora não responde."
 
 msgid "The printer is now connected."
-msgstr "A impressora agora está conectada."
+msgstr "A impressora agora está ligada."
 
 msgid "The printer is now online."
-msgstr "A impressora agora está conectada."
+msgstr "A impressora agora está online."
 
 msgid "The printer is offline."
-msgstr "A impressora está conectado."
+msgstr "A impressora está desligada."
 
 msgid "The printer is unreachable at this time."
 msgstr "A impressora não está acessível neste momento."
@@ -5202,7 +5198,7 @@ msgid ""
 msgstr ""
 "O nome da impressora deve conter até 127 caracteres imprimíveis e não pode "
 "conter espaços, barras (/ ou \\), aspas (' ou \"), pontos de interrogação "
-"(?) e nem o octótropo ou cerquilha (#)."
+"(?) e nem o cardinal (#)."
 
 msgid "The printer or class does not exist."
 msgstr "A impressora ou a classe não existe."
@@ -5212,33 +5208,33 @@ msgstr "A impressora ou a classe não está partilhada."
 
 #, c-format
 msgid "The printer-uri \"%s\" contains invalid characters."
-msgstr "O printer-uri \"%s\" contém caracteres que não são válidos."
+msgstr "O printer-uri \"%s\" contém caracteres inválidos."
 
 msgid "The printer-uri attribute is required."
-msgstr "O atributo do printer-uri é necessário."
+msgstr "O atributo printer-uri é necessário."
 
 msgid ""
 "The printer-uri must be of the form \"ipp://HOSTNAME/classes/CLASSNAME\"."
 msgstr ""
-"O printer-uri deve estar no formato \"ipp://NOMEDAMÁQUINA/classes/"
+"O printer-uri tem de estar no formato \"ipp://NOMEDAMÁQUINA/classes/"
 "NOMEDACLASSE\"."
 
 msgid ""
 "The printer-uri must be of the form \"ipp://HOSTNAME/printers/PRINTERNAME\"."
 msgstr ""
-"O printer-uri deve estar no formato \"ipp://NOMEDAMÁQUINA/printers/"
+"O printer-uri tem de estar no formato \"ipp://NOMEDAMÁQUINA/printers/"
 "NOMEDAIMPRESSORA\"."
 
 msgid ""
 "The web interface is currently disabled. Run \"cupsctl WebInterface=yes\" to "
 "enable it."
 msgstr ""
-"A interface da internet está desativada neste exato momento. Execute o "
-"comando \"cupsctl WebInterface=yes\" para ativá-la."
+"A interface de rede está desativada neste momento. Execute o comando "
+"\"cupsctl WebInterface=yes\" para ativa-la."
 
 #, c-format
 msgid "The which-jobs value \"%s\" is not supported."
-msgstr "O valor \"%s\" do which-jobs não é compatível."
+msgstr "O valor de which-jobs \"%s\" não é suportado."
 
 msgid "There are too many subscriptions."
 msgstr "Existe uma quantidade muito grande de assinaturas."
@@ -5315,315 +5311,311 @@ msgid "US Letter Small"
 msgstr "Carta pequena dos EUA"
 
 msgid "Unable to access cupsd.conf file"
-msgstr "Não foi possível aceder o ficheiro cupsd.conf"
+msgstr "Incapaz de aceder o ficheiro cupsd.conf"
 
 msgid "Unable to access help file."
-msgstr "Não foi possível aceder o ficheiro da ajuda."
+msgstr "Incapaz de aceder o ficheiro da ajuda."
 
 msgid "Unable to add class"
-msgstr "Não foi possível adicionar a classe"
+msgstr "Incapaz de adicionar a classe"
 
 msgid "Unable to add document to print job."
-msgstr "Não foi possível adicionar o documento ao trabalho de impressão."
+msgstr "Incapaz de adicionar o documento ao trabalho de impressão."
 
 msgid "Unable to add extension to X.509 certificate."
-msgstr "Não foi possível adicionar a extensão ao certificado X.509."
+msgstr "Incapaz de adicionar a extensão ao certificado X.509."
 
 #, c-format
 msgid "Unable to add job for destination \"%s\"."
-msgstr "Não foi possível adicionar o trabalho para destino \"%s\"."
+msgstr "Incapaz de adicionar o trabalho para destino \"%s\"."
 
 msgid "Unable to add printer"
-msgstr "Não foi possível adicionar a impressora"
+msgstr "Incapaz de adicionar a impressora"
 
 msgid "Unable to allocate memory for file types."
-msgstr "Não foi possível alocar memória para os tipos de ficheiros."
+msgstr "Incapaz de alocar memória para os tipos de ficheiros."
 
 msgid "Unable to allocate memory for page info"
-msgstr "Não foi possível alocar memória para as informações da página"
+msgstr "Incapaz de alocar memória para as informações da página"
 
 msgid "Unable to allocate memory for pages array"
-msgstr "Não foi possível alocar memória para a matriz das páginas"
+msgstr "Incapaz de alocar memória para a matriz das páginas"
 
 #, c-format
 msgid "Unable to allocate memory for printer: %s"
-msgstr "Não foi possível alocar memória para a impressora %s"
+msgstr "Incapaz de alocar memória para a impressora %s"
 
 msgid "Unable to authorize access"
-msgstr ""
+msgstr "Incapaz de autorizar acesso"
 
 msgid "Unable to cancel print job."
-msgstr "Não foi possível cancelar o trabalho de impressão."
+msgstr "Incapaz de cancelar o trabalho de impressão."
 
 msgid "Unable to change printer"
-msgstr "Não foi possível alterar a impressora"
+msgstr "Incapaz de alterar a impressora"
 
 msgid "Unable to change server settings"
-msgstr "Não foi possível alterar as configurações do servidor"
+msgstr "Incapaz de alterar as configurações do servidor"
 
 #, c-format
 msgid "Unable to commit PPD file: %s"
-msgstr "Não foi possível confirmar o ficheiro %s no formato PPD"
+msgstr "Incapaz de confirmar o ficheiro %s no formato PPD"
 
 #, c-format
 msgid "Unable to compile mimeMediaType regular expression: %s."
-msgstr "Não foi possível compilar a expressão regular %s do mimeMediaTy."
+msgstr "Incapaz de compilar a expressão regular %s do mimeMediaTy."
 
 #, c-format
 msgid "Unable to compile naturalLanguage regular expression: %s."
-msgstr "Não foi possível compilar a expressão regular %s do naturalLanguage."
+msgstr "Incapaz de compilar a expressão regular %s do naturalLanguage."
 
 msgid "Unable to configure printer options."
-msgstr "Não foi possível configurar as opções da impressora."
+msgstr "Incapaz de configurar as opções da impressora."
 
 msgid "Unable to configure private key context."
-msgstr "Não foi possível configurar o contexto da chave privada."
+msgstr "Incapaz de configurar o contexto da chave privada."
 
 #, c-format
 msgid "Unable to connect to %s:%d: %s"
-msgstr "Não foi possível conectar à %s:%d: %s"
+msgstr "Incapaz de conectar à %s:%d: %s"
 
 msgid "Unable to connect to host."
-msgstr "Não foi possível conectar à máquina."
+msgstr "Incapaz de conectar à máquina."
 
 msgid "Unable to contact printer, queuing on next printer in class."
 msgstr ""
-"Não foi possível contactar a impressora. O documento será enfileirado para a "
+"Incapaz de contactar a impressora. O documento será enfileirado para a "
 "próxima impressora da classe."
 
 #, c-format
 msgid "Unable to copy PPD file - %s"
-msgstr "Não foi possível copiar ficheiro PPD %s"
+msgstr "Incapaz de copiar ficheiro PPD %s"
 
 #, c-format
 msgid "Unable to create PPD for printer: %s"
-msgstr "Não foi possível criar o PPD para a impressora %s"
+msgstr "Incapaz de criar o PPD para a impressora %s"
 
 #, c-format
 msgid "Unable to create PPD: %s"
-msgstr "Não foi possível criar o PPD %s"
+msgstr "Incapaz de criar o PPD %s"
 
 msgid "Unable to create X.509 certificate signing request."
-msgstr ""
-"Não foi possível criar uma requisição da assinatura do certificado X.509."
+msgstr "Incapaz de criar uma requisição da assinatura do certificado X.509."
 
 msgid "Unable to create X.509 certificate."
-msgstr "Não foi possível criar o certificado X.509."
+msgstr "Incapaz de criar o certificado X.509."
 
 msgid "Unable to create printer-uri"
-msgstr "Não foi possível criar o printer-uri"
+msgstr "Incapaz de criar o printer-uri"
 
 msgid "Unable to create printer."
-msgstr "Não foi possível criar a impressora."
+msgstr "Incapaz de criar a impressora."
 
 msgid "Unable to create private key context."
-msgstr "Não foi possível criar o contexto da chave privada."
+msgstr "Incapaz de criar o contexto da chave privada."
 
 msgid "Unable to create private key."
-msgstr "Não foi possível criar a chave privada."
+msgstr "Incapaz de criar a chave privada."
 
 msgid "Unable to create server credentials."
-msgstr "Não foi possível criar as credenciais no servidor."
+msgstr "Incapaz de criar as credenciais no servidor."
 
 #, c-format
 msgid "Unable to create spool directory \"%s\": %s"
-msgstr "Não foi possível criar o diretório \"%s\" do spool %s"
+msgstr "Incapaz de criar o diretório \"%s\" do spool %s"
 
 msgid "Unable to create temporary file"
-msgstr "Não foi possível criar o ficheiro temporário"
+msgstr "Incapaz de criar o ficheiro temporário"
 
 msgid "Unable to delete class"
-msgstr "Não foi possível apagar a classe"
+msgstr "Incapaz de apagar a classe"
 
 msgid "Unable to delete printer"
-msgstr "Não foi possível apagar a impressora"
+msgstr "Incapaz de apagar a impressora"
 
 msgid "Unable to do maintenance command"
-msgstr "Não foi possível executar comando para realizar a manutenção"
+msgstr "Incapaz de executar comando para realizar a manutenção"
 
 msgid "Unable to edit cupsd.conf files larger than 1MB"
 msgstr ""
-"Não foi possível editar o ficheiro de configurações cupsd.conf porque é "
-"maior do que 1MB"
+"Incapaz de editar o ficheiro de configurações cupsd.conf porque é maior do "
+"que 1MB"
 
 #, c-format
 msgid "Unable to execute command \"%s\": %s"
-msgstr "Não foi possível executar o comando \"%s\" de %s"
+msgstr "Incapaz de executar o comando \"%s\" de %s"
 
 msgid "Unable to find destination for job"
-msgstr "Não foi possível encontrar o destino do trabalho"
+msgstr "Incapaz de encontrar o destino do trabalho"
 
 msgid "Unable to finish request."
-msgstr "Não foi possível finalizar a requisição."
+msgstr "Incapaz de finalizar a requisição."
 
 msgid "Unable to get authorization URL"
-msgstr ""
+msgstr "Incapaz de obter URL de autorização"
 
 msgid "Unable to get authorization server information"
 msgstr "Incapaz de obter informação do servidor de autorização"
 
 msgid "Unable to get backend exit status."
-msgstr "Não foi possível obter o estado de saída."
+msgstr "Incapaz de obter o estado de saída."
 
 msgid "Unable to get class list"
-msgstr "Não foi possível obter a lista das classes"
+msgstr "Incapaz de obter a lista das classes"
 
 msgid "Unable to get class status"
-msgstr "Não foi possível obter o estado da classe"
+msgstr "Incapaz de obter o estado da classe"
 
 msgid "Unable to get list of printer drivers"
-msgstr "Não foi possível obter a lista dos controladores de impressoras"
+msgstr "Incapaz de obter a lista dos controladores de impressoras"
 
 msgid "Unable to get printer attributes"
-msgstr "Não foi possível obter os atributos da impressora"
+msgstr "Incapaz de obter os atributos da impressora"
 
 msgid "Unable to get printer list"
-msgstr "Não foi possível obter a lista de impressoras"
+msgstr "Incapaz de obter a lista de impressoras"
 
 msgid "Unable to get printer status"
-msgstr "Não foi possível obter o estado da impressora"
+msgstr "Incapaz de obter o estado da impressora"
 
 msgid "Unable to get printer status."
-msgstr "Não foi possível obter o estado da impressora."
+msgstr "Incapaz de obter o estado da impressora."
 
 msgid "Unable to import X.509 certificate request."
-msgstr "Não foi possível importar a requisição do certificado X.509."
+msgstr "Incapaz de importar a requisição do certificado X.509."
 
 msgid "Unable to import credentials."
-msgstr "Não foi possível importar as credenciais."
+msgstr "Incapaz de importar as credenciais."
 
 msgid "Unable to initialize private key context."
-msgstr "Não foi possível inicializar o contexto da chave privada."
+msgstr "Incapaz de inicializar o contexto da chave privada."
 
 msgid "Unable to load X.509 CA certificate and private key."
-msgstr "Não foi possível carregar o certificado X.509 CA e a chave privada."
+msgstr "Incapaz de carregar o certificado X.509 CA e a chave privada."
 
 msgid "Unable to load help index."
-msgstr "Não foi possível carregar o índice da ajuda."
+msgstr "Incapaz de carregar o índice da ajuda."
 
 #, c-format
 msgid "Unable to locate printer \"%s\"."
-msgstr "Não foi possível localizar a impressora \"%s\"."
+msgstr "Incapaz de localizar a impressora \"%s\"."
 
 msgid "Unable to locate printer."
-msgstr "Não foi possível localizar a impressora."
+msgstr "Incapaz de localizar a impressora."
 
 msgid "Unable to modify class"
-msgstr "Não foi possível modificar a classe"
+msgstr "Incapaz de modificar a classe"
 
 msgid "Unable to modify printer"
-msgstr "Não foi possível modificar a impressora"
+msgstr "Incapaz de modificar a impressora"
 
 msgid "Unable to move job"
-msgstr "Não foi possível mover o trabalho"
+msgstr "Incapaz de mover o trabalho"
 
 msgid "Unable to move jobs"
-msgstr "Não foi possível mover os trabalhos"
+msgstr "Incapaz de mover os trabalhos"
 
 msgid "Unable to open PPD file"
-msgstr "Não foi possível abrir o ficheiro PPD"
+msgstr "Incapaz de abrir o ficheiro PPD"
 
 msgid "Unable to open cupsd.conf file:"
-msgstr "Não foi possível abrir o ficheiro de configurações cupsd.conf:"
+msgstr "Incapaz de abrir o ficheiro de configurações cupsd.conf:"
 
 msgid "Unable to open device file"
-msgstr "Não foi possível abrir o ficheiro do dispositivo"
+msgstr "Incapaz de abrir o ficheiro do dispositivo"
 
 #, c-format
 msgid "Unable to open document #%d in job #%d."
-msgstr "Não foi possível abrir o documento #%d no trabalho #%d."
+msgstr "Incapaz de abrir o documento #%d no trabalho #%d."
 
 msgid "Unable to open help file."
-msgstr "Não foi possível abrir o ficheiro da ajuda."
+msgstr "Incapaz de abrir o ficheiro da ajuda."
 
 msgid "Unable to open print file"
-msgstr "Não foi possível abrir o ficheiro de impressão"
+msgstr "Incapaz de abrir o ficheiro de impressão"
 
 msgid "Unable to open raster file"
-msgstr "Não foi possível abrir o ficheiro de rasterização"
+msgstr "Incapaz de abrir o ficheiro de rasterização"
 
 msgid "Unable to print test page"
-msgstr "Não foi possível imprimir a página de teste"
+msgstr "Incapaz de imprimir a página de teste"
 
 msgid "Unable to read IPP attribute name."
 msgstr "Incapaz de ler nome de atributo IPP."
 
 #, c-format
 msgid "Unable to read generated PPD: %s"
-msgstr "Não foi possível ler %s no formato PPD que foi gerado"
+msgstr "Incapaz de ler %s no formato PPD que foi gerado"
 
 msgid "Unable to read print data."
-msgstr "Não foi possível ler os dados da impressão."
+msgstr "Incapaz de ler os dados da impressão."
 
 msgid "Unable to read response."
-msgstr "Não foi possível ler a resposta."
+msgstr "Incapaz de ler a resposta."
 
 msgid "Unable to rename job document file."
-msgstr "Não foi possível renomear o ficheiro do documento do trabalho."
+msgstr "Incapaz de renomear o ficheiro do documento do trabalho."
 
 msgid "Unable to resolve printer-uri."
-msgstr "Não foi possível resolver o printer-ui."
+msgstr "Incapaz de resolver o printer-ui."
 
 #, c-format
 msgid "Unable to run cups-driverd: %s"
-msgstr "Não foi possível executar o %s do cups-driverd"
+msgstr "Incapaz de executar o %s do cups-driverd"
 
 #, c-format
 msgid "Unable to save PPD file: %s"
-msgstr "Não foi possível gravar o ficheiro %s no formato PPD"
+msgstr "Incapaz de gravar o ficheiro %s no formato PPD"
 
 #, c-format
 msgid "Unable to save value for \"%s\" with a temporary printer."
-msgstr ""
-"Não foi possível gravar o valor para \"%s\" com uma impressora temporária."
+msgstr "Incapaz de gravar o valor para \"%s\" com uma impressora temporária."
 
 msgid "Unable to see in file"
-msgstr "Não foi possível ler o ficheiro"
+msgstr "Incapaz de ler o ficheiro"
 
 msgid "Unable to send command to printer driver"
-msgstr "Não foi possível enviar o comando para o controlador da impressora"
+msgstr "Incapaz de enviar o comando para o controlador da impressora"
 
 msgid "Unable to send data to printer."
-msgstr "Não foi possível enviar os dados à impressora."
+msgstr "Incapaz de enviar os dados à impressora."
 
 msgid "Unable to set options"
-msgstr "Não foi possível definir as opções"
+msgstr "Incapaz de definir as opções"
 
 msgid "Unable to set server default"
-msgstr "Não foi possível definir servidor padrão"
+msgstr "Incapaz de definir servidor padrão"
 
 msgid "Unable to start backend process."
-msgstr "Não foi possível iniciar o processo da interface de texto."
+msgstr "Incapaz de iniciar o processo da interface de texto."
 
 msgid "Unable to upload cupsd.conf file"
-msgstr "Não foi possível atualizar o ficheiro de configurações cupsd.conf"
+msgstr "Incapaz de atualizar o ficheiro de configurações cupsd.conf"
 
 msgid "Unable to use legacy USB class driver."
-msgstr ""
-"Não foi possível utilizar o controlador da classe do USB legado (antigo)."
+msgstr "Incapaz de utilizar o controlador da classe do USB legado (antigo)."
 
 msgid "Unable to verify X.509 certificate request."
-msgstr "Não foi possível verificar a requisição do certificado X.509."
+msgstr "Incapaz de verificar a requisição do certificado X.509."
 
 msgid "Unable to write X.509 certificate signing request."
-msgstr ""
-"Não foi possível gravar a requisição da assinatura do certificado X.509."
+msgstr "Incapaz de gravar a requisição da assinatura do certificado X.509."
 
 msgid "Unable to write X.509 certificate."
-msgstr "Não foi possível escrever no certificado X.509."
+msgstr "Incapaz de escrever no certificado X.509."
 
 msgid "Unable to write print data"
-msgstr "Não foi possível escrever os dados da impressão"
+msgstr "Incapaz de escrever os dados da impressão"
 
 msgid "Unable to write private key."
-msgstr "Não foi possível escrever na chave privada."
+msgstr "Incapaz de escrever na chave privada."
 
 msgid "Unable to write public key."
-msgstr "Não é possível escrever na chave pública."
+msgstr "Incapaz de escrever na chave pública."
 
 #, c-format
 msgid "Unable to write uncompressed print data: %s"
-msgstr "Não foi possível escrever os dados descompactados da impressão %s"
+msgstr "Incapaz de escrever os dados descompactados da impressão %s"
 
 msgid "Unauthorized"
 msgstr "Não autorizado"
@@ -5694,7 +5686,7 @@ msgstr "O valor da opção \"%s\" da versão não é conhecido."
 
 #, c-format
 msgid "Unsupported \"attributes-charset\" value '%s'."
-msgstr ""
+msgstr "Valor de \"attributes-charset\" não suportado '%s'."
 
 #, c-format
 msgid "Unsupported 'compression' value \"%s\"."
@@ -6316,7 +6308,7 @@ msgstr "cups-oauth: Incapaz de obter testemunho de acesso a partir de '%s': %s"
 
 #, c-format
 msgid "cups-oauth: Unable to get authorization from '%s': %s"
-msgstr "Não foi possível obter a autorização '%s' de %s do cups-oauth"
+msgstr "Incapaz de obter a autorização '%s' de %s do cups-oauth"
 
 #, c-format
 msgid "cups-oauth: Unable to get device authorization from '%s': %s"
@@ -6330,13 +6322,13 @@ msgstr ""
 
 #, c-format
 msgid "cups-oauth: Unable to get metadata for '%s': %s"
-msgstr "Não foi possível obter os metadados '%s' de %s para o cups-oauth"
+msgstr "Incapaz de obter os metadados '%s' de %s para o cups-oauth"
 
 #, c-format
 msgid "cups-oauth: Unable to get user ID for '%s': %s"
 msgstr ""
-"Não foi possível obter o ID (identificador) do utilizador '%s' de %s para o "
-"cups-oauth"
+"Incapaz de obter o ID (identificador) do utilizador '%s' de %s para o cups-"
+"oauth"
 
 #, c-format
 msgid "cups-oauth: Unknown command '%s'."
@@ -6414,7 +6406,7 @@ msgstr "Falta o subjectAltName após a opção '-a' para o cups-x509."
 
 #, c-format
 msgid "cups-x509: No request for '%s'."
-msgstr "Nenhuma requisição para o '%s' do cups-x509."
+msgstr "cups-x509: Nenhum pedido para '%s'."
 
 msgid "cups-x509: Too many subjectAltName values."
 msgstr "Existem muitos valores para o subjectAltName do cups-x509."
@@ -6425,54 +6417,53 @@ msgstr "cups-x509: Incapaz de aceitar ligação: %s"
 
 #, c-format
 msgid "cups-x509: Unable to access '%s': %s"
-msgstr "Não foi possível aceder '%s' de %s para o cups-x509"
+msgstr "Incapaz de aceder '%s' de %s para o cups-x509"
 
 #, c-format
 msgid "cups-x509: Unable to allocate memory for '%s': %s"
-msgstr "Não foi possível alocar a memória para '%s' de %s do cups-x509"
+msgstr "Incapaz de alocar a memória para '%s' de %s do cups-x509"
 
 #, c-format
 msgid "cups-x509: Unable to connect to '%s': %s"
-msgstr ""
+msgstr "cups-x509: Incapaz de ligar a '%s': %s"
 
 #, c-format
 msgid "cups-x509: Unable to create certificate (%s)"
-msgstr "Não foi possível criar o certificado %s para o cups-x509"
+msgstr "Incapaz de criar o certificado %s para o cups-x509"
 
 #, c-format
 msgid "cups-x509: Unable to create certificate request (%s)"
-msgstr "Não foi possível criar a requisição %s do certificado para o cups-x509"
+msgstr "Incapaz de criar a requisição %s do certificado para o cups-x509"
 
 #, c-format
 msgid "cups-x509: Unable to encrypt connection: %s"
-msgstr "Não foi possível criptografar a conexão %s para o cups-x509"
+msgstr "Incapaz de criptografar a conexão %s para o cups-x509"
 
 #, c-format
 msgid "cups-x509: Unable to get generated certificate for '%s'."
-msgstr ""
-"Não foi possível obter o certificado que foi gerado para o '%s' do cups-x509."
+msgstr "Incapaz de obter o certificado que foi gerado para o '%s' do cups-x509."
 
 #, c-format
 msgid "cups-x509: Unable to get generated certificate request for '%s'."
 msgstr ""
-"Não foi possível obter a requisição para a geração do certificado para o "
-"'%s' do cups-x509."
+"Incapaz de obter a requisição para a geração do certificado para o '%s' do "
+"cups-x509."
 
 #, c-format
 msgid "cups-x509: Unable to get generated private key for '%s'."
-msgstr "Não foi possível obter a chave privada gerada para '%s' do cups-x509."
+msgstr "Incapaz de obter a chave privada gerada para '%s' do cups-x509."
 
 #, c-format
 msgid "cups-x509: Unable to listen on port %d: %s"
-msgstr "Não foi possível escutar a porta %d de %s do cups-x509"
+msgstr "Incapaz de escutar a porta %d de %s do cups-x509"
 
 #, c-format
 msgid "cups-x509: Unable to read '%s'."
-msgstr "Não foi possível ler '%s' do cups-x509."
+msgstr "Incapaz de ler '%s' do cups-x509."
 
 #, c-format
 msgid "cups-x509: Unable to stat '%s': %s"
-msgstr "Não foi possível iniciar '%s' de %s do cups-x509"
+msgstr "Incapaz de iniciar '%s' de %s do cups-x509"
 
 #, c-format
 msgid "cups-x509: Unknown command '%s'."
@@ -6480,11 +6471,11 @@ msgstr "O comando '%s' não é conhecido para o cups-x509."
 
 #, c-format
 msgid "cupsctl: Cannot set %s directly."
-msgstr "Não foi possível definir diretamente %s para o cupsctl."
+msgstr "Incapaz de definir diretamente %s para o cupsctl."
 
 #, c-format
 msgid "cupsctl: Unable to connect to server: %s"
-msgstr "Não foi possível conectar ao servidor %s para o cupsctl"
+msgstr "Incapaz de conectar ao servidor %s para o cupsctl"
 
 #, c-format
 msgid "cupsctl: Unknown option \"%s\""
@@ -6514,12 +6505,11 @@ msgstr ""
 "O nome do ficheiro relativo ao cups-files.conf não é permitido para o cupsd."
 
 msgid "cupsd: Unable to get current directory."
-msgstr "Não foi possível obter o diretório atual para o cupsd."
+msgstr "Incapaz de obter o diretório atual para o cupsd."
 
 msgid "cupsd: Unable to get path to cups-files.conf file."
 msgstr ""
-"Não foi possível obter o caminho para o ficheiro cups-files.conf para o "
-"cupsd."
+"Incapaz de obter o caminho para o ficheiro cups-files.conf para o cupsd."
 
 #, c-format
 msgid "cupsd: Unknown argument \"%s\" - aborting."
@@ -6543,7 +6533,7 @@ msgstr "Somente um nome do ficheiro pode ser especificado para o cupsfilter."
 
 #, c-format
 msgid "cupsfilter: Unable to get job file - %s"
-msgstr "Não foi possível obter o ficheiro do trabalho %s para o cupsfilter"
+msgstr "Incapaz de obter o ficheiro do trabalho %s para o cupsfilter"
 
 msgid "cupstestppd: The -q option is incompatible with the -v option."
 msgstr "A opção -q é não é compatível com a opção -v para o cupstestppd."
@@ -7472,11 +7462,11 @@ msgstr "Aparar após cada página"
 
 #. TRANSLATORS: Finishings
 msgid "finishings"
-msgstr "Acabamentos"
+msgstr "acabamentos"
 
 #. TRANSLATORS: Finishings
 msgid "finishings-col"
-msgstr "Acabamentos"
+msgstr "acabamentos-cor"
 
 #. TRANSLATORS: Fold
 msgid "finishings.10"
@@ -7584,11 +7574,11 @@ msgstr "Três agrafos no canto inferior"
 
 #. TRANSLATORS: Staple
 msgid "finishings.4"
-msgstr "Grampear"
+msgstr "Grampo"
 
 #. TRANSLATORS: Punch
 msgid "finishings.5"
-msgstr "Furar"
+msgstr "Punção"
 
 #. TRANSLATORS: Bind Left
 msgid "finishings.50"
@@ -7612,7 +7602,7 @@ msgstr "Capa"
 
 #. TRANSLATORS: Trim Pages
 msgid "finishings.60"
-msgstr "Aparar as páginas"
+msgstr "Aparar Páginas"
 
 #. TRANSLATORS: Trim Documents
 msgid "finishings.61"
@@ -7800,15 +7790,15 @@ msgstr "Superior"
 
 #. TRANSLATORS: Font Name
 msgid "font-name-requested"
-msgstr "Nome da fonte"
+msgstr "nome-da-letra-necessário"
 
 #. TRANSLATORS: Font Size
 msgid "font-size-requested"
-msgstr "Tamanho da fonte"
+msgstr "tamanho-da-letra-necessário"
 
 #. TRANSLATORS: Force Front Side
 msgid "force-front-side"
-msgstr ""
+msgstr "forçar-lado-frontal"
 
 #. TRANSLATORS: From Name
 msgid "from-name"
@@ -7826,12 +7816,15 @@ msgstr ""
 "autorização do servidor"
 
 msgid "get-device-grant [RESOURCE]    Authorize access through a device"
-msgstr ""
+msgstr "get-device-grant [RECURSO]    Autoriza acesso através de um dispositivo"
 
 msgid ""
 "get-device-token [RESOURCE] DEVICE-CODE\n"
 "                               Wait for the device access token"
 msgstr ""
+"get-device-token [RECURSO] CÓDIGO-DISPOSITIVO\n"
+"                               Espera pelo testemunho de acesso ao "
+"dispositivo"
 
 msgid ""
 "get-metadata [NAME]            Get metadata from the authorization server"
@@ -7848,14 +7841,14 @@ msgid "held"
 msgstr "retido"
 
 msgid "help\t\tGet help on commands."
-msgstr ""
+msgstr "help\t\tObter ajuda nos comandos."
 
 msgid "idle"
 msgstr "inativo"
 
 #. TRANSLATORS: Imposition Template
 msgid "imposition-template"
-msgstr "Disposição das páginas"
+msgstr "Modelo de Imposição"
 
 #. TRANSLATORS: None
 msgid "imposition-template.none"
@@ -7867,39 +7860,40 @@ msgstr "Assinatura"
 
 #. TRANSLATORS: Insert Page Number
 msgid "insert-after-page-number"
-msgstr "Inserir o número da página"
+msgstr "Inserir Após Número de Página"
 
 #. TRANSLATORS: Insert Count
 msgid "insert-count"
-msgstr "Inserir o contador"
+msgstr "Inserir Contagem"
 
 #. TRANSLATORS: Insert Sheet
 msgid "insert-sheet"
-msgstr "Inserir a folha"
+msgstr "Inserir Folha"
 
 msgid ""
 "install COMMON-NAME FILENAME.crt [FILENAME.key]\n"
 "                           Install a certificate and (optional) private key."
 msgstr ""
+"install NOME-COMUM NOME-FICHEIRO.crt [NOME-FICHEIRO.key]\n"
+"                           Instala um certificado e (opcional) chave privada."
 
 msgid "ippeveprinter: Unable to create IPP mapping of PPD file."
-msgstr ""
+msgstr "ippeveprinter: Incapaz de criar mapeamento IPP do ficheiro PPD."
 
 #, c-format
 msgid "ippeveprinter: Unable to open \"%s\": %s on line %d."
-msgstr ""
+msgstr "ippeveprinter: Incapaz de abrir \"%s\": %s na linha %d."
 
 #, c-format
 msgid "ippfind: Bad regular expression: %s"
-msgstr "A expressão regular %s não é válida para o ippfind"
+msgstr "ippfind: Expressão regular errada: %s"
 
 msgid "ippfind: Cannot use --and after --or."
-msgstr ""
-"Não foi possível utilizar o '--and' após a opção '--or' para o ippfind."
+msgstr "ippfind: Não pode usar --and após --or."
 
 #, c-format
 msgid "ippfind: Expected key name after %s."
-msgstr "Era esperado o nome da tecla após o %s para o ippfind."
+msgstr "ippfind: Esperado nome de chave após %s."
 
 #, c-format
 msgid "ippfind: Expected port range after %s."
@@ -7956,7 +7950,7 @@ msgstr "Existe uma quantidade excessiva de parênteses para o ippfind."
 
 #, c-format
 msgid "ippfind: Unable to execute \"%s\": %s"
-msgstr "Não foi possível executar \"%s\" de %s para o ippfind"
+msgstr "Incapaz de executar \"%s\" de %s para o ippfind"
 
 #, c-format
 msgid "ippfind: Unknown variable \"{%s}\"."
@@ -7985,11 +7979,11 @@ msgid "ipptool: May only specify a single URI."
 msgstr "Pode especificar somente um URI para o ipptool."
 
 msgid "ipptool: Missing count for \"-n\"."
-msgstr "A contagem \"-n\" falta para o ipptool."
+msgstr "ipptool: Contagem em falta para \"-n\"."
 
 #, c-format
 msgid "ipptool: Missing filename for \"%s\"."
-msgstr ""
+msgstr "ipptool: Nome de ficheiro em falta para \"%s\"."
 
 msgid "ipptool: Missing filename for \"-f\"."
 msgstr "Falta o nome do ficheiro do \"-f\" para o ipptool."
@@ -8005,7 +7999,7 @@ msgstr "É necessário o URI antes do ficheiro de teste para o ipptool."
 
 #, c-format
 msgid "ipptool: Unable to allocate memory: %s"
-msgstr "Não foi possível alocar a quantidade %s de memória para o ipptool"
+msgstr "ipptool: Incapaz de alocar memória: %s"
 
 #. TRANSLATORS: Job Account ID
 msgid "job-account-id"
@@ -8061,7 +8055,7 @@ msgstr "Cópias"
 
 #. TRANSLATORS: Back Cover
 msgid "job-cover-back"
-msgstr ""
+msgstr "Capa Traseira"
 
 #. TRANSLATORS: Front Cover
 msgid "job-cover-front"
@@ -8640,15 +8634,15 @@ msgstr "A aguardar a ação do utilizador"
 
 #. TRANSLATORS: Warnings Detected
 msgid "job-state-reasons.warnings-detected"
-msgstr "Alguns Avisos Foram Detetados"
+msgstr "Foram Detetados Avisos"
 
 #. TRANSLATORS: Pending
 msgid "job-state.3"
-msgstr "Está pendente"
+msgstr "Pendente"
 
 #. TRANSLATORS: Held
 msgid "job-state.4"
-msgstr "Está retido"
+msgstr "Retido"
 
 #. TRANSLATORS: Processing
 msgid "job-state.5"
@@ -8656,19 +8650,19 @@ msgstr "A processar"
 
 #. TRANSLATORS: Stopped
 msgid "job-state.6"
-msgstr "Está a parar"
+msgstr "Parado"
 
 #. TRANSLATORS: Canceled
 msgid "job-state.7"
-msgstr "Foi cancelado"
+msgstr "Cancelado"
 
 #. TRANSLATORS: Aborted
 msgid "job-state.8"
-msgstr "Foi abortado"
+msgstr "Abortado"
 
 #. TRANSLATORS: Completed
 msgid "job-state.9"
-msgstr "Foi completado"
+msgstr "Concluído"
 
 #. TRANSLATORS: Laminate Pages
 msgid "laminating"
@@ -8688,7 +8682,7 @@ msgstr "Frente e Verso"
 
 #. TRANSLATORS: Front Only
 msgid "laminating-sides.front"
-msgstr "Somente a Frente"
+msgstr "Apenas a Frente"
 
 #. TRANSLATORS: Type of Lamination
 msgid "laminating-type"
@@ -8712,7 +8706,7 @@ msgstr "Fosco"
 
 #. TRANSLATORS: Semi-gloss
 msgid "laminating-type.semi-gloss"
-msgstr "Semibrilhante"
+msgstr "Semi-brilhante"
 
 #. TRANSLATORS: Translucent
 msgid "laminating-type.translucent"
@@ -8723,9 +8717,7 @@ msgid "logo"
 msgstr "Logotipo"
 
 msgid "lpadmin: Class name can only contain printable characters."
-msgstr ""
-"O nome da classe pode conter somente os caracteres imprimíveis para o "
-"lpadmin."
+msgstr "lpadmin: O nome da classe só pode conter caracteres imprimíveis."
 
 #, c-format
 msgid "lpadmin: Expected PPD after \"-%c\" option."
@@ -8762,7 +8754,7 @@ msgid "lpadmin: Expected model after \"-m\" option."
 msgstr "Era esperado o modelo após a opção \"-m\" para o lpadmin."
 
 msgid "lpadmin: Expected name after \"-R\" option."
-msgstr "Era esperado o nome após a opção \"-R\" para o lpadmin."
+msgstr "lpadmin: Esperado nome após opção \"-R\"."
 
 msgid "lpadmin: Expected name=value after \"-o\" option."
 msgstr "Era esperado o \"nome=valor\" após a opção \"-o\" para o lpadmin."
@@ -8782,33 +8774,35 @@ msgstr "Não foi encontrado o nome do membro para o lpadmin."
 
 #, c-format
 msgid "lpadmin: Printer %s is already a member of class %s."
-msgstr "A impressora %s já é um membro da classe %s para o lpadmin."
+msgstr "lpadmin: A impressora %s já é membro da classe %s."
 
 #, c-format
 msgid "lpadmin: Printer %s is not a member of class %s."
-msgstr "A impressora %s não é um membro da classe %s para o lpadmin."
+msgstr "lpadmin: A impressora %s não é membro da classe %s."
 
 msgid ""
 "lpadmin: Printer drivers are deprecated and will stop working in a future "
 "version of CUPS. Use IPP Everywhere drivers (\"-m everywhere\") or Printer "
 "Applications instead."
 msgstr ""
+"lpadmin: As drivers de impressora estão descontinuadas e irão parar de "
+"funcionar numa versão futura do CUPS. Use drivers IPP Everywhere drivers (\"-"
+"m everywhere\") ou Aplicações de Impressão em vez disto."
 
 msgid "lpadmin: Printer name can only contain printable characters."
-msgstr ""
-"O nome da impressora pode conter somente os caracteres imprimíveis para o "
-"lpadmin."
+msgstr "lpadmin: O nome da impressora só pode conter caracteres imprimíveis."
 
 msgid ""
 "lpadmin: Raw queues are deprecated and will stop working in a future version "
 "of CUPS. Use IPP Everywhere drivers (\"-m everywhere\") or Printer "
 "Applications instead."
 msgstr ""
+"lpadmin: Filas de espera cruas estão descontinuadas e irão parar de "
+"funcionar numa versão futura do CUPS. Use drivers IPP Everywhere drivers (\"-"
+"m everywhere\") ou Aplicações de Impressão em vez disto."
 
 msgid "lpadmin: Raw queues are no longer supported on macOS."
-msgstr ""
-"As filas de espera do lpadmin não foram processadas porque não são "
-"compatíveis no MacOS."
+msgstr "lpadmin: Filas de espera cruas não são mais suportadas em MacOS."
 
 msgid ""
 "lpadmin: System V interface scripts are no longer supported for security "
@@ -8821,43 +8815,43 @@ msgid ""
 "lpadmin: Unable to add a printer to the class:\n"
 "         You must specify a printer name first."
 msgstr ""
-"Não foi possível adicionar uma impressora à classe para o lpadmin.\n"
+"Incapaz de adicionar uma impressora à classe para o lpadmin.\n"
 "         Tem que especificar primeiro o nome da impressora."
 
 #, c-format
 msgid "lpadmin: Unable to connect to server: %s"
-msgstr "Não foi possível conectar ao servidor %s para o lpadmin"
+msgstr "Incapaz de conectar ao servidor %s para o lpadmin"
 
 msgid "lpadmin: Unable to create temporary file"
-msgstr "Não foi possível criar um ficheiro temporário para o lpadmin"
+msgstr "Incapaz de criar um ficheiro temporário para o lpadmin"
 
 msgid ""
 "lpadmin: Unable to delete option:\n"
 "         You must specify a printer name first."
 msgstr ""
-"Não foi possível apagar a opção para o lpadmin.\n"
+"Incapaz de apagar a opção para o lpadmin.\n"
 "         Tem que primeiro especificar o nome da impressora."
 
 #, c-format
 msgid "lpadmin: Unable to open PPD \"%s\": %s"
-msgstr "Não foi possível abrir o PPD \"%s\" de %s para o lpadmin"
+msgstr "Incapaz de abrir o PPD \"%s\" de %s para o lpadmin"
 
 #, c-format
 msgid "lpadmin: Unable to open PPD \"%s\": %s on line %d."
-msgstr "Não foi possível abrir o PPD \"%s\" de %s na linha %d para o lpadmin."
+msgstr "Incapaz de abrir o PPD \"%s\" de %s na linha %d para o lpadmin."
 
 msgid ""
 "lpadmin: Unable to remove a printer from the class:\n"
 "         You must specify a printer name first."
 msgstr ""
-"Não foi possível remover a impressora da classe para o lpadmin.\n"
+"Incapaz de remover a impressora da classe para o lpadmin.\n"
 "         Tem que primeiro especificar o nome da impressora."
 
 msgid ""
 "lpadmin: Unable to set the printer options:\n"
 "         You must specify a printer name first."
 msgstr ""
-"Não foi possível definir as opções da impressora para o lpadmin.\n"
+"Incapaz de definir as opções da impressora para o lpadmin.\n"
 "         Tem que primeiro especificar o nome da impressora."
 
 #, c-format
@@ -8881,7 +8875,7 @@ msgid "lpadmin: Warning - content type list ignored."
 msgstr "Aviso: A lista dos tipos de conteúdos foi ignorada para o lpadmin."
 
 msgid "lpc> "
-msgstr ""
+msgstr "lpc> "
 
 msgid "lpinfo: Expected 1284 device ID string after \"--device-id\"."
 msgstr ""
@@ -8913,7 +8907,7 @@ msgstr "Era esperado o tempo de espera após o \"--timeout\" para o lpinfo."
 
 #, c-format
 msgid "lpmove: Unable to connect to server: %s"
-msgstr "Não foi possível conectar ao servidor %s para o lpmove"
+msgstr "Incapaz de conectar ao servidor %s para o lpmove"
 
 #, c-format
 msgid "lpmove: Unknown argument \"%s\"."
@@ -8924,15 +8918,15 @@ msgstr "Não tem uma impressora no lpoptions."
 
 #, c-format
 msgid "lpoptions: Unable to add printer or instance: %s"
-msgstr "Não foi possível adicionar a impressora ou a instância %s no lpoptions"
+msgstr "Incapaz de adicionar a impressora ou a instância %s no lpoptions"
 
 #, c-format
 msgid "lpoptions: Unable to get PPD file for %s: %s"
-msgstr "Não foi possível obter o ficheiro PPD para o %s de %s do lpoptions"
+msgstr "Incapaz de obter o ficheiro PPD para o %s de %s do lpoptions"
 
 #, c-format
 msgid "lpoptions: Unable to open PPD file for %s."
-msgstr "Não foi possível abrir o ficheiro PPD para %s do lpoptions."
+msgstr "Incapaz de abrir o ficheiro PPD para %s do lpoptions."
 
 msgid "lpoptions: Unknown printer or class."
 msgstr "A impressora ou a classe não é conhecida para o lpoptions."
@@ -9911,11 +9905,11 @@ msgstr "Papel de Peso Médio"
 
 #. TRANSLATORS: Inkjet Premium Paper
 msgid "media-type.com.hp.premium-inkjet"
-msgstr ""
+msgstr "Papel de Jacto de Tinta Premium"
 
 #. TRANSLATORS: Photo Premium Paper
 msgid "media-type.com.hp.premium-photo"
-msgstr "Papel Fotográfico Premium"
+msgstr "Papel de Fotografia Premium"
 
 #. TRANSLATORS: Premium Matte Presentation Paper
 msgid "media-type.com.hp.premium-presentation-matte"
@@ -10363,7 +10357,7 @@ msgstr "Papel com Revestimento Grosso"
 
 #. TRANSLATORS: Stationery Inkjet Paper
 msgid "media-type.stationery-inkjet"
-msgstr ""
+msgstr "Papel para Jacto de Tinta"
 
 #. TRANSLATORS: Letterhead
 msgid "media-type.stationery-letterhead"
@@ -11352,11 +11346,11 @@ msgstr "Progresso do Trabalho"
 
 #. TRANSLATORS: Job State Changed
 msgid "notify-events.job-state-changed"
-msgstr "O Estado do Trabalho Foi Alterado"
+msgstr "O Estado do Trabalho Alterado"
 
 #. TRANSLATORS: Job Stopped
 msgid "notify-events.job-stopped"
-msgstr "O Trabalho Está Parado"
+msgstr "Trabalho Parado"
 
 #. TRANSLATORS: None
 msgid "notify-events.none"
@@ -11461,15 +11455,15 @@ msgstr "Inferior ou Superior, Esquerda ou Direita"
 
 #. TRANSLATORS: Bottom-Top, Right-Left
 msgid "number-up-layout.btrl"
-msgstr ""
+msgstr "Fundo-Topo, Direita-Esquerda"
 
 #. TRANSLATORS: Left-Right, Bottom-Top
 msgid "number-up-layout.lrbt"
-msgstr "Esquerda ou Direita, Inferior ou Superior"
+msgstr "Esquerda-Direita, Fundo-Topo"
 
 #. TRANSLATORS: Left-Right, Top-Bottom
 msgid "number-up-layout.lrtb"
-msgstr "Esquerda ou Direita, Superior ou Inferior"
+msgstr "Esquerda-Direita, Topo-Fundo"
 
 #. TRANSLATORS: Right-Left, Bottom-Top
 msgid "number-up-layout.rlbt"
@@ -12221,43 +12215,41 @@ msgstr "Existem muitos #if aninhados na linha %d de %s para o ppdc."
 
 #, c-format
 msgid "ppdc: Unable to create PPD file \"%s\" - %s."
-msgstr "Não foi possível criar o ficheiro PPD \"%s\" de %s para o ppdc."
+msgstr "Incapaz de criar o ficheiro PPD \"%s\" de %s para o ppdc."
 
 #, c-format
 msgid "ppdc: Unable to create output directory %s: %s"
-msgstr "Não foi possível criar o diretório de saída %s de %s para o ppdc"
+msgstr "Incapaz de criar o diretório de saída %s de %s para o ppdc"
 
 #, c-format
 msgid "ppdc: Unable to create output pipes: %s"
-msgstr "Não foi possível criar o redirecionamento da saída %s para o ppdc"
+msgstr "Incapaz de criar o redirecionamento da saída %s para o ppdc"
 
 #, c-format
 msgid "ppdc: Unable to execute cupstestppd: %s"
-msgstr "Não foi possível executar o %s do cupstestppd para o ppdc"
+msgstr "Incapaz de executar o %s do cupstestppd para o ppdc"
 
 #, c-format
 msgid "ppdc: Unable to find #po file %s on line %d of %s."
-msgstr ""
-"Não foi possível encontrar o ficheiro #po %s na linha %d de %s para o ppdc."
+msgstr "Incapaz de encontrar o ficheiro #po %s na linha %d de %s para o ppdc."
 
 #, c-format
 msgid "ppdc: Unable to find include file \"%s\" on line %d of %s."
 msgstr ""
-"Não foi possível encontrar o ficheiro \"%s\" a ser incluído na linha %d de "
-"%s para o ppdc."
+"Incapaz de encontrar o ficheiro \"%s\" a ser incluído na linha %d de %s para "
+"o ppdc."
 
 #, c-format
 msgid "ppdc: Unable to find localization for \"%s\" - %s"
-msgstr "Não foi possível encontrar a localização \"%s\" de %s para o ppdc"
+msgstr "Incapaz de encontrar a localização \"%s\" de %s para o ppdc"
 
 #, c-format
 msgid "ppdc: Unable to load localization file \"%s\" - %s"
-msgstr ""
-"Não foi possível carregar o ficheiro da localização \"%s\" de %s para o ppdc"
+msgstr "Incapaz de carregar o ficheiro da localização \"%s\" de %s para o ppdc"
 
 #, c-format
 msgid "ppdc: Unable to open %s: %s"
-msgstr "Não foi possível abrir o %s de %s para o ppdc"
+msgstr "Incapaz de abrir o %s de %s para o ppdc"
 
 #, c-format
 msgid "ppdc: Undefined variable (%s) on line %d of %s."
@@ -12329,7 +12321,7 @@ msgstr "ppdmerge: Ignorando o ficheiro PPD %s."
 
 #, c-format
 msgid "ppdmerge: Unable to backup %s to %s - %s"
-msgstr "ppdmerge: Não é possível fazer backup de %s para %s - %s"
+msgstr "ppdmerge: Incapaz de fazer backup de %s para %s - %s"
 
 #. TRANSLATORS: Pre-dial String
 msgid "pre-dial-string"
@@ -12365,7 +12357,7 @@ msgstr "Esquerda ou Direita , Inferior ou Superior"
 
 #. TRANSLATORS: Bottom-top, Right-left
 msgid "presentation-direction-number-up.totop-toleft"
-msgstr ""
+msgstr "Fundo-topo, Direita-esquerda"
 
 #. TRANSLATORS: Bottom-top, Left-right
 msgid "presentation-direction-number-up.totop-toright"
@@ -13509,7 +13501,7 @@ msgstr "A Impressora Está a Aquecer"
 
 #. TRANSLATORS: Input Cannot Feed Size Selected
 msgid "printer-state-reasons.input-cannot-feed-size-selected"
-msgstr "Não é Possível Alimentar com Entrada do Tamanho que Foi Selecionado"
+msgstr "Incapaz de Alimentar com Entrada do Tamanho que Foi Selecionado"
 
 #. TRANSLATORS: Input Manual Input Request
 msgid "printer-state-reasons.input-manual-input-request"
@@ -14191,140 +14183,131 @@ msgstr "Ocorreu uma Falha na Bandeja de Saída da Média"
 
 #. TRANSLATORS: Output Media Tray Feed Error
 msgid "printer-state-reasons.output-media-tray-feed-error"
-msgstr ""
+msgstr "Erro de Alimentação de Tabuleiro de Média de Saída"
 
 #. TRANSLATORS: Output Media Tray Jam
 msgid "printer-state-reasons.output-media-tray-jam"
-msgstr "Ocorreu um Atolamento na Saída da Bandeja da Média"
+msgstr "Tabuleiro de Média de Saída Encravado"
 
 #. TRANSLATORS: Output tray is missing
 msgid "printer-state-reasons.output-tray-missing"
-msgstr ""
+msgstr "O tabuleiro de saída está em falta"
 
 #. TRANSLATORS: Paused
 msgid "printer-state-reasons.paused"
-msgstr ""
+msgstr "Em pausa"
 
 #. TRANSLATORS: Perforater Added
 msgid "printer-state-reasons.perforater-added"
-msgstr "O Perfurador Foi Adicionado"
+msgstr "Perfurador Adicionado"
 
 #. TRANSLATORS: Perforater Almost Empty
 msgid "printer-state-reasons.perforater-almost-empty"
-msgstr ""
-"O perfurador printer-state-reasons.perforater-almost-empty está quase vazio"
+msgstr "Perfurador Quase Vazio"
 
 #. TRANSLATORS: Perforater Almost Full
 msgid "printer-state-reasons.perforater-almost-full"
-msgstr ""
-"O perfurador printer-state-reasons.perforater-almost-full está quase cheio"
+msgstr "Perfurador Quase Cheio"
 
 #. TRANSLATORS: Perforater At Limit
 msgid "printer-state-reasons.perforater-at-limit"
-msgstr "O Perfurador Está no Limite"
+msgstr "Perfurador No Limite"
 
 #. TRANSLATORS: Perforater Closed
 msgid "printer-state-reasons.perforater-closed"
-msgstr "O perfurador printer-state-reasons.perforater-closed está fechado"
+msgstr "Perfurador Fechado"
 
 #. TRANSLATORS: Perforater Configuration Change
 msgid "printer-state-reasons.perforater-configuration-change"
-msgstr ""
+msgstr "Mudança de Configuração do Perfurador"
 
 #. TRANSLATORS: Perforater Cover Closed
 msgid "printer-state-reasons.perforater-cover-closed"
-msgstr "A Tampa do Perfurador Está Fechada"
+msgstr "Tampa do Perfurador Fechada"
 
 #. TRANSLATORS: Perforater Cover Open
 msgid "printer-state-reasons.perforater-cover-open"
-msgstr "A Tampa do Perfurador Está Aberta"
+msgstr "Tampa do Perfurador Aberta"
 
 #. TRANSLATORS: Perforater Empty
 msgid "printer-state-reasons.perforater-empty"
-msgstr "O perfurador printer-state-reasons.perforater-empty está vazio"
+msgstr "Perfurador Vazio"
 
 #. TRANSLATORS: Perforater Full
 msgid "printer-state-reasons.perforater-full"
-msgstr "O perfurador printer-state-reasons.perforater-full está cheio"
+msgstr "Perfurador Cheio"
 
 #. TRANSLATORS: Perforater Interlock Closed
 msgid "printer-state-reasons.perforater-interlock-closed"
-msgstr ""
-"O intertravamento do perfurador printer-state-reasons.perforater-interlock-"
-"closed está fechado"
+msgstr "Câmara Interna do Perfurador Fechada"
 
 #. TRANSLATORS: Perforater Interlock Open
 msgid "printer-state-reasons.perforater-interlock-open"
-msgstr ""
-"O intertravamento do perfurador printer-state-reasons.perforater-interlock-"
-"open está fechado"
+msgstr "Câmara Interna do Perfurador Aberta"
 
 #. TRANSLATORS: Perforater Jam
 msgid "printer-state-reasons.perforater-jam"
-msgstr "Ocorreu um Atolamento no Perfurador"
+msgstr "Perfurador Encravado"
 
 #. TRANSLATORS: Perforater Life Almost Over
 msgid "printer-state-reasons.perforater-life-almost-over"
-msgstr "O Perfurador Está Quase no Fim da Sua Vida Útil"
+msgstr "Perfurador Quase em Fim de Vida"
 
 #. TRANSLATORS: Perforater Life Over
 msgid "printer-state-reasons.perforater-life-over"
-msgstr "O Perfurador Está no Fim da Sua Vida Útil"
+msgstr "Perfurador em Fim de Vida"
 
 #. TRANSLATORS: Perforater Memory Exhausted
 msgid "printer-state-reasons.perforater-memory-exhausted"
-msgstr ""
+msgstr "Memória Esgotada do Perfurador"
 
 #. TRANSLATORS: Perforater Missing
 msgid "printer-state-reasons.perforater-missing"
-msgstr ""
-"Ocorreu uma falha no perfurador printer-state-reasons.perforater-missing"
+msgstr "Perfurador Em Falta"
 
 #. TRANSLATORS: Perforater Motor Failure
 msgid "printer-state-reasons.perforater-motor-failure"
-msgstr ""
-"Ocorreu uma falha no motor do perfurador printer-state-reasons.perforater-"
-"motor-failure"
+msgstr "Falha no Motor do Perfurador"
 
 #. TRANSLATORS: Perforater Near Limit
 msgid "printer-state-reasons.perforater-near-limit"
-msgstr "O Perfurador Está Próximo do Seu Limite"
+msgstr "Perfurador Próximo do Limite"
 
 #. TRANSLATORS: Perforater Offline
 msgid "printer-state-reasons.perforater-offline"
-msgstr "O Perfurador Não Está Conectado"
+msgstr "Perfurador Desligado"
 
 #. TRANSLATORS: Perforater Opened
 msgid "printer-state-reasons.perforater-opened"
-msgstr "O perfurador printer-state-reasons.perforater-opened está fechado"
+msgstr "Perfurador Aberto"
 
 #. TRANSLATORS: Perforater Over Temperature
 msgid "printer-state-reasons.perforater-over-temperature"
-msgstr "O Perfurador Atingiu uma Temperatura Excessiva"
+msgstr "Perfurador com Temperatura Excessiva"
 
 #. TRANSLATORS: Perforater Power Saver
 msgid "printer-state-reasons.perforater-power-saver"
-msgstr ""
+msgstr "Perfurador em Poupança de Energia"
 
 #. TRANSLATORS: Perforater Recoverable Failure
 msgid "printer-state-reasons.perforater-recoverable-failure"
-msgstr "Ocorreu uma Falha na Tampa do Perfurador que Pode Ser Restaurado"
+msgstr "Falha Recuperável do Perfurador"
 
 #. TRANSLATORS: Perforater Recoverable Storage
 msgid "printer-state-reasons.perforater-recoverable-storage"
-msgstr "O Armazenamento do Perfurador Pode Ser Restaurado"
+msgstr "Armazenamento Recuperável do Perfurador"
 
 #. TRANSLATORS: Perforater Removed
 msgid "printer-state-reasons.perforater-removed"
-msgstr "O Perfurador Foi Removido"
+msgstr "Perfurador Removido"
 
 #. TRANSLATORS: Perforater Resource Added
 msgid "printer-state-reasons.perforater-resource-added"
-msgstr "A Funcionalidade do Perfurador Foi Adicionada"
+msgstr "Funcionalidade do Perfurador Adicionada"
 
 #. TRANSLATORS: Perforater Resource Removed
 msgid "printer-state-reasons.perforater-resource-removed"
-msgstr "A Funcionalidade do Perfurador Foi Removida"
+msgstr "Funcionalidade do Perfurador Removida"
 
 #. TRANSLATORS: Perforater Thermistor Failure
 msgid "printer-state-reasons.perforater-thermistor-failure"
@@ -14362,197 +14345,187 @@ msgstr ""
 
 #. TRANSLATORS: Platform Cooling
 msgid "printer-state-reasons.platform-cooling"
-msgstr ""
+msgstr "Arrefecimento da Plataforma"
 
 #. TRANSLATORS: Platform Failure
 msgid "printer-state-reasons.platform-failure"
-msgstr ""
+msgstr "Falha da Plataforma"
 
 #. TRANSLATORS: Platform Heating
 msgid "printer-state-reasons.platform-heating"
-msgstr ""
+msgstr "Aquecimento da Plataforma"
 
 #. TRANSLATORS: Platform Temperature High
 msgid "printer-state-reasons.platform-temperature-high"
-msgstr "A Plataforma Está com a Temperatura Alta"
+msgstr "Plataforma com Temperatura Alta"
 
 #. TRANSLATORS: Platform Temperature Low
 msgid "printer-state-reasons.platform-temperature-low"
-msgstr "A Plataforma Está com a Temperatura Baixa"
+msgstr "Plataforma com Temperatura Baixa"
 
 #. TRANSLATORS: Power Down
 msgid "printer-state-reasons.power-down"
-msgstr ""
+msgstr "Desligar Energia"
 
 #. TRANSLATORS: Power Up
 msgid "printer-state-reasons.power-up"
-msgstr ""
+msgstr "Ligar Energia"
 
 #. TRANSLATORS: Printer Reset Manually
 msgid "printer-state-reasons.printer-manual-reset"
-msgstr ""
+msgstr "Reiniciar de Impressora Manual"
 
 #. TRANSLATORS: Printer Reset Remotely
 msgid "printer-state-reasons.printer-nms-reset"
-msgstr ""
+msgstr "Reiniciar de Impressora Remoto"
 
 #. TRANSLATORS: Printer Ready To Print
 msgid "printer-state-reasons.printer-ready-to-print"
-msgstr ""
+msgstr "Impressora Pronta A Imprimir"
 
 #. TRANSLATORS: Puncher Added
 msgid "printer-state-reasons.puncher-added"
-msgstr "O Furador Foi Adicionado"
+msgstr "Punção Adicionado"
 
 #. TRANSLATORS: Puncher Almost Empty
 msgid "printer-state-reasons.puncher-almost-empty"
-msgstr "O furador printer-state-reasons.puncher-almost-empty está quase vazio"
+msgstr "Punção Quase Vazio"
 
 #. TRANSLATORS: Puncher Almost Full
 msgid "printer-state-reasons.puncher-almost-full"
-msgstr "O furador printer-state-reasons.puncher-almost-full está quase cheio"
+msgstr "Punção Quase Cheio"
 
 #. TRANSLATORS: Puncher At Limit
 msgid "printer-state-reasons.puncher-at-limit"
-msgstr "O Furador Está no Limite"
+msgstr "Punção No Limite"
 
 #. TRANSLATORS: Puncher Closed
 msgid "printer-state-reasons.puncher-closed"
-msgstr "O furador printer-state-reasons.puncher-closed está fechado"
+msgstr "Punção Fechado"
 
 #. TRANSLATORS: Puncher Configuration Change
 msgid "printer-state-reasons.puncher-configuration-change"
-msgstr ""
-"Alterar as configurações do furador printer-state-reasons.puncher-"
-"configuration-change"
+msgstr "Mudança de Configuração do Punção"
 
 #. TRANSLATORS: Puncher Cover Closed
 msgid "printer-state-reasons.puncher-cover-closed"
-msgstr "A Tampa do Furador Está Fechada"
+msgstr "Tampa do Punção Fechada"
 
 #. TRANSLATORS: Puncher Cover Open
 msgid "printer-state-reasons.puncher-cover-open"
-msgstr "A Tampa do Furador Está Aberta"
+msgstr "Tampa do Punção Aberta"
 
 #. TRANSLATORS: Puncher Empty
 msgid "printer-state-reasons.puncher-empty"
-msgstr "O furador printer-state-reasons.puncher-empty está vazio"
+msgstr "Punção Vazio"
 
 #. TRANSLATORS: Puncher Full
 msgid "printer-state-reasons.puncher-full"
-msgstr "O furador printer-state-reasons.puncher-full está cheio"
+msgstr "Punção Cheio"
 
 #. TRANSLATORS: Puncher Interlock Closed
 msgid "printer-state-reasons.puncher-interlock-closed"
-msgstr ""
-"O intertravamento do furador printer-state-reasons.puncher-interlock-closed "
-"está fechado"
+msgstr "Câmara Interna do Punção Fechada"
 
 #. TRANSLATORS: Puncher Interlock Open
 msgid "printer-state-reasons.puncher-interlock-open"
-msgstr ""
-"O intertravamento do furador printer-state-reasons.puncher-interlock-open "
-"está aberto"
+msgstr "Câmara Interna do Punção Aberta"
 
 #. TRANSLATORS: Puncher Jam
 msgid "printer-state-reasons.puncher-jam"
-msgstr "Ocorreu um Atolamento no Furador"
+msgstr "Punção Encravado"
 
 #. TRANSLATORS: Puncher Life Almost Over
 msgid "printer-state-reasons.puncher-life-almost-over"
-msgstr "O Furador Está Quase no Fim da Sua Vida Útil"
+msgstr "Punção Quase em Fim de Vida"
 
 #. TRANSLATORS: Puncher Life Over
 msgid "printer-state-reasons.puncher-life-over"
-msgstr "O Furador Está no Fim da Sua Vida Útil"
+msgstr "Punção em Fim de Vida"
 
 #. TRANSLATORS: Puncher Memory Exhausted
 msgid "printer-state-reasons.puncher-memory-exhausted"
-msgstr ""
+msgstr "Memória Esgotada do Punção"
 
 #. TRANSLATORS: Puncher Missing
 msgid "printer-state-reasons.puncher-missing"
-msgstr "Ocorreu uma falha no furador printer-state-reasons.puncher-missing"
+msgstr "Punção Em Falta"
 
 #. TRANSLATORS: Puncher Motor Failure
 msgid "printer-state-reasons.puncher-motor-failure"
-msgstr ""
-"Ocorreu uma falha no motor do furador printer-state-reasons.puncher-motor-"
-"failure"
+msgstr "Falha no Motor do Punção"
 
 #. TRANSLATORS: Puncher Near Limit
 msgid "printer-state-reasons.puncher-near-limit"
-msgstr "O Furador Está Próximo do Seu Limite"
+msgstr "Punção Próximo do Limite"
 
 #. TRANSLATORS: Puncher Offline
 msgid "printer-state-reasons.puncher-offline"
-msgstr "O Furador Não Está Conectado"
+msgstr "Punção Desligado"
 
 #. TRANSLATORS: Puncher Opened
 msgid "printer-state-reasons.puncher-opened"
-msgstr "O furador printer-state-reasons.puncher-opened está aberto"
+msgstr "Punção Aberto"
 
 #. TRANSLATORS: Puncher Over Temperature
 msgid "printer-state-reasons.puncher-over-temperature"
-msgstr "O Furador Atingiu uma Temperatura Excessiva"
+msgstr "Punção com Temperatura Excessiva"
 
 #. TRANSLATORS: Puncher Power Saver
 msgid "printer-state-reasons.puncher-power-saver"
-msgstr ""
-"O furador printer-state-reasons.puncher-power-saver entrou no modo de "
-"economia de energia"
+msgstr "Punção em Poupança de Energia"
 
 #. TRANSLATORS: Puncher Recoverable Failure
 msgid "printer-state-reasons.puncher-recoverable-failure"
-msgstr "Ocorreu uma Falha no Furador que Pode Ser Restaurado"
+msgstr "Falha Recuperável do Punção"
 
 #. TRANSLATORS: Puncher Recoverable Storage
 msgid "printer-state-reasons.puncher-recoverable-storage"
-msgstr "O Armazenamento do Furador Pode Ser Restaurado"
+msgstr "Armazenamento Recuperável do Punção"
 
 #. TRANSLATORS: Puncher Removed
 msgid "printer-state-reasons.puncher-removed"
-msgstr "O Furador Foi Removido"
+msgstr "Punção Removido"
 
 #. TRANSLATORS: Puncher Resource Added
 msgid "printer-state-reasons.puncher-resource-added"
-msgstr "A Funcionalidade do Furador Foi Adicionada"
+msgstr "Funcionalidade do Punção Adicionada"
 
 #. TRANSLATORS: Puncher Resource Removed
 msgid "printer-state-reasons.puncher-resource-removed"
-msgstr "A Funcionalidade do Furador Foi Removida"
+msgstr "Funcionalidade do Punção Removida"
 
 #. TRANSLATORS: Puncher Thermistor Failure
 msgid "printer-state-reasons.puncher-thermistor-failure"
-msgstr "Ocorreu uma Falha no Termistor do Furador"
+msgstr "Falha no Termístor do Punção"
 
 #. TRANSLATORS: Puncher Timing Failure
 msgid "printer-state-reasons.puncher-timing-failure"
-msgstr "Ocorreu uma Falha no Temporizador do Furador"
+msgstr "Falha no Temporizador do Punção"
 
 #. TRANSLATORS: Puncher Turned Off
 msgid "printer-state-reasons.puncher-turned-off"
-msgstr "O Furador Está Desligado"
+msgstr "Punção Foi Desligado"
 
 #. TRANSLATORS: Puncher Turned On
 msgid "printer-state-reasons.puncher-turned-on"
-msgstr "O Furador Está Ligado"
+msgstr "Punção Foi Ligado"
 
 #. TRANSLATORS: Puncher Under Temperature
 msgid "printer-state-reasons.puncher-under-temperature"
-msgstr "O Furador Está com a Temperatura Abaixo do Normal"
+msgstr "Punção com Temperatura Abaixo do Normal"
 
 #. TRANSLATORS: Puncher Unrecoverable Failure
 msgid "printer-state-reasons.puncher-unrecoverable-failure"
-msgstr "Ocorreu uma Falha no Furador que Não Pode Ser Restaurado"
+msgstr "Falha Irrecuperável do Punção"
 
 #. TRANSLATORS: Puncher Unrecoverable Storage Error
 msgid "printer-state-reasons.puncher-unrecoverable-storage-error"
-msgstr "Ocorreu um Erro no Furador que Não Pode Ser Restaurado"
+msgstr "Erro de Armazenamento Irrecuperável do Punção"
 
 #. TRANSLATORS: Puncher Warming Up
 msgid "printer-state-reasons.puncher-warming-up"
-msgstr "O furador printer-state-reasons.puncher-warming-up está a aquecer"
+msgstr "Punção a Aquecer"
 
 #. TRANSLATORS: Separation Cutter Added
 msgid "printer-state-reasons.separation-cutter-added"
@@ -14576,31 +14549,31 @@ msgstr "O Separador e Cortador Está Fechado"
 
 #. TRANSLATORS: Separation Cutter Configuration Change
 msgid "printer-state-reasons.separation-cutter-configuration-change"
-msgstr "Alterar as Configurações do Separador e Cortador"
+msgstr "Mudança de Configuração do Cortador de Separação"
 
 #. TRANSLATORS: Separation Cutter Cover Closed
 msgid "printer-state-reasons.separation-cutter-cover-closed"
-msgstr "A Tampa do Separador e Cortador Está Fechada"
+msgstr "Cortador de Separação com Tampa Fechada"
 
 #. TRANSLATORS: Separation Cutter Cover Open
 msgid "printer-state-reasons.separation-cutter-cover-open"
-msgstr "A Tampa do Separador e Cortador Está Aberta"
+msgstr "Cortador de Separação com Tampa Aberta"
 
 #. TRANSLATORS: Separation Cutter Empty
 msgid "printer-state-reasons.separation-cutter-empty"
-msgstr "O Separador e Cortador Está Vazio"
+msgstr "Cortador de Separação Vazio"
 
 #. TRANSLATORS: Separation Cutter Full
 msgid "printer-state-reasons.separation-cutter-full"
-msgstr "O Separador e Cortador Está Cheio"
+msgstr "Cortador de Separação Cheio"
 
 #. TRANSLATORS: Separation Cutter Interlock Closed
 msgid "printer-state-reasons.separation-cutter-interlock-closed"
-msgstr "O Intertravamento do Separador e Cortador Está Fechado"
+msgstr "Câmara Interna do Cortador de Separação Fechada"
 
 #. TRANSLATORS: Separation Cutter Interlock Open
 msgid "printer-state-reasons.separation-cutter-interlock-open"
-msgstr "O Intertravamento do Separador e Cortador Está Aberto"
+msgstr "Câmara Interna do Cortador de Separação Aberta"
 
 #. TRANSLATORS: Separation Cutter Jam
 msgid "printer-state-reasons.separation-cutter-jam"
@@ -14616,35 +14589,35 @@ msgstr "O Separador e Cortador Está no Fim da Sua Vida Útil"
 
 #. TRANSLATORS: Separation Cutter Memory Exhausted
 msgid "printer-state-reasons.separation-cutter-memory-exhausted"
-msgstr ""
+msgstr "Memória Esgotada do Cortador de Separação"
 
 #. TRANSLATORS: Separation Cutter Missing
 msgid "printer-state-reasons.separation-cutter-missing"
-msgstr ""
+msgstr "Cortador de Separação Em Falta"
 
 #. TRANSLATORS: Separation Cutter Motor Failure
 msgid "printer-state-reasons.separation-cutter-motor-failure"
-msgstr ""
+msgstr "Falha no Motor do Cortador de Separação"
 
 #. TRANSLATORS: Separation Cutter Near Limit
 msgid "printer-state-reasons.separation-cutter-near-limit"
-msgstr "O Separador e Cortador Está Próximo do Seu Limite"
+msgstr "Cortador de Separação Perto do Limite"
 
 #. TRANSLATORS: Separation Cutter Offline
 msgid "printer-state-reasons.separation-cutter-offline"
-msgstr "O Separador e Cortador Não Está Conectado"
+msgstr "Cortador de Separação Desligado"
 
 #. TRANSLATORS: Separation Cutter Opened
 msgid "printer-state-reasons.separation-cutter-opened"
-msgstr ""
+msgstr "Cortador de Separação Aberto"
 
 #. TRANSLATORS: Separation Cutter Over Temperature
 msgid "printer-state-reasons.separation-cutter-over-temperature"
-msgstr "O Separador e Cortador Atingiu uma Temperatura Excessiva"
+msgstr "Cortador de Separação com Temperatura Excessiva"
 
 #. TRANSLATORS: Separation Cutter Power Saver
 msgid "printer-state-reasons.separation-cutter-power-saver"
-msgstr ""
+msgstr "Cortador de Separação em Poupança de Energia"
 
 #. TRANSLATORS: Separation Cutter Recoverable Failure
 msgid "printer-state-reasons.separation-cutter-recoverable-failure"
@@ -14826,7 +14799,7 @@ msgstr "O Armazenamento Rotador de Folhas Pode Ser Restaurado"
 
 #. TRANSLATORS: Sheet Rotator Removed
 msgid "printer-state-reasons.sheet-rotator-removed"
-msgstr "O Rotador de Folhas Foi Removido"
+msgstr "Rotador de Folhas Removido"
 
 #. TRANSLATORS: Sheet Rotator Resource Added
 msgid "printer-state-reasons.sheet-rotator-resource-added"
@@ -14838,7 +14811,7 @@ msgstr "A Funcionalidade do Rotador de Folhas Foi Removida"
 
 #. TRANSLATORS: Sheet Rotator Thermistor Failure
 msgid "printer-state-reasons.sheet-rotator-thermistor-failure"
-msgstr "Ocorreu uma Falha no Termistor do Rotador de Folhas"
+msgstr "Falha no Termístor do Rotador de Folhas"
 
 #. TRANSLATORS: Sheet Rotator Timing Failure
 msgid "printer-state-reasons.sheet-rotator-timing-failure"
@@ -14874,7 +14847,7 @@ msgstr ""
 
 #. TRANSLATORS: Printer offline
 msgid "printer-state-reasons.shutdown"
-msgstr ""
+msgstr "Impressora Desligada"
 
 #. TRANSLATORS: Slitter Added
 msgid "printer-state-reasons.slitter-added"
@@ -15024,61 +14997,59 @@ msgstr "O Cortador de Bobinas Está a Aquecer"
 
 #. TRANSLATORS: Spool Area Full
 msgid "printer-state-reasons.spool-area-full"
-msgstr ""
+msgstr "Área de Spool Cheia"
 
 #. TRANSLATORS: Stacker Added
 msgid "printer-state-reasons.stacker-added"
-msgstr "O Empilhador Foi Adicionado"
+msgstr "Empilhador Adicionado"
 
 #. TRANSLATORS: Stacker Almost Empty
 msgid "printer-state-reasons.stacker-almost-empty"
-msgstr ""
+msgstr "Empilhador Quase Vazio"
 
 #. TRANSLATORS: Stacker Almost Full
 msgid "printer-state-reasons.stacker-almost-full"
-msgstr ""
+msgstr "Empilhador Quase Cheio"
 
 #. TRANSLATORS: Stacker At Limit
 msgid "printer-state-reasons.stacker-at-limit"
-msgstr "O Empilhador Está no Limite"
+msgstr "Empilhador No Limite"
 
 #. TRANSLATORS: Stacker Closed
 msgid "printer-state-reasons.stacker-closed"
-msgstr ""
+msgstr "Empilhador Fechado"
 
 #. TRANSLATORS: Stacker Configuration Change
 msgid "printer-state-reasons.stacker-configuration-change"
-msgstr ""
+msgstr "Mudança de Configuração do Empilhador"
 
 #. TRANSLATORS: Stacker Cover Closed
 msgid "printer-state-reasons.stacker-cover-closed"
-msgstr "A Tampa do Empilhador Está Fechada"
+msgstr "Tampa do Empilhador Fechada"
 
 #. TRANSLATORS: Stacker Cover Open
 msgid "printer-state-reasons.stacker-cover-open"
-msgstr "A Tampa do Empilhador Está Aberta"
+msgstr "Tampa do Empilhador Aberta"
 
 #. TRANSLATORS: Stacker Empty
 msgid "printer-state-reasons.stacker-empty"
-msgstr ""
+msgstr "Empilhador Vazio"
 
 #. TRANSLATORS: Stacker Full
 msgid "printer-state-reasons.stacker-full"
-msgstr ""
+msgstr "Empilhador Cheio"
 
 #. TRANSLATORS: Stacker Interlock Closed
 msgid "printer-state-reasons.stacker-interlock-closed"
-msgstr ""
-"O intertravamento do empilhador printer-state-reasons.stacker-interlock-"
-"closed está fechado"
+msgstr "Câmara Interna do Empilhador Fechada"
 
 #. TRANSLATORS: Stacker Interlock Open
 msgid "printer-state-reasons.stacker-interlock-open"
-msgstr ""
+msgstr "Câmara Interna do Empilhador Aberta"
 
 #. TRANSLATORS: Stacker Jam
 msgid "printer-state-reasons.stacker-jam"
-msgstr "Ocorreu um Atolamento no Empilhador"
+msgstr "Empilhador Encravado"
 
 #. TRANSLATORS: Stacker Life Almost Over
 msgid "printer-state-reasons.stacker-life-almost-over"
