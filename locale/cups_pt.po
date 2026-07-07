@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: CUPS 2.5\n"
 "Report-Msgid-Bugs-To: https://github.com/openprinting/cups/issues\n"
 "POT-Creation-Date: 2026-06-25 14:51-0400\n"
-"PO-Revision-Date: 2026-07-07 00:01+0000\n"
+"PO-Revision-Date: 2026-07-07 21:48+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/cups/cups/pt/>"
 "\n"
@@ -1011,7 +1011,7 @@ msgstr "\"%s\": valor enum errado %d - fora de alcance (RFC 8011 secção 5.1.5)
 msgid ""
 "\"%s\": Bad keyword value \"%s\" - bad length %d (RFC 8011 section 5.1.4)."
 msgstr ""
-"\"%s\": valor de palavra-chave errado \"%s\"  - mau comprimento %d (RFC 8011 "
+"\"%s\": valor de palavra-chave errado \"%s\" - mau comprimento %d (RFC 8011 "
 "secção 5.1.4)."
 
 #, c-format
@@ -1272,7 +1272,7 @@ msgstr "%s: Erro - A impressora ou classe não existe."
 
 #, c-format
 msgid "%s: Error - add '/version=1.1' to server name."
-msgstr "%s: Erro -  adicione '/version=1.1' ao nome do servidor."
+msgstr "%s: Erro - adicione '/version=1.1' ao nome do servidor."
 
 #, c-format
 msgid "%s: Error - bad job ID."
@@ -3768,7 +3768,7 @@ msgstr "Encriptação não é suportada."
 #. TRANSLATORS: Banner/cover sheet after the print job.
 #, fuzzy
 msgid "Ending Banner"
-msgstr "Faixa no fim da folha da impressão"
+msgstr "Faixa no fim da folha da impressão -- isto tá errado !!!"
 
 msgid "English"
 msgstr "Inglês"
@@ -4339,7 +4339,7 @@ msgstr "O trabalho #%d já foi cancelado - não pode cancelar."
 
 #, c-format
 msgid "Job #%d is already completed - can't cancel."
-msgstr "O trabalho #%d já foi concluído  - não pode cancelar."
+msgstr "O trabalho #%d já foi concluído - não pode cancelar."
 
 #, c-format
 msgid "Job #%d is finished and cannot be altered."
@@ -4465,7 +4465,7 @@ msgid "Missing CloseUI/JCLCloseUI"
 msgstr "Falta o CloseUI/JCLCloseUI"
 
 msgid "Missing DEVICE_URI variable."
-msgstr "Variável DEVICE_URI em falta"
+msgstr "Variável DEVICE_URI em falta."
 
 msgid "Missing PPD-Adobe-4.x header"
 msgstr "Falta o cabeçalho do PPD-Adobe-4.x"
@@ -4474,13 +4474,13 @@ msgid "Missing asterisk in column 1"
 msgstr "Falta o asterisco na coluna 1"
 
 msgid "Missing document-number attribute."
-msgstr "Falta o atributo do número de documento"
+msgstr "Falta o atributo do número de documento."
 
 msgid "Missing form variable"
 msgstr "Falta a variável do formulário"
 
 msgid "Missing last-document attribute in request."
-msgstr "Falta o atributo do último documento no pedido"
+msgstr "Falta o atributo do último documento no pedido."
 
 msgid "Missing media or media-col."
 msgstr "Falta o media ou o media-col."
@@ -4654,7 +4654,7 @@ msgid "No printer-uri in request."
 msgstr "Não foi encontrado um printer-uri no pedido."
 
 msgid "No printer-uri-supported attribute."
-msgstr "Nenhum atributo printer-uri-supported"
+msgstr "Nenhum atributo printer-uri-supported."
 
 msgid "No request URI."
 msgstr "Nenhum URI de pedido."
@@ -4918,7 +4918,7 @@ msgid "Printer Settings"
 msgstr "Configurações da Impressora"
 
 msgid "Printer cannot print supplied content."
-msgstr "A impressora não pode imprimir o conteúdo  fornecido."
+msgstr "A impressora não pode imprimir o conteúdo fornecido."
 
 msgid "Printer cannot print with supplied options."
 msgstr "A impressora não pode imprimir com as opções fornecidas."
@@ -5055,7 +5055,10 @@ msgstr "Normalização"
 #, fuzzy
 msgid "Starting Banner"
 msgstr ""
-"Faixa no início da folha da impressão preciso de boa tradução para banner"
+"Faixa no início da folha da impressão \n"
+"\n"
+"\n"
+"preciso de boa tradução para banner, e aqui o contexto tá errado"
 
 #, c-format
 msgid "Starting page %d."
@@ -6930,51 +6933,51 @@ msgstr "Dobrar no formato de \"Z\""
 
 #. TRANSLATORS: JDF F10-1
 msgid "finishing-template.jdf-f10-1"
-msgstr "Formato de definição do trabalho JDF F10-1"
+msgstr "JDF F10-1"
 
 #. TRANSLATORS: JDF F10-2
 msgid "finishing-template.jdf-f10-2"
-msgstr "Formato de definição do trabalho JDF F10-2"
+msgstr "JDF F10-2"
 
 #. TRANSLATORS: JDF F10-3
 msgid "finishing-template.jdf-f10-3"
-msgstr "Formato de definição do trabalho JDF F10-3"
+msgstr "JDF F10-3"
 
 #. TRANSLATORS: JDF F12-1
 msgid "finishing-template.jdf-f12-1"
-msgstr "Formato de definição do trabalho JDF F12-1"
+msgstr "JDF F12-1"
 
 #. TRANSLATORS: JDF F12-10
 msgid "finishing-template.jdf-f12-10"
-msgstr "Formato de definição do trabalho JDF F12-10"
+msgstr "JDF F12-10"
 
 #. TRANSLATORS: JDF F12-11
 msgid "finishing-template.jdf-f12-11"
-msgstr "Formato de definição do trabalho JDF F12-11"
+msgstr "JDF F12-11"
 
 #. TRANSLATORS: JDF F12-12
 msgid "finishing-template.jdf-f12-12"
-msgstr "Formato de definição do trabalho JDF F12-12"
+msgstr "JDF F12-12"
 
 #. TRANSLATORS: JDF F12-13
 msgid "finishing-template.jdf-f12-13"
-msgstr "Formato de definição do trabalho JDF F12-13"
+msgstr "JDF F12-13"
 
 #. TRANSLATORS: JDF F12-14
 msgid "finishing-template.jdf-f12-14"
-msgstr "Formato de definição do trabalho JDF F12-14"
+msgstr "JDF F12-14"
 
 #. TRANSLATORS: JDF F12-2
 msgid "finishing-template.jdf-f12-2"
-msgstr "Formato de definição do trabalho JDF F12-12"
+msgstr "JDF F12-2"
 
 #. TRANSLATORS: JDF F12-3
 msgid "finishing-template.jdf-f12-3"
-msgstr "Formato de definição do trabalho JDF F12-3"
+msgstr "JDF F12-3"
 
 #. TRANSLATORS: JDF F12-4
 msgid "finishing-template.jdf-f12-4"
-msgstr "Formato de definição do trabalho JDF F12-4"
+msgstr "JDF F12-4"
 
 #. TRANSLATORS: JDF F12-5
 msgid "finishing-template.jdf-f12-5"
@@ -14677,13 +14680,11 @@ msgstr "O Separador e Cortador Está a Aquecer"
 
 #. TRANSLATORS: Sheet Rotator Added
 msgid "printer-state-reasons.sheet-rotator-added"
-msgstr "O Rotador de Folhas Foi Adicionado"
+msgstr "Rotador de Folhas Adicionado"
 
 #. TRANSLATORS: Sheet Rotator Almost Empty
 msgid "printer-state-reasons.sheet-rotator-almost-empty"
-msgstr ""
-"O rotador de folhas printer-state-reasons.sheet-rotator-almost-empty está "
-"quase vazio"
+msgstr "Rotador de Folhas Quase Vazio"
 
 #. TRANSLATORS: Sheet Rotator Almost Full
 msgid "printer-state-reasons.sheet-rotator-almost-full"
@@ -14831,7 +14832,7 @@ msgstr "O Rotador de Folhas Está com a Temperatura Abaixo do Normal"
 
 #. TRANSLATORS: Sheet Rotator Unrecoverable Failure
 msgid "printer-state-reasons.sheet-rotator-unrecoverable-failure"
-msgstr "Ocorreu uma Falha no Rotador de Folhas que Não Pode Ser Restaurado"
+msgstr "Falha Irrecuperável do Rotador de Folhas"
 
 #. TRANSLATORS: Sheet Rotator Unrecoverable Storage Error
 msgid "printer-state-reasons.sheet-rotator-unrecoverable-storage-error"
@@ -14841,9 +14842,7 @@ msgstr ""
 
 #. TRANSLATORS: Sheet Rotator Warming Up
 msgid "printer-state-reasons.sheet-rotator-warming-up"
-msgstr ""
-"O rotador de folhas printer-state-reasons.sheet-rotator-warming-up está "
-"aquecendo"
+msgstr "Rotador de Folhas a Aquecer"
 
 #. TRANSLATORS: Printer offline
 msgid "printer-state-reasons.shutdown"
@@ -14851,149 +14850,147 @@ msgstr "Impressora Desligada"
 
 #. TRANSLATORS: Slitter Added
 msgid "printer-state-reasons.slitter-added"
-msgstr "O Cortador de Bobinas Foi Adicionado"
+msgstr "Cortador Adicionado"
 
 #. TRANSLATORS: Slitter Almost Empty
 msgid "printer-state-reasons.slitter-almost-empty"
-msgstr "O Cortador de Bobinas Está Vazio"
+msgstr "Cortador Quase Vazio"
 
 #. TRANSLATORS: Slitter Almost Full
 msgid "printer-state-reasons.slitter-almost-full"
-msgstr "O Cortador de Bobinas Está Cheio"
+msgstr "Cortador Quase Cheio"
 
 #. TRANSLATORS: Slitter At Limit
 msgid "printer-state-reasons.slitter-at-limit"
-msgstr "O Cortador de Bobinas Está no Limite"
+msgstr "Cortador no Limite"
 
 #. TRANSLATORS: Slitter Closed
 msgid "printer-state-reasons.slitter-closed"
-msgstr "O Cortador de Bobinas Está Fechado"
+msgstr "Cortador Fechado"
 
 #. TRANSLATORS: Slitter Configuration Change
 msgid "printer-state-reasons.slitter-configuration-change"
-msgstr "Alterar as Configurações do Cortador de Bobinas"
+msgstr "Mudança de Configuração do Cortador"
 
 #. TRANSLATORS: Slitter Cover Closed
 msgid "printer-state-reasons.slitter-cover-closed"
-msgstr "A Tampa do Cortador de Bobinas Está Fechada"
+msgstr "Tampa do Cortador Fechada"
 
 #. TRANSLATORS: Slitter Cover Open
 msgid "printer-state-reasons.slitter-cover-open"
-msgstr "A Tampa do Cortador de Bobinas Está Aberta"
+msgstr "Tampa do Cortador Aberta"
 
 #. TRANSLATORS: Slitter Empty
 msgid "printer-state-reasons.slitter-empty"
-msgstr "O Cortador de Bobinas Está Vazio"
+msgstr "Cortador Vazio"
 
 #. TRANSLATORS: Slitter Full
 msgid "printer-state-reasons.slitter-full"
-msgstr "O Cortador de Bobinas Está Cheio"
+msgstr "Cortador Cheio"
 
 #. TRANSLATORS: Slitter Interlock Closed
 msgid "printer-state-reasons.slitter-interlock-closed"
-msgstr "O Intertravamento do Cortador de Bobinas Está Fechado"
+msgstr "Câmara Interna do Cortador Fechada"
 
 #. TRANSLATORS: Slitter Interlock Open
 msgid "printer-state-reasons.slitter-interlock-open"
-msgstr "O Intertravamento do Cortador de Bobinas Está Aberto"
+msgstr "Câmara Interna do Cortador Aberta"
 
 #. TRANSLATORS: Slitter Jam
 msgid "printer-state-reasons.slitter-jam"
-msgstr "Ocorreu um Atolamento no Cortador"
+msgstr "Cortador Encravado"
 
 #. TRANSLATORS: Slitter Life Almost Over
 msgid "printer-state-reasons.slitter-life-almost-over"
-msgstr "O Cortador de Bobinas Está Quase no Fim da Sua Vida Útil"
+msgstr "Cortador Quase em Fim de Vida"
 
 #. TRANSLATORS: Slitter Life Over
 msgid "printer-state-reasons.slitter-life-over"
-msgstr "O Cortador de Bobinas Está no Fim da Sua Vida Útil"
+msgstr "Cortador em Fim de Vida"
 
 #. TRANSLATORS: Slitter Memory Exhausted
 msgid "printer-state-reasons.slitter-memory-exhausted"
-msgstr "A Memória do Cortador de Bobinas Foi Esgotada"
+msgstr "Memória Esgotada do Cortador"
 
 #. TRANSLATORS: Slitter Missing
 msgid "printer-state-reasons.slitter-missing"
-msgstr "Ocorreu uma Falha no Cortador de Bobinas"
+msgstr "Cortador em Falta"
 
 #. TRANSLATORS: Slitter Motor Failure
 msgid "printer-state-reasons.slitter-motor-failure"
-msgstr "Ocorreu uma Falha no Motor do Cortador de Bobinas"
+msgstr "Falha no Motor do Cortador"
 
 #. TRANSLATORS: Slitter Near Limit
 msgid "printer-state-reasons.slitter-near-limit"
-msgstr "O Cortador de Bobinas Está Próximo do Seu Limite"
+msgstr "Cortador Próximo do Limite"
 
 #. TRANSLATORS: Slitter Offline
 msgid "printer-state-reasons.slitter-offline"
-msgstr "O Cortador de Bobinas Não Está Conectado"
+msgstr "Cortador Desligado"
 
 #. TRANSLATORS: Slitter Opened
 msgid "printer-state-reasons.slitter-opened"
-msgstr "O Cortador de Bobinas Está Aberto"
+msgstr "Cortador Foi Aberto"
 
 #. TRANSLATORS: Slitter Over Temperature
 msgid "printer-state-reasons.slitter-over-temperature"
-msgstr "O Cortador de Bobinas Atingiu uma Temperatura Excessiva"
+msgstr "Cortador com Temperatura Excessiva"
 
 #. TRANSLATORS: Slitter Power Saver
 msgid "printer-state-reasons.slitter-power-saver"
-msgstr "O Cortador de Bobinas Entrou no Modo de Economia de Energia"
+msgstr "Cortador em Poupança de Energia"
 
 #. TRANSLATORS: Slitter Recoverable Failure
 msgid "printer-state-reasons.slitter-recoverable-failure"
-msgstr "Ocorreu uma Falha no Cortador de Bobinas que Pode Ser Restaurado"
+msgstr "Falha Recuperável do Cortador"
 
 #. TRANSLATORS: Slitter Recoverable Storage
 msgid "printer-state-reasons.slitter-recoverable-storage"
-msgstr "O Armazenamento do Cortador de Bobinas Pode Ser Restaurado"
+msgstr "Armazenamento Recuperável do Cortador"
 
 #. TRANSLATORS: Slitter Removed
 msgid "printer-state-reasons.slitter-removed"
-msgstr "O Cortador de Bobinas Foi Removido"
+msgstr "Cortador Removido"
 
 #. TRANSLATORS: Slitter Resource Added
 msgid "printer-state-reasons.slitter-resource-added"
-msgstr "A Funcionalidade do Cortador de Bobinas Foi Adicionada"
+msgstr "Funcionalidade do Cortador Adicionada"
 
 #. TRANSLATORS: Slitter Resource Removed
 msgid "printer-state-reasons.slitter-resource-removed"
-msgstr "A Funcionalidade do Cortador de Bobinas Foi Removida"
+msgstr "Funcionalidade do Cortador Removida"
 
 #. TRANSLATORS: Slitter Thermistor Failure
 msgid "printer-state-reasons.slitter-thermistor-failure"
-msgstr "Ocorreu uma Falha no Termistor do Cortador de Bobinas"
+msgstr "Falha no Termístor do Cortador"
 
 #. TRANSLATORS: Slitter Timing Failure
 msgid "printer-state-reasons.slitter-timing-failure"
-msgstr "Ocorreu uma Falha no Temporizador do Cortador de Bobinas"
+msgstr "Falha no Temporizador do Cortador"
 
 #. TRANSLATORS: Slitter Turned Off
 msgid "printer-state-reasons.slitter-turned-off"
-msgstr "O Cortador de Bobinas Está Desligado"
+msgstr "Cortador Foi Desligado"
 
 #. TRANSLATORS: Slitter Turned On
 msgid "printer-state-reasons.slitter-turned-on"
-msgstr "O Cortador de Bobinas Está Ligado"
+msgstr "Cortador Foi Ligado"
 
 #. TRANSLATORS: Slitter Under Temperature
 msgid "printer-state-reasons.slitter-under-temperature"
-msgstr "O Cortador de Bobinas Está com a Temperatura Abaixo do Normal"
+msgstr "Cortador com Temperatura Abaixo do Normal"
 
 #. TRANSLATORS: Slitter Unrecoverable Failure
 msgid "printer-state-reasons.slitter-unrecoverable-failure"
-msgstr "Ocorreu uma Falha no Cortador de Bobinas que Não Pode Ser Restaurado"
+msgstr "Falha Irrecuperável do Cortador"
 
 #. TRANSLATORS: Slitter Unrecoverable Storage Error
 msgid "printer-state-reasons.slitter-unrecoverable-storage-error"
-msgstr ""
-"Ocorreu um Erro no Armazenamento do Cortador de Bobinas que Não Pode Ser "
-"Restaurado"
+msgstr "Erro de Armazenamento Irrecuperável do Cortador"
 
 #. TRANSLATORS: Slitter Warming Up
 msgid "printer-state-reasons.slitter-warming-up"
-msgstr "O Cortador de Bobinas Está a Aquecer"
+msgstr "Cortador a Aquecer"
 
 #. TRANSLATORS: Spool Area Full
 msgid "printer-state-reasons.spool-area-full"
@@ -15053,963 +15050,929 @@ msgstr "Empilhador Encravado"
 
 #. TRANSLATORS: Stacker Life Almost Over
 msgid "printer-state-reasons.stacker-life-almost-over"
-msgstr "O Empilhador Está Quase no Fim da Sua Vida Útil"
+msgstr "Empilhador Quase em Fim de Vida"
 
 #. TRANSLATORS: Stacker Life Over
 msgid "printer-state-reasons.stacker-life-over"
-msgstr "O Empilhador Está no Fim da Sua Vida Útil"
+msgstr "Empilhador em Fim de Vida"
 
 #. TRANSLATORS: Stacker Memory Exhausted
 msgid "printer-state-reasons.stacker-memory-exhausted"
-msgstr ""
+msgstr "Memória Esgotada do Empilhador"
 
 #. TRANSLATORS: Stacker Missing
 msgid "printer-state-reasons.stacker-missing"
-msgstr ""
+msgstr "Empilhador Em Falta"
 
 #. TRANSLATORS: Stacker Motor Failure
 msgid "printer-state-reasons.stacker-motor-failure"
-msgstr ""
+msgstr "Falha no Motor do Empilhador"
 
 #. TRANSLATORS: Stacker Near Limit
 msgid "printer-state-reasons.stacker-near-limit"
-msgstr "O Empilhador Está Próximo do Seu Limite"
+msgstr "Empilhador Próximo do Limite"
 
 #. TRANSLATORS: Stacker Offline
 msgid "printer-state-reasons.stacker-offline"
-msgstr "O Empilhador Não Está Conectado"
+msgstr "Empilhador Desligado"
 
 #. TRANSLATORS: Stacker Opened
 msgid "printer-state-reasons.stacker-opened"
-msgstr ""
+msgstr "Empilhador Aberto"
 
 #. TRANSLATORS: Stacker Over Temperature
 msgid "printer-state-reasons.stacker-over-temperature"
-msgstr "O Empilhador Atingiu uma Temperatura Excessiva"
+msgstr "Empilhador com Temperatura Excessiva"
 
 #. TRANSLATORS: Stacker Power Saver
 msgid "printer-state-reasons.stacker-power-saver"
-msgstr ""
+msgstr "Empilhador em Poupança de Energia"
 
 #. TRANSLATORS: Stacker Recoverable Failure
 msgid "printer-state-reasons.stacker-recoverable-failure"
-msgstr "Ocorreu uma Falha no Empilhador que Pode Ser Restaurada"
+msgstr "Falha Recuperável do Empilhador"
 
 #. TRANSLATORS: Stacker Recoverable Storage
 msgid "printer-state-reasons.stacker-recoverable-storage"
-msgstr "O Armazenamento do Empilhador Pode Ser Restaurado"
+msgstr "Armazenamento Recuperável do Empilhador"
 
 #. TRANSLATORS: Stacker Removed
 msgid "printer-state-reasons.stacker-removed"
-msgstr "O Empilhador Foi Removido"
+msgstr "Empilhador Removido"
 
 #. TRANSLATORS: Stacker Resource Added
 msgid "printer-state-reasons.stacker-resource-added"
-msgstr "A Funcionalidade do Empilhador Foi Adicionada"
+msgstr "Funcionalidade do Empilhador Adicionada"
 
 #. TRANSLATORS: Stacker Resource Removed
 msgid "printer-state-reasons.stacker-resource-removed"
-msgstr "A Funcionalidade do Empilhador Foi Removida"
+msgstr "Funcionalidade do Empilhador Removida"
 
 #. TRANSLATORS: Stacker Thermistor Failure
 msgid "printer-state-reasons.stacker-thermistor-failure"
-msgstr "Ocorreu uma Falha no Termistor do Empilhador"
+msgstr "Falha no Termístor do Empilhador"
 
 #. TRANSLATORS: Stacker Timing Failure
 msgid "printer-state-reasons.stacker-timing-failure"
-msgstr "Ocorreu uma Falha no Temporizador do Empilhador"
+msgstr "Falha no Temporizador do Empilhador"
 
 #. TRANSLATORS: Stacker Turned Off
 msgid "printer-state-reasons.stacker-turned-off"
-msgstr "O Empilhador Está Desligado"
+msgstr "Empilhador Foi Desligado"
 
 #. TRANSLATORS: Stacker Turned On
 msgid "printer-state-reasons.stacker-turned-on"
-msgstr "O Empilhador Está Ligado"
+msgstr "Empilhador Foi Ligado"
 
 #. TRANSLATORS: Stacker Under Temperature
 msgid "printer-state-reasons.stacker-under-temperature"
-msgstr "O Empilhador Está com a Temperatura Abaixo do Normal"
+msgstr "Empilhador com Temperatura Abaixo do Normal"
 
 #. TRANSLATORS: Stacker Unrecoverable Failure
 msgid "printer-state-reasons.stacker-unrecoverable-failure"
-msgstr "Ocorreu uma Falha no Empilhador que Não Pode Ser Restaurada"
+msgstr "Falha Irrecuperável do Empilhador"
 
 #. TRANSLATORS: Stacker Unrecoverable Storage Error
 msgid "printer-state-reasons.stacker-unrecoverable-storage-error"
-msgstr ""
-"Ocorreu um Erro no Armazenamento do Empilhador que Não Pode Ser Restaurado"
+msgstr "Erro de Armazenamento Irrecuperável do Empilhador"
 
 #. TRANSLATORS: Stacker Warming Up
 msgid "printer-state-reasons.stacker-warming-up"
-msgstr "O empilhador está a aquecer"
+msgstr "Empilhador a Aquecer"
 
 #. TRANSLATORS: Stapler Added
 msgid "printer-state-reasons.stapler-added"
-msgstr "O Agrafador Foi Adicionado"
+msgstr "Agrafador Adicionado"
 
 #. TRANSLATORS: Stapler Almost Empty
 msgid "printer-state-reasons.stapler-almost-empty"
-msgstr ""
+msgstr "Agrafador Quase Vazio"
 
 #. TRANSLATORS: Stapler Almost Full
 msgid "printer-state-reasons.stapler-almost-full"
-msgstr ""
+msgstr "Agrafador Quase Cheio"
 
 #. TRANSLATORS: Stapler At Limit
 msgid "printer-state-reasons.stapler-at-limit"
-msgstr "O Agrafador Está no Limite"
+msgstr "Agrafador No Limite"
 
 #. TRANSLATORS: Stapler Closed
 msgid "printer-state-reasons.stapler-closed"
-msgstr ""
+msgstr "Agrafador Fechado"
 
 #. TRANSLATORS: Stapler Configuration Change
 msgid "printer-state-reasons.stapler-configuration-change"
-msgstr ""
+msgstr "Mudança de Configuração do Agrafador"
 
 #. TRANSLATORS: Stapler Cover Closed
 msgid "printer-state-reasons.stapler-cover-closed"
-msgstr "A Tampa do Agrafador Está Fechada"
+msgstr "Tampa do Agrafador Fechada"
 
 #. TRANSLATORS: Stapler Cover Open
 msgid "printer-state-reasons.stapler-cover-open"
-msgstr "A Tampa do Agrafador Está Aberta"
+msgstr "Tampa do Agrafador Aberta"
 
 #. TRANSLATORS: Stapler Empty
 msgid "printer-state-reasons.stapler-empty"
-msgstr ""
+msgstr "Agrafador Vazio"
 
 #. TRANSLATORS: Stapler Full
 msgid "printer-state-reasons.stapler-full"
-msgstr ""
+msgstr "Agrafador Cheio"
 
 #. TRANSLATORS: Stapler Interlock Closed
 msgid "printer-state-reasons.stapler-interlock-closed"
-msgstr ""
-"O intertravamento do agrafador printer-state-reasons.stapler-interlock-"
-"closed está fechado"
+msgstr "Câmara Interna do Agrafador Fechada"
 
 #. TRANSLATORS: Stapler Interlock Open
 msgid "printer-state-reasons.stapler-interlock-open"
-msgstr ""
+msgstr "Câmara Interna do Agrafador Aberta"
 
 #. TRANSLATORS: Stapler Jam
 msgid "printer-state-reasons.stapler-jam"
-msgstr "Ocorreu um Atolamento no Agrafador"
+msgstr "Agrafador Encravado"
 
 #. TRANSLATORS: Stapler Life Almost Over
 msgid "printer-state-reasons.stapler-life-almost-over"
-msgstr "O Agrafador Está Quase no Fim da Sua Vida Útil"
+msgstr "Agrafador Quase em Fim de Vida"
 
 #. TRANSLATORS: Stapler Life Over
 msgid "printer-state-reasons.stapler-life-over"
-msgstr "O Agrafador Está no Fim da Sua Vida Útil"
+msgstr "Agrafador em Fim de Vida"
 
 #. TRANSLATORS: Stapler Memory Exhausted
 msgid "printer-state-reasons.stapler-memory-exhausted"
-msgstr ""
+msgstr "Memória Esgotada do Agrafador"
 
 #. TRANSLATORS: Stapler Missing
 msgid "printer-state-reasons.stapler-missing"
-msgstr ""
+msgstr "Agrafador em Falta"
 
 #. TRANSLATORS: Stapler Motor Failure
 msgid "printer-state-reasons.stapler-motor-failure"
-msgstr ""
+msgstr "Falha no Motor do Agrafador"
 
 #. TRANSLATORS: Stapler Near Limit
 msgid "printer-state-reasons.stapler-near-limit"
-msgstr "O Agrafador Está Próximo do Seu Limite"
+msgstr "Agrafador Próximo do Limite"
 
 #. TRANSLATORS: Stapler Offline
 msgid "printer-state-reasons.stapler-offline"
-msgstr "O Agrafador Não Está Conectado"
+msgstr "Agrafador Desligado"
 
 #. TRANSLATORS: Stapler Opened
 msgid "printer-state-reasons.stapler-opened"
-msgstr ""
+msgstr "Agrafador Aberto"
 
 #. TRANSLATORS: Stapler Over Temperature
 msgid "printer-state-reasons.stapler-over-temperature"
-msgstr "O Agrafador Atingiu uma Temperatura Excessiva"
+msgstr "Agrafador com Temperatura Excessiva"
 
 #. TRANSLATORS: Stapler Power Saver
 msgid "printer-state-reasons.stapler-power-saver"
-msgstr ""
+msgstr "Agrafador em Poupança de Energia"
 
 #. TRANSLATORS: Stapler Recoverable Failure
 msgid "printer-state-reasons.stapler-recoverable-failure"
-msgstr "Ocorreu uma Falha no Agrafador que Pode Ser Restaurada"
+msgstr "Falha Recuperável do Agrafador"
 
 #. TRANSLATORS: Stapler Recoverable Storage
 msgid "printer-state-reasons.stapler-recoverable-storage"
-msgstr "O Armazenamento do Agrafador Pode Ser Restaurado"
+msgstr "Armazenamento Recuperável do Agrafador"
 
 #. TRANSLATORS: Stapler Removed
 msgid "printer-state-reasons.stapler-removed"
-msgstr "O Agrafador Foi Removido"
+msgstr "Agrafador Removido"
 
 #. TRANSLATORS: Stapler Resource Added
 msgid "printer-state-reasons.stapler-resource-added"
-msgstr "A Funcionalidade do Agrafador Foi Adicionada"
+msgstr "Funcionalidade do Agrafador Adicionada"
 
 #. TRANSLATORS: Stapler Resource Removed
 msgid "printer-state-reasons.stapler-resource-removed"
-msgstr "A Funcionalidade do Agrafador Foi Removida"
+msgstr "Funcionalidade do Agrafador Removida"
 
 #. TRANSLATORS: Stapler Thermistor Failure
 msgid "printer-state-reasons.stapler-thermistor-failure"
-msgstr "Ocorreu uma Falha no Termistor do Agrafador"
+msgstr "Falha no Termístor do Agrafador"
 
 #. TRANSLATORS: Stapler Timing Failure
 msgid "printer-state-reasons.stapler-timing-failure"
-msgstr "Ocorreu uma Falha no Temporizador do Agrafador"
+msgstr "Falha no Temporizador do Agrafador"
 
 #. TRANSLATORS: Stapler Turned Off
 msgid "printer-state-reasons.stapler-turned-off"
-msgstr "O Agrafador Está Desligado"
+msgstr "Agrafador Desligado"
 
 #. TRANSLATORS: Stapler Turned On
 msgid "printer-state-reasons.stapler-turned-on"
-msgstr "O Agrafador Está Ligado"
+msgstr "Agrafador Ligado"
 
 #. TRANSLATORS: Stapler Under Temperature
 msgid "printer-state-reasons.stapler-under-temperature"
-msgstr "O Agrafador Está com a Temperatura Abaixo do Normal"
+msgstr "Agrafador com Temperatura Abaixo do Normal"
 
 #. TRANSLATORS: Stapler Unrecoverable Failure
 msgid "printer-state-reasons.stapler-unrecoverable-failure"
-msgstr "Ocorreu uma Falha no Agrafador que Não Pode Ser Restaurada"
+msgstr "Falha Irrecuperável do Agrafador"
 
 #. TRANSLATORS: Stapler Unrecoverable Storage Error
 msgid "printer-state-reasons.stapler-unrecoverable-storage-error"
-msgstr ""
-"Ocorreu um Erro no Armazenamento do Agrafador que Não Pode Ser Restaurado"
+msgstr "Erro de Armazenamento Irrecuperável do Agrafador"
 
 #. TRANSLATORS: Stapler Warming Up
 msgid "printer-state-reasons.stapler-warming-up"
-msgstr "O Agrafador Está a Aquecer"
+msgstr "Agrafador a Aquecer"
 
 #. TRANSLATORS: Stitcher Added
 msgid "printer-state-reasons.stitcher-added"
-msgstr "O Costurador Foi Adicionado"
+msgstr "Costureiro Adicionado"
 
 #. TRANSLATORS: Stitcher Almost Empty
 msgid "printer-state-reasons.stitcher-almost-empty"
-msgstr ""
+msgstr "Costureiro Quase Vazio"
 
 #. TRANSLATORS: Stitcher Almost Full
 msgid "printer-state-reasons.stitcher-almost-full"
-msgstr ""
+msgstr "Costureiro Quase Cheio"
 
 #. TRANSLATORS: Stitcher At Limit
 msgid "printer-state-reasons.stitcher-at-limit"
-msgstr "O Costurador Está no Limite"
+msgstr "Costureiro No Limite"
 
 #. TRANSLATORS: Stitcher Closed
 msgid "printer-state-reasons.stitcher-closed"
-msgstr ""
+msgstr "Costureiro Fechado"
 
 #. TRANSLATORS: Stitcher Configuration Change
 msgid "printer-state-reasons.stitcher-configuration-change"
-msgstr ""
+msgstr "Mudança de Configuração do Costureiro"
 
 #. TRANSLATORS: Stitcher Cover Closed
 msgid "printer-state-reasons.stitcher-cover-closed"
-msgstr "A Tampa do Costurador Está Fechada"
+msgstr "A Tampa do Costureiro Está Fechada"
 
 #. TRANSLATORS: Stitcher Cover Open
 msgid "printer-state-reasons.stitcher-cover-open"
-msgstr "A Tampa do Costurador Está Aberta"
+msgstr "A Tampa do Costureiro Está Aberta"
 
 #. TRANSLATORS: Stitcher Empty
 msgid "printer-state-reasons.stitcher-empty"
-msgstr ""
+msgstr "Costureiro Vazio"
 
 #. TRANSLATORS: Stitcher Full
 msgid "printer-state-reasons.stitcher-full"
-msgstr ""
+msgstr "Costureiro Cheio"
 
 #. TRANSLATORS: Stitcher Interlock Closed
 msgid "printer-state-reasons.stitcher-interlock-closed"
-msgstr ""
-"O intertravamento do costurador printer-state-reasons.stitcher-interlock-"
-"closed está fechado"
+msgstr "Câmara Interna do Costureiro Fechada"
 
 #. TRANSLATORS: Stitcher Interlock Open
 msgid "printer-state-reasons.stitcher-interlock-open"
-msgstr ""
+msgstr "Câmara Interna do Costureiro Aberta"
 
 #. TRANSLATORS: Stitcher Jam
 msgid "printer-state-reasons.stitcher-jam"
-msgstr "Ocorreu um Atolamento no Costurador"
+msgstr "Costureiro Encravado"
 
 #. TRANSLATORS: Stitcher Life Almost Over
 msgid "printer-state-reasons.stitcher-life-almost-over"
-msgstr "O Costurador Está Quase no Fim da Sua Vida Útil"
+msgstr "Costureiro Quase em Fim de Vida"
 
 #. TRANSLATORS: Stitcher Life Over
 msgid "printer-state-reasons.stitcher-life-over"
-msgstr "O Costurador Está no Fim da Sua Vida Útil"
+msgstr "Costureiro em Fim de Vida"
 
 #. TRANSLATORS: Stitcher Memory Exhausted
 msgid "printer-state-reasons.stitcher-memory-exhausted"
-msgstr ""
+msgstr "Memória Esgotada do Costureiro"
 
 #. TRANSLATORS: Stitcher Missing
 msgid "printer-state-reasons.stitcher-missing"
-msgstr ""
+msgstr "Costureiro em Falta"
 
 #. TRANSLATORS: Stitcher Motor Failure
 msgid "printer-state-reasons.stitcher-motor-failure"
-msgstr ""
+msgstr "Falha no Motor do Costureiro"
 
 #. TRANSLATORS: Stitcher Near Limit
 msgid "printer-state-reasons.stitcher-near-limit"
-msgstr "O Costurador Está Próximo do Seu Limite"
+msgstr "Costureiro Próximo do Limite"
 
 #. TRANSLATORS: Stitcher Offline
 msgid "printer-state-reasons.stitcher-offline"
-msgstr "O Costurador Não Está Conectado"
+msgstr "Costureiro Desligado"
 
 #. TRANSLATORS: Stitcher Opened
 msgid "printer-state-reasons.stitcher-opened"
-msgstr ""
+msgstr "Costureiro Aberto"
 
 #. TRANSLATORS: Stitcher Over Temperature
 msgid "printer-state-reasons.stitcher-over-temperature"
-msgstr "O Costurador Atingiu uma Temperatura Excessiva"
+msgstr "Costureiro com Temperatura Excessiva"
 
 #. TRANSLATORS: Stitcher Power Saver
 msgid "printer-state-reasons.stitcher-power-saver"
-msgstr ""
+msgstr "Costureiro em Poupança de Energia"
 
 #. TRANSLATORS: Stitcher Recoverable Failure
 msgid "printer-state-reasons.stitcher-recoverable-failure"
-msgstr "Ocorreu uma Falha no Costurador que Pode Ser Restaurada"
+msgstr "Falha Recuperável do Costureiro"
 
 #. TRANSLATORS: Stitcher Recoverable Storage
 msgid "printer-state-reasons.stitcher-recoverable-storage"
-msgstr "O Armazenamento do Costurador Pode Ser Restaurado"
+msgstr "Armazenamento Recuperável do Costureiro"
 
 #. TRANSLATORS: Stitcher Removed
 msgid "printer-state-reasons.stitcher-removed"
-msgstr "O Costurador Foi Removido"
+msgstr "Costureiro Removido"
 
 #. TRANSLATORS: Stitcher Resource Added
 msgid "printer-state-reasons.stitcher-resource-added"
-msgstr "A Funcionalidade do Costurador Foi Adicionada"
+msgstr "Funcionalidade do Costureiro Adicionada"
 
 #. TRANSLATORS: Stitcher Resource Removed
 msgid "printer-state-reasons.stitcher-resource-removed"
-msgstr "A Funcionalidade do Costurador Foi Removida"
+msgstr "Funcionalidade do Costureiro Removida"
 
 #. TRANSLATORS: Stitcher Thermistor Failure
 msgid "printer-state-reasons.stitcher-thermistor-failure"
-msgstr "Ocorreu uma Falha no Termistor do Costurador"
+msgstr "Falha no Termístor do Costureiro"
 
 #. TRANSLATORS: Stitcher Timing Failure
 msgid "printer-state-reasons.stitcher-timing-failure"
-msgstr "Ocorreu uma Falha no Temporizador do Costurador"
+msgstr "Falha no Temporizador do Costureiro"
 
 #. TRANSLATORS: Stitcher Turned Off
 msgid "printer-state-reasons.stitcher-turned-off"
-msgstr "O Costurador Está Desligado"
+msgstr "Costureiro Desligado"
 
 #. TRANSLATORS: Stitcher Turned On
 msgid "printer-state-reasons.stitcher-turned-on"
-msgstr "O Costurador Está Ligado"
+msgstr "Costureiro Ligado"
 
 #. TRANSLATORS: Stitcher Under Temperature
 msgid "printer-state-reasons.stitcher-under-temperature"
-msgstr "O Costurador Está com a Temperatura Abaixo do Normal"
+msgstr "Costureiro com Temperatura Abaixo do Normal"
 
 #. TRANSLATORS: Stitcher Unrecoverable Failure
 msgid "printer-state-reasons.stitcher-unrecoverable-failure"
-msgstr "Ocorreu uma Falha no Costurador que Não Pode Ser Restaurada"
+msgstr "Falha Irrecuperável do Costureiro"
 
 #. TRANSLATORS: Stitcher Unrecoverable Storage Error
 msgid "printer-state-reasons.stitcher-unrecoverable-storage-error"
-msgstr "Ocorreu um Erro no Costurador que Não Pode Ser Restaurado"
+msgstr "Erro de Armazenamento Irrecuperável do Costureiro"
 
 #. TRANSLATORS: Stitcher Warming Up
 msgid "printer-state-reasons.stitcher-warming-up"
-msgstr "O Costurador Está a Aquecer"
+msgstr "Costureiro a Aquecer"
 
 #. TRANSLATORS: Partially stopped
 msgid "printer-state-reasons.stopped-partly"
-msgstr ""
+msgstr "Parcialmente parado"
 
 #. TRANSLATORS: Stopping
 msgid "printer-state-reasons.stopping"
-msgstr ""
+msgstr "A Parar"
 
 #. TRANSLATORS: Subunit Added
 msgid "printer-state-reasons.subunit-added"
-msgstr "A Subunidade Foi Adicionada"
+msgstr "Sub-unidade Adicionada"
 
 #. TRANSLATORS: Subunit Almost Empty
 msgid "printer-state-reasons.subunit-almost-empty"
-msgstr ""
+msgstr "Sub-unidade Quase Vazia"
 
 #. TRANSLATORS: Subunit Almost Full
 msgid "printer-state-reasons.subunit-almost-full"
-msgstr ""
+msgstr "Sub-unidade Quase Cheia"
 
 #. TRANSLATORS: Subunit At Limit
 msgid "printer-state-reasons.subunit-at-limit"
-msgstr "A Subunidade Está no Limite"
+msgstr "Sub-unidade No Limite"
 
 #. TRANSLATORS: Subunit Closed
 msgid "printer-state-reasons.subunit-closed"
-msgstr ""
+msgstr "Sub-unidade Fechada"
 
 #. TRANSLATORS: Subunit Cooling Down
 msgid "printer-state-reasons.subunit-cooling-down"
-msgstr ""
+msgstr "Sub-unidade A Arrefecer"
 
 #. TRANSLATORS: Subunit Empty
 msgid "printer-state-reasons.subunit-empty"
-msgstr ""
+msgstr "Sub-unidade Vazia"
 
 #. TRANSLATORS: Subunit Full
 msgid "printer-state-reasons.subunit-full"
-msgstr ""
+msgstr "Sub-unidade Cheia"
 
 #. TRANSLATORS: Subunit Life Almost Over
 msgid "printer-state-reasons.subunit-life-almost-over"
-msgstr "A Subunidade Está Quase no Fim da Sua Vida Útil"
+msgstr "Sub-unidade Quase em Fim de Vida"
 
 #. TRANSLATORS: Subunit Life Over
 msgid "printer-state-reasons.subunit-life-over"
-msgstr "A Subunidade Está no Fim da Sua Vida Útil"
+msgstr "Sub-unidade em Fim de Vida"
 
 #. TRANSLATORS: Subunit Memory Exhausted
 msgid "printer-state-reasons.subunit-memory-exhausted"
-msgstr ""
+msgstr "Memória Esgotada da Sub-unidade"
 
 #. TRANSLATORS: Subunit Missing
 msgid "printer-state-reasons.subunit-missing"
-msgstr ""
+msgstr "Sub-unidade Em Falta"
 
 #. TRANSLATORS: Subunit Motor Failure
 msgid "printer-state-reasons.subunit-motor-failure"
-msgstr ""
+msgstr "Falha no Motor da Sub-unidade"
 
 #. TRANSLATORS: Subunit Near Limit
 msgid "printer-state-reasons.subunit-near-limit"
-msgstr "A Subunidade Está Próximo do Seu Limite"
+msgstr "Sub-unidade Perto do Limite"
 
 #. TRANSLATORS: Subunit Offline
 msgid "printer-state-reasons.subunit-offline"
-msgstr "A Subunidade Não Está Conectado"
+msgstr "Sub-unidade Desligada"
 
 #. TRANSLATORS: Subunit Opened
 msgid "printer-state-reasons.subunit-opened"
-msgstr ""
+msgstr "Sub-unidade Aberta"
 
 #. TRANSLATORS: Subunit Over Temperature
 msgid "printer-state-reasons.subunit-over-temperature"
-msgstr "A Subunidade Atingiu uma Temperatura Excessiva"
+msgstr "Sub-unidade com Temperatura Excessiva"
 
 #. TRANSLATORS: Subunit Power Saver
 msgid "printer-state-reasons.subunit-power-saver"
-msgstr ""
+msgstr "Sub-unidade em Poupança de Energia"
 
 #. TRANSLATORS: Subunit Recoverable Failure
 msgid "printer-state-reasons.subunit-recoverable-failure"
-msgstr "Ocorreu uma Falha na Subunidade que Pode Ser Restaurada"
+msgstr "Falha Recuperável da Sub-unidade"
 
 #. TRANSLATORS: Subunit Recoverable Storage
 msgid "printer-state-reasons.subunit-recoverable-storage"
-msgstr "O Armazenamento da Subunidade Pode Ser Restaurado"
+msgstr "Armazenamento Recuperável da Sub-unidade"
 
 #. TRANSLATORS: Subunit Removed
 msgid "printer-state-reasons.subunit-removed"
-msgstr "A Subunidade Foi Removida"
+msgstr "Sub-unidade Removida"
 
 #. TRANSLATORS: Subunit Resource Added
 msgid "printer-state-reasons.subunit-resource-added"
-msgstr "A Funcionalidade da Subunidade Foi Adicionada"
+msgstr "Funcionalidade da Sub-unidade Adicionada"
 
 #. TRANSLATORS: Subunit Resource Removed
 msgid "printer-state-reasons.subunit-resource-removed"
-msgstr "A Funcionalidade de Subunidade Foi Removida"
+msgstr "Funcionalidade da Sub-unidade Removida"
 
 #. TRANSLATORS: Subunit Thermistor Failure
 msgid "printer-state-reasons.subunit-thermistor-failure"
-msgstr "Ocorreu uma Falha no Termistor da Subunidade"
+msgstr "Falha no Termístor da Sub-unidade"
 
 #. TRANSLATORS: Subunit Timing Failure
 msgid "printer-state-reasons.subunit-timing-Failure"
-msgstr "Ocorreu uma Falha no Temporizador da Subunidade"
+msgstr "Falha no Temporizador da Sub-unidade"
 
 #. TRANSLATORS: Subunit Turned Off
 msgid "printer-state-reasons.subunit-turned-off"
-msgstr "A Subunidade Está Desligado"
+msgstr "Sub-unidade Foi Desligada"
 
 #. TRANSLATORS: Subunit Turned On
 msgid "printer-state-reasons.subunit-turned-on"
-msgstr "A Subunidade Está Ligada"
+msgstr "Sub-unidade Foi Ligada"
 
 #. TRANSLATORS: Subunit Under Temperature
 msgid "printer-state-reasons.subunit-under-temperature"
-msgstr "A Subunidade Está com a Temperatura Abaixo do Normal"
+msgstr "Sub-unidade com Temperatura Abaixo do Normal"
 
 #. TRANSLATORS: Subunit Unrecoverable Failure
 msgid "printer-state-reasons.subunit-unrecoverable-failure"
-msgstr "Ocorreu uma Falha na Subunidade que Não Pode Ser Restaurada"
+msgstr "Falha Irrecuperável da Sub-unidade"
 
 #. TRANSLATORS: Subunit Unrecoverable Storage
 msgid "printer-state-reasons.subunit-unrecoverable-storage"
-msgstr "O Armazenamento da Subunidade Não Pode Ser Restaurado"
+msgstr "Armazenamento Irrecuperável da Sub-unidade"
 
 #. TRANSLATORS: Subunit Warming Up
 msgid "printer-state-reasons.subunit-warming-up"
-msgstr "A Subunidade Está a Aquecer"
+msgstr "Sub-unidade a Aquecer"
 
 #. TRANSLATORS: Printer stopped responding
 msgid "printer-state-reasons.timed-out"
-msgstr ""
+msgstr "Impressora Parou de Responder"
 
 #. TRANSLATORS: Out of toner
 msgid "printer-state-reasons.toner-empty"
-msgstr ""
+msgstr "Toner Vazio"
 
 #. TRANSLATORS: Toner low
 msgid "printer-state-reasons.toner-low"
-msgstr ""
+msgstr "Nível Baixo do Toner"
 
 #. TRANSLATORS: Trimmer Added
 msgid "printer-state-reasons.trimmer-added"
-msgstr "O Aparador Foi Adicionado"
+msgstr "Aparador Adicionado"
 
 #. TRANSLATORS: Trimmer Almost Empty
 msgid "printer-state-reasons.trimmer-almost-empty"
-msgstr ""
+msgstr "Aparador Quase Vazio"
 
 #. TRANSLATORS: Trimmer Almost Full
 msgid "printer-state-reasons.trimmer-almost-full"
-msgstr "O aparador printer-state-reasons.trimmer-almost-full está quase cheio"
+msgstr "Aparador Quase Cheio"
 
 #. TRANSLATORS: Trimmer At Limit
 msgid "printer-state-reasons.trimmer-at-limit"
-msgstr "O Aparador Está no Limite"
+msgstr "Aparador no Limite"
 
 #. TRANSLATORS: Trimmer Closed
 msgid "printer-state-reasons.trimmer-closed"
-msgstr "O aparador printer-state-reasons.trimmer-closed está fechado"
+msgstr "Aparador Fechado"
 
 #. TRANSLATORS: Trimmer Configuration Change
 msgid "printer-state-reasons.trimmer-configuration-change"
-msgstr ""
-"Alterações das configurações do aparador printer-state-reasons.trimmer-"
-"configuration-change"
+msgstr "Mudança de Configuração do Aparador"
 
 #. TRANSLATORS: Trimmer Cover Closed
 msgid "printer-state-reasons.trimmer-cover-closed"
-msgstr "A Tampa do Aparador Está Fechada"
+msgstr "Tampa do Aparador Fechada"
 
 #. TRANSLATORS: Trimmer Cover Open
 msgid "printer-state-reasons.trimmer-cover-open"
-msgstr "A Tampa do Aparador Está Aberta"
+msgstr "Tampa do Aparador Aberta"
 
 #. TRANSLATORS: Trimmer Empty
 msgid "printer-state-reasons.trimmer-empty"
-msgstr "O aparador printer-state-reasons.trimmer-empty está vazio"
+msgstr "Aparador Vazio"
 
 #. TRANSLATORS: Trimmer Full
 msgid "printer-state-reasons.trimmer-full"
-msgstr "O aparador printer-state-reasons.trimmer-full está cheio"
+msgstr "Aparador Cheio"
 
 #. TRANSLATORS: Trimmer Interlock Closed
 msgid "printer-state-reasons.trimmer-interlock-closed"
-msgstr ""
-"O intertravamento do aparador dprinter-state-reasons.trimmer-interlock-"
-"closed está fechado"
+msgstr "Câmara Interna do Aparador Fechada"
 
 #. TRANSLATORS: Trimmer Interlock Open
 msgid "printer-state-reasons.trimmer-interlock-open"
-msgstr ""
-"O intertravamento do aparador printer-state-reasons.trimmer-interlock-open "
-"está aberto"
+msgstr "Câmara Interna do Aparador Aberta"
 
 #. TRANSLATORS: Trimmer Jam
 msgid "printer-state-reasons.trimmer-jam"
-msgstr "Ocorreu um Atolamento no Aparador"
+msgstr "Aparador Encravado"
 
 #. TRANSLATORS: Trimmer Life Almost Over
 msgid "printer-state-reasons.trimmer-life-almost-over"
-msgstr "O Aparador Está Quase no Fim da Sua Vida Útil"
+msgstr "Aparador Quase em Fim de Vida"
 
 #. TRANSLATORS: Trimmer Life Over
 msgid "printer-state-reasons.trimmer-life-over"
-msgstr "O Aparador Está no Fim da Sua Vida Útil"
+msgstr "Aparador em Fim de Vida"
 
 #. TRANSLATORS: Trimmer Memory Exhausted
 msgid "printer-state-reasons.trimmer-memory-exhausted"
-msgstr ""
-"A memória do aparador printer-state-reasons.sheet-rotator-memory-exhausted "
-"foi esgotada"
+msgstr "Memória Esgotada do Aparador"
 
 #. TRANSLATORS: Trimmer Missing
 msgid "printer-state-reasons.trimmer-missing"
-msgstr "Ocorreu uma falha no aparador printer-state-reasons.trimmer-missing"
+msgstr "Aparador em Falta"
 
 #. TRANSLATORS: Trimmer Motor Failure
 msgid "printer-state-reasons.trimmer-motor-failure"
-msgstr ""
-"Ocorreu uma falha no motor do aparador printer-state-reasons.trimmer-motor-"
-"failure"
+msgstr "Falha no Motor do Aparador"
 
 #. TRANSLATORS: Trimmer Near Limit
 msgid "printer-state-reasons.trimmer-near-limit"
-msgstr "O Aparador Está Próximo do Seu Limite"
+msgstr "Aparador Próximo do Limite"
 
 #. TRANSLATORS: Trimmer Offline
 msgid "printer-state-reasons.trimmer-offline"
-msgstr "O Aparador Não Está Conectado"
+msgstr "Aparador Desligado"
 
 #. TRANSLATORS: Trimmer Opened
 msgid "printer-state-reasons.trimmer-opened"
-msgstr "O aparador printer-state-reasons.trimmer-opened aberto"
+msgstr "Aparador Foi Aberto"
 
 #. TRANSLATORS: Trimmer Over Temperature
 msgid "printer-state-reasons.trimmer-over-temperature"
-msgstr "O Aparador Atingiu uma Temperatura Excessiva"
+msgstr "Aparador com Temperatura Excessiva"
 
 #. TRANSLATORS: Trimmer Power Saver
 msgid "printer-state-reasons.trimmer-power-saver"
-msgstr ""
-"O aparador printer-state-reasons.trimmer-opened entrou no modo de economia "
-"de energia"
+msgstr "Aparador em Poupança de Energia"
 
 #. TRANSLATORS: Trimmer Recoverable Failure
 msgid "printer-state-reasons.trimmer-recoverable-failure"
-msgstr "Ocorreu uma Falha no Aparador que Pode Ser Restaurada"
+msgstr "Falha Recuperável do Aparador"
 
 #. TRANSLATORS: Trimmer Recoverable Storage
 msgid "printer-state-reasons.trimmer-recoverable-storage"
-msgstr "O Armazenamento do Aparador Pode Ser Restaurado"
+msgstr "Armazenamento Recuperável do Aparador"
 
 #. TRANSLATORS: Trimmer Removed
 msgid "printer-state-reasons.trimmer-removed"
-msgstr "O Aparador Foi Removido"
+msgstr "Aparador Removido"
 
 #. TRANSLATORS: Trimmer Resource Added
 msgid "printer-state-reasons.trimmer-resource-added"
-msgstr "A Funcionalidade do Aparador Foi Adicionada"
+msgstr "Funcionalidade do Aparador Adicionada"
 
 #. TRANSLATORS: Trimmer Resource Removed
 msgid "printer-state-reasons.trimmer-resource-removed"
-msgstr "A Funcionalidade do Aparador Foi Removida"
+msgstr "Funcionalidade do Aparador Removida"
 
 #. TRANSLATORS: Trimmer Thermistor Failure
 msgid "printer-state-reasons.trimmer-thermistor-failure"
-msgstr "Ocorreu uma Falha no Termistor do Aparador"
+msgstr "Falha no Termístor do Aparador"
 
 #. TRANSLATORS: Trimmer Timing Failure
 msgid "printer-state-reasons.trimmer-timing-failure"
-msgstr "Ocorreu uma Falha no Temporizador da Aparador"
+msgstr "Falha no Temporizador do Aparador"
 
 #. TRANSLATORS: Trimmer Turned Off
 msgid "printer-state-reasons.trimmer-turned-off"
-msgstr "O Aparador Está Desligado"
+msgstr "Aparador Foi Desligado"
 
 #. TRANSLATORS: Trimmer Turned On
 msgid "printer-state-reasons.trimmer-turned-on"
-msgstr "O Aparador Está Ligado"
+msgstr "Aparador Foi Ligado"
 
 #. TRANSLATORS: Trimmer Under Temperature
 msgid "printer-state-reasons.trimmer-under-temperature"
-msgstr "O Aparador Está com a Temperatura Abaixo do Normal"
+msgstr "Aparador com Temperatura Abaixo do Normal"
 
 #. TRANSLATORS: Trimmer Unrecoverable Failure
 msgid "printer-state-reasons.trimmer-unrecoverable-failure"
-msgstr "Ocorreu uma Falha no Aparador que Não Pode Ser Restaurada"
+msgstr "Falha Irrecuperável do Aparador"
 
 #. TRANSLATORS: Trimmer Unrecoverable Storage Error
 msgid "printer-state-reasons.trimmer-unrecoverable-storage-error"
-msgstr ""
-"Ocorreu um Erro no Armazenamento do Aparador que Não Pode Ser Restaurado"
+msgstr "Erro de Armazenamento Irrecuperável do Aparador"
 
 #. TRANSLATORS: Trimmer Warming Up
 msgid "printer-state-reasons.trimmer-warming-up"
-msgstr "O aparador printer-state-reasons.trimmer-warming-up está a aquecer"
+msgstr "Aparador a Aquecer"
 
 #. TRANSLATORS: Unknown
 msgid "printer-state-reasons.unknown"
-msgstr ""
+msgstr "Desconhecido"
 
 #. TRANSLATORS: Wrapper Added
 msgid "printer-state-reasons.wrapper-added"
-msgstr "O Empacotador Foi Adicionado"
+msgstr "Empacotador Adicionado"
 
 #. TRANSLATORS: Wrapper Almost Empty
 msgid "printer-state-reasons.wrapper-almost-empty"
-msgstr ""
-"O empacotador printer-state-reasons.wrapper-almost-empty está quase vazio"
+msgstr "Empacotador Quase Vazio"
 
 #. TRANSLATORS: Wrapper Almost Full
 msgid "printer-state-reasons.wrapper-almost-full"
-msgstr ""
-"O empacotador printer-state-reasons.wrapper-almost-full está quase cheio"
+msgstr "Empacotador Quase Cheio"
 
 #. TRANSLATORS: Wrapper At Limit
 msgid "printer-state-reasons.wrapper-at-limit"
-msgstr "O Empacotador Está no Limite"
+msgstr "Empacotador no Limite"
 
 #. TRANSLATORS: Wrapper Closed
 msgid "printer-state-reasons.wrapper-closed"
-msgstr "O empacotador printer-state-reasons.wrapper-closed está fechado"
+msgstr "Empacotador Fechado"
 
 #. TRANSLATORS: Wrapper Configuration Change
 msgid "printer-state-reasons.wrapper-configuration-change"
-msgstr ""
-"Alterar as configurações do empacotador printer-state-reasons.wrapper-"
-"configuration-change"
+msgstr "Mudança de Configuração do Empacotador"
 
 #. TRANSLATORS: Wrapper Cover Closed
 msgid "printer-state-reasons.wrapper-cover-closed"
-msgstr "O Tampa do Empacotador Está Fechada"
+msgstr "Tampa do Empacotador Fechada"
 
 #. TRANSLATORS: Wrapper Cover Open
 msgid "printer-state-reasons.wrapper-cover-open"
-msgstr "O Tampa do Empacotador Está Aberta"
+msgstr "Tampa do Empacotador Aberta"
 
 #. TRANSLATORS: Wrapper Empty
 msgid "printer-state-reasons.wrapper-empty"
-msgstr "O empacotador printer-state-reasons.wrapper-empty está vazio"
+msgstr "Empacotador Vazio"
 
 #. TRANSLATORS: Wrapper Full
 msgid "printer-state-reasons.wrapper-full"
-msgstr "O empacotador printer-state-reasons.wrapper-full está cheio"
+msgstr "Empacotador Cheio"
 
 #. TRANSLATORS: Wrapper Interlock Closed
 msgid "printer-state-reasons.wrapper-interlock-closed"
-msgstr ""
-"O intertravamento do empacotador printer-state-reasons.stitcher-interlock-"
-"closed está fechado"
+msgstr "Câmara Interna do Empacotador Fechada"
 
 #. TRANSLATORS: Wrapper Interlock Open
 msgid "printer-state-reasons.wrapper-interlock-open"
-msgstr ""
-"O intertravamento do empacotador printer-state-reasons.wrapper-interlock-"
-"open está aberto"
+msgstr "Câmara Interna do Empacotador Aberta"
 
 #. TRANSLATORS: Wrapper Jam
 msgid "printer-state-reasons.wrapper-jam"
-msgstr "Ocorreu um Atolamento no Empacotador"
+msgstr "Empacotador Encravado"
 
 #. TRANSLATORS: Wrapper Life Almost Over
 msgid "printer-state-reasons.wrapper-life-almost-over"
-msgstr "O Empacotador Está Quase no Fim da Sua Vida Útil"
+msgstr "Empacotador Quase em Fim de Vida"
 
 #. TRANSLATORS: Wrapper Life Over
 msgid "printer-state-reasons.wrapper-life-over"
-msgstr "O Empacotador Está no Fim da Sua Vida Útil"
+msgstr "Empacotador em Fim de Vida"
 
 #. TRANSLATORS: Wrapper Memory Exhausted
 msgid "printer-state-reasons.wrapper-memory-exhausted"
-msgstr ""
-"A memória do empacotador printer-state-reasons.wrapper-memory-exhausted foi "
-"esgotada"
+msgstr "Memória Esgotada do Empacotador"
 
 #. TRANSLATORS: Wrapper Missing
 msgid "printer-state-reasons.wrapper-missing"
-msgstr "Ocorreu uma falha no empacotador printer-state-reasons.wrapper-missing"
+msgstr "Empacotador em Falta"
 
 #. TRANSLATORS: Wrapper Motor Failure
 msgid "printer-state-reasons.wrapper-motor-failure"
-msgstr ""
-"Ocorreu uma falha no motor do empacotador printer-state-reasons.wrapper-"
-"motor-failure"
+msgstr "Falha no Motor do Empacotador"
 
 #. TRANSLATORS: Wrapper Near Limit
 msgid "printer-state-reasons.wrapper-near-limit"
-msgstr "O Empacotador Está Próximo do Seu Limite"
+msgstr "Empacotador Próximo do Limite"
 
 #. TRANSLATORS: Wrapper Offline
 msgid "printer-state-reasons.wrapper-offline"
-msgstr "O Empacotador Não Está Conectado"
+msgstr "Empacotador Desligado"
 
 #. TRANSLATORS: Wrapper Opened
 msgid "printer-state-reasons.wrapper-opened"
-msgstr "O empacotador printer-state-reasons.wrapper-opened está aberto"
+msgstr "Empacotador Aberto"
 
 #. TRANSLATORS: Wrapper Over Temperature
 msgid "printer-state-reasons.wrapper-over-temperature"
-msgstr "O Empacotador Atingiu uma Temperatura Excessiva"
+msgstr "Empacotador com Temperatura Excessiva"
 
 #. TRANSLATORS: Wrapper Power Saver
 msgid "printer-state-reasons.wrapper-power-saver"
-msgstr ""
-"O empacotador printer-state-reasons.wrapper-power-saver entrou no modo de "
-"economia de energia"
+msgstr "Empacotador em Poupança de Energia"
 
 #. TRANSLATORS: Wrapper Recoverable Failure
 msgid "printer-state-reasons.wrapper-recoverable-failure"
-msgstr "Ocorreu uma Falha no Empacotador que Pode Ser Restaurada"
+msgstr "Falha Recuperável do Empacotador"
 
 #. TRANSLATORS: Wrapper Recoverable Storage
 msgid "printer-state-reasons.wrapper-recoverable-storage"
-msgstr "O Armazenamento do Empacotador Pode ser Restaurado"
+msgstr "Armazenamento Recuperável do Empacotador"
 
 #. TRANSLATORS: Wrapper Removed
 msgid "printer-state-reasons.wrapper-removed"
-msgstr "O Empacotador Foi Removido"
+msgstr "Empacotador Removido"
 
 #. TRANSLATORS: Wrapper Resource Added
 msgid "printer-state-reasons.wrapper-resource-added"
-msgstr "A Funcionalidade do Empacotador Foi Adicionada"
+msgstr "Funcionalidade do Empacotador Adicionada"
 
 #. TRANSLATORS: Wrapper Resource Removed
 msgid "printer-state-reasons.wrapper-resource-removed"
-msgstr "A Funcionalidade do Empacotador Foi Removida"
+msgstr "Funcionalidade do Empacotador Removida"
 
 #. TRANSLATORS: Wrapper Thermistor Failure
 msgid "printer-state-reasons.wrapper-thermistor-failure"
-msgstr "Ocorreu uma Falha no Termistor do Empacotador"
+msgstr "Falha no Termístor do Empacotador"
 
 #. TRANSLATORS: Wrapper Timing Failure
 msgid "printer-state-reasons.wrapper-timing-failure"
-msgstr "Ocorreu uma Falha no Temporizador da Empacotador"
+msgstr "Falha no Temporizador do Empacotador"
 
 #. TRANSLATORS: Wrapper Turned Off
 msgid "printer-state-reasons.wrapper-turned-off"
-msgstr "O Empacotador Está Desligado"
+msgstr "Empacotador Foi Desligado"
 
 #. TRANSLATORS: Wrapper Turned On
 msgid "printer-state-reasons.wrapper-turned-on"
-msgstr "O Empacotador Está Ligado"
+msgstr "Empacotador Foi Ligado"
 
 #. TRANSLATORS: Wrapper Under Temperature
 msgid "printer-state-reasons.wrapper-under-temperature"
-msgstr "O Empacotador Está com a Temperatura Abaixo do Normal"
+msgstr "Empacotador com Temperatura Abaixo do Normal"
 
 #. TRANSLATORS: Wrapper Unrecoverable Failure
 msgid "printer-state-reasons.wrapper-unrecoverable-failure"
-msgstr "Ocorreu uma Falha no Empacotador que Não Pode Ser Restaurado"
+msgstr "Falha Irrecuperável do Empacotador"
 
 #. TRANSLATORS: Wrapper Unrecoverable Storage Error
 msgid "printer-state-reasons.wrapper-unrecoverable-storage-error"
-msgstr ""
-"Ocorreu um Erro no Armazenamento do Empacotador que Não Pode Ser Restaurado"
+msgstr "Erro de Armazenamento Irrecuperável do Empacotador"
 
 #. TRANSLATORS: Wrapper Warming Up
 msgid "printer-state-reasons.wrapper-warming-up"
-msgstr "O empacotador printer-state-reasons.wrapper-warming-up está a aquecer"
+msgstr "Empacotador a Aquecer"
 
 #. TRANSLATORS: Idle
 msgid "printer-state.3"
-msgstr ""
+msgstr "Pronta em Espera"
 
 #. TRANSLATORS: Processing
 msgid "printer-state.4"
-msgstr ""
+msgstr "A Processar"
 
 #. TRANSLATORS: Stopped
 msgid "printer-state.5"
-msgstr ""
+msgstr "Parada"
 
 #. TRANSLATORS: Printer Uptime
 msgid "printer-up-time"
-msgstr ""
+msgstr "Tempo de Funcionamento da Impressora"
 
 msgid "processing"
 msgstr "a processar"
 
 #. TRANSLATORS: Proof Print
 msgid "proof-print"
-msgstr ""
+msgstr "Pegada"
 
 #. TRANSLATORS: Proof Print Copies
 msgid "proof-print-copies"
-msgstr ""
+msgstr "Cópias de Pegada"
 
 #. TRANSLATORS: Punching
 msgid "punching"
-msgstr "Furador punching"
+msgstr "Aplicar Punção"
 
 #. TRANSLATORS: Punching Locations
 msgid "punching-locations"
-msgstr "Local do furador punching-locations"
+msgstr "Aplicar Punção em Localizações"
 
 #. TRANSLATORS: Punching Offset
 msgid "punching-offset"
-msgstr ""
+msgstr "Desvio da Punção"
 
 #. TRANSLATORS: Punch Edge
 msgid "punching-reference-edge"
-msgstr ""
+msgstr "Punção em Berma"
 
 #. TRANSLATORS: Bottom
 msgid "punching-reference-edge.bottom"
-msgstr ""
+msgstr "Fundo"
 
 #. TRANSLATORS: Left
 msgid "punching-reference-edge.left"
-msgstr ""
+msgstr "Esquerda"
 
 #. TRANSLATORS: Right
 msgid "punching-reference-edge.right"
-msgstr ""
+msgstr "Direita"
 
 #. TRANSLATORS: Top
 msgid "punching-reference-edge.top"
-msgstr ""
+msgstr "Topo"
 
 #, c-format
 msgid "request id is %s-%d (%d file(s))"
-msgstr "O ID (identificador) da requisição é %s de %d (%d ficheiro(s))"
+msgstr "o id do pedido é %s-%d (%d ficheiro(s))"
 
 msgid "request-id uses indefinite length"
-msgstr "O request-id utiliza um comprimento que não é definido"
+msgstr "o id de pedido utiliza comprimento indefinido"
 
 #. TRANSLATORS: Requested Attributes
 msgid "requested-attributes"
-msgstr "Os atributos solicitados do requested-attributes"
+msgstr "Atributos Pedidos"
 
 #. TRANSLATORS: Retry Interval
 msgid "retry-interval"
-msgstr ""
+msgstr "Intervalo de Re-Tentativas"
 
 #. TRANSLATORS: Retry Timeout
 msgid "retry-time-out"
-msgstr ""
+msgstr "Tempo Limite de Re-Tentativa"
 
 #. TRANSLATORS: Save Disposition
 msgid "save-disposition"
-msgstr ""
+msgstr "Salvar Disposição"
 
 #. TRANSLATORS: None
 msgid "save-disposition.none"
-msgstr "Nenhum"
+msgstr "Nada"
 
 #. TRANSLATORS: Print and Save
 msgid "save-disposition.print-save"
-msgstr ""
+msgstr "Imprimir e Salvar"
 
 #. TRANSLATORS: Save Only
 msgid "save-disposition.save-only"
-msgstr ""
+msgstr "Apenas Salvar"
 
 #. TRANSLATORS: Save Document Format
 msgid "save-document-format"
-msgstr ""
+msgstr "Salva Formato do Documento"
 
 #. TRANSLATORS: Save Info
 msgid "save-info"
-msgstr ""
+msgstr "Salvar Informação"
 
 #. TRANSLATORS: Save Location
 msgid "save-location"
-msgstr ""
+msgstr "Salvar Localização"
 
 #. TRANSLATORS: Save Name
 msgid "save-name"
-msgstr ""
+msgstr "Salvar Nome"
 
 msgid "scheduler is not running"
 msgstr "Agendador não está em execução"
@@ -16019,19 +15982,19 @@ msgstr "Agendador está em execução"
 
 #. TRANSLATORS: Separator Sheets
 msgid "separator-sheets"
-msgstr ""
+msgstr "Separador de Folhas"
 
 #. TRANSLATORS: Type of Separator Sheets
 msgid "separator-sheets-type"
-msgstr ""
+msgstr "Tipo de Separador de Folhas"
 
 #. TRANSLATORS: Start and End Sheets
 msgid "separator-sheets-type.both-sheets"
-msgstr ""
+msgstr "Folhas de Inicio e Fim"
 
 #. TRANSLATORS: End Sheet
 msgid "separator-sheets-type.end-sheet"
-msgstr "Última Folha"
+msgstr "Folha do Fim"
 
 #. TRANSLATORS: None
 msgid "separator-sheets-type.none"
@@ -16039,130 +16002,133 @@ msgstr "Nenhum"
 
 #. TRANSLATORS: Slip Sheets
 msgid "separator-sheets-type.slip-sheets"
-msgstr ""
+msgstr "Deslizar Folhas"
 
 #. TRANSLATORS: Start Sheet
 msgid "separator-sheets-type.start-sheet"
-msgstr "Primeira Folha"
+msgstr "Folha de Inicio"
 
 msgid "server COMMON-NAME[:PORT]  Run a HTTPS server (default port 8NNN.)"
 msgstr ""
+"server NOME-COMUM[:PORTO]  Corre um servidor HTTPS (porto predefinido 8NNN.)"
 
 msgid ""
 "set-access-token [RESOURCE] TOKEN\n"
 "                               Set the current access token"
 msgstr ""
-"set-access-token [RECURSO] TOKEN\n"
-"                               Permite definir a chave do portador de acesso "
-"atual"
+"set-access-token [RECURSO] TESTEMUNHO\n"
+"                               Define o testemunho de acesso atual"
 
 msgid ""
 "set-client-data CLIENT-ID CLIENT-SECRET\n"
 "                               Set the client ID and secret for the "
 "authorization server."
 msgstr ""
+"set-client-data ID-CLIENTE SEGREDO-CLIENTE\n"
+"                               Define o ID de cliente e o segredo para o "
+"servidor de autenticação."
 
 msgid "show COMMON-NAME           Show stored credentials for COMMON-NAME."
 msgstr ""
+"show NOME-COMUM           Mostra credenciais armazenadas para NOME-COMUM."
 
 #. TRANSLATORS: 2-Sided Printing
 msgid "sides"
-msgstr ""
+msgstr "Impressão de 2 Lados"
 
 #. TRANSLATORS: Off
 msgid "sides.one-sided"
-msgstr ""
+msgstr "Desligada"
 
 #. TRANSLATORS: On (Portrait)
 msgid "sides.two-sided-long-edge"
-msgstr "Em (Retrato)"
+msgstr "Ligada (Retrato)"
 
 #. TRANSLATORS: On (Landscape)
 msgid "sides.two-sided-short-edge"
-msgstr "Em (Paisagem)"
+msgstr "Ligada (Paisagem)"
 
 #, c-format
 msgid "stat of %s failed: %s"
-msgstr "falhou o estado de %s: %s"
+msgstr "estatística de %s falhou: %s"
 
 msgid "status\t\tShow status of daemon and queue."
-msgstr ""
+msgstr "status\t\tMostra o estado do daemon e da fila de espera."
 
 #. TRANSLATORS: Status Message
 msgid "status-message"
-msgstr ""
+msgstr "Mensagem de Estado"
 
 #. TRANSLATORS: Staple
 msgid "stitching"
-msgstr ""
+msgstr "Agrafo"
 
 #. TRANSLATORS: Stitching Angle
 msgid "stitching-angle"
-msgstr ""
+msgstr "Ângulo de Costura"
 
 #. TRANSLATORS: Stitching Locations
 msgid "stitching-locations"
-msgstr ""
+msgstr "Localizações de Costura"
 
 #. TRANSLATORS: Staple Method
 msgid "stitching-method"
-msgstr ""
+msgstr "Método do Agrafo"
 
 #. TRANSLATORS: Automatic
 msgid "stitching-method.auto"
-msgstr ""
+msgstr "Automático"
 
 #. TRANSLATORS: Crimp
 msgid "stitching-method.crimp"
-msgstr ""
+msgstr "Cravar"
 
 #. TRANSLATORS: Wire
 msgid "stitching-method.wire"
-msgstr ""
+msgstr "Fio"
 
 #. TRANSLATORS: Stitching Offset
 msgid "stitching-offset"
-msgstr ""
+msgstr "Desvio da Costura"
 
 #. TRANSLATORS: Staple Edge
 msgid "stitching-reference-edge"
-msgstr "Grampear na borda do stitching-reference-edge"
+msgstr "Borda a Agrafar"
 
 #. TRANSLATORS: Bottom
 msgid "stitching-reference-edge.bottom"
-msgstr "Botão do stitching-reference-edge.bottom"
+msgstr "Fundo"
 
 #. TRANSLATORS: Left
 msgid "stitching-reference-edge.left"
-msgstr "Esquerda do stitching-reference-edge.left"
+msgstr "Esquerda"
 
 #. TRANSLATORS: Right
 msgid "stitching-reference-edge.right"
-msgstr "Direita do stitching-reference-edge.right"
+msgstr "Direita"
 
 #. TRANSLATORS: Top
 msgid "stitching-reference-edge.top"
-msgstr "Superior do stitching-reference-edge.top"
+msgstr "Topo"
 
 msgid "stopped"
-msgstr "parou"
+msgstr "parado"
 
 #. TRANSLATORS: Subject
 msgid "subject"
-msgstr ""
+msgstr "sujeito"
 
 #. TRANSLATORS: Subscription Privacy Attributes
 msgid "subscription-privacy-attributes"
-msgstr ""
-"Atributos de privacidade da assinatura do subscription-privacy-attributes"
+msgstr "Atributos de Privacidade de Subscrição"
 
 #. TRANSLATORS: All
 msgid "subscription-privacy-attributes.all"
-msgstr "Todos os subscription-privacy-attributes.all"
+msgstr "Todos"
 
 #. TRANSLATORS: Default
 msgid "subscription-privacy-attributes.default"
-msgstr "O padrão do subscription-privacy-attributes.default"
+msgstr "Predefinição"
 
 #. TRANSLATORS: None
 msgid "subscription-privacy-attributes.none"
@@ -16170,26 +16136,23 @@ msgstr "Nenhum"
 
 #. TRANSLATORS: Subscription Description
 msgid "subscription-privacy-attributes.subscription-description"
-msgstr ""
-"Descrição da assinatura do subscription-privacy-attributes.subscription-"
-"description"
+msgstr "Descrição da Subscrição"
 
 #. TRANSLATORS: Subscription Template
 msgid "subscription-privacy-attributes.subscription-template"
-msgstr ""
-"Modelo da assinatura do subscription-privacy-attributes.subscription-template"
+msgstr "Modelo de Subscrição"
 
 #. TRANSLATORS: Subscription Privacy Scope
 msgid "subscription-privacy-scope"
-msgstr "Âmbito de privacidade da assinatura do subscription-privacy-scope"
+msgstr "Escopo de Privacidade da Subscrição"
 
 #. TRANSLATORS: All
 msgid "subscription-privacy-scope.all"
-msgstr "Todos os subscription-privacy-scope.all"
+msgstr "Todos"
 
 #. TRANSLATORS: Default
 msgid "subscription-privacy-scope.default"
-msgstr "Padrão do subscription-privacy-scope.default"
+msgstr "Predefinição"
 
 #. TRANSLATORS: None
 msgid "subscription-privacy-scope.none"
@@ -16197,127 +16160,127 @@ msgstr "Nenhum"
 
 #. TRANSLATORS: Owner
 msgid "subscription-privacy-scope.owner"
-msgstr "Proprietário do subscription-privacy-scope.owner"
+msgstr "Proprietário"
 
 #, c-format
 msgid "system default destination: %s"
-msgstr "destino padrão do sistema: %s"
+msgstr "destino predefinido do sistema: %s"
 
 #, c-format
 msgid "system default destination: %s/%s"
-msgstr "destino padrão do sistema: %s/%s"
+msgstr "destino predefinido do sistema: %s/%s"
 
 #. TRANSLATORS: T33 Subaddress
 msgid "t33-subaddress"
-msgstr "T33 Subaddress"
+msgstr "Sub-endereço T33"
 
 #. TRANSLATORS: To Name
 msgid "to-name"
-msgstr ""
+msgstr "Para Nome"
 
 #. TRANSLATORS: Transmission Status
 msgid "transmission-status"
-msgstr ""
+msgstr "Estado da Transmissão"
 
 #. TRANSLATORS: Pending
 msgid "transmission-status.3"
-msgstr ""
+msgstr "Pendente"
 
 #. TRANSLATORS: Pending Retry
 msgid "transmission-status.4"
-msgstr ""
+msgstr "Re-Tentar Pendente"
 
 #. TRANSLATORS: Processing
 msgid "transmission-status.5"
-msgstr ""
+msgstr "A Processar"
 
 #. TRANSLATORS: Canceled
 msgid "transmission-status.7"
-msgstr ""
+msgstr "Cancelado"
 
 #. TRANSLATORS: Aborted
 msgid "transmission-status.8"
-msgstr ""
+msgstr "Abortado"
 
 #. TRANSLATORS: Completed
 msgid "transmission-status.9"
-msgstr ""
+msgstr "Concluído"
 
 #. TRANSLATORS: Cut
 msgid "trimming"
-msgstr ""
+msgstr "Cortar"
 
 #. TRANSLATORS: Cut Position
 msgid "trimming-offset"
-msgstr ""
+msgstr "Desvio do Corte"
 
 #. TRANSLATORS: Cut Edge
 msgid "trimming-reference-edge"
-msgstr ""
+msgstr "Borda do Corte"
 
 #. TRANSLATORS: Bottom
 msgid "trimming-reference-edge.bottom"
-msgstr ""
+msgstr "Fundo"
 
 #. TRANSLATORS: Left
 msgid "trimming-reference-edge.left"
-msgstr ""
+msgstr "Esquerda"
 
 #. TRANSLATORS: Right
 msgid "trimming-reference-edge.right"
-msgstr ""
+msgstr "Direita"
 
 #. TRANSLATORS: Top
 msgid "trimming-reference-edge.top"
-msgstr ""
+msgstr "Topo"
 
 #. TRANSLATORS: Type of Cut
 msgid "trimming-type"
-msgstr ""
+msgstr "Tipo de Corte"
 
 #. TRANSLATORS: Draw Line
 msgid "trimming-type.draw-line"
-msgstr ""
+msgstr "Traçar Linha"
 
 #. TRANSLATORS: Full
 msgid "trimming-type.full"
-msgstr ""
+msgstr "Completo"
 
 #. TRANSLATORS: Partial
 msgid "trimming-type.partial"
-msgstr ""
+msgstr "Parcial"
 
 #. TRANSLATORS: Perforate
 msgid "trimming-type.perforate"
-msgstr ""
+msgstr "Perfurar"
 
 #. TRANSLATORS: Score
 msgid "trimming-type.score"
-msgstr ""
+msgstr "Pontuar"
 
 #. TRANSLATORS: Tab
 msgid "trimming-type.tab"
-msgstr ""
+msgstr "Separador"
 
 #. TRANSLATORS: Cut After
 msgid "trimming-when"
-msgstr ""
+msgstr "Cortar Depois"
 
 #. TRANSLATORS: Every Document
 msgid "trimming-when.after-documents"
-msgstr "Cada documento do trimming-when.after-documents"
+msgstr "Cada Documento"
 
 #. TRANSLATORS: Job
 msgid "trimming-when.after-job"
-msgstr "Trabalho do trimming-when.after-job"
+msgstr "Trabalho"
 
 #. TRANSLATORS: Every Set
 msgid "trimming-when.after-sets"
-msgstr "Todas as páginas do trimming-when.after-sets"
+msgstr "Cada Conjunto"
 
 #. TRANSLATORS: Every Page
 msgid "trimming-when.after-sheets"
-msgstr "Cada página do trimming-when.after-sheets"
+msgstr "Cada Página"
 
 msgid "unknown"
 msgstr "desconhecido"
@@ -16330,68 +16293,68 @@ msgstr "variable-bindings usa comprimento indefinido"
 
 #. TRANSLATORS: X Accuracy
 msgid "x-accuracy"
-msgstr ""
+msgstr "Precisão X"
 
 #. TRANSLATORS: X Dimension
 msgid "x-dimension"
-msgstr ""
+msgstr "Dimensão X"
 
 #. TRANSLATORS: X Offset
 msgid "x-offset"
-msgstr ""
+msgstr "Desvio X"
 
 #. TRANSLATORS: X Origin
 msgid "x-origin"
-msgstr ""
+msgstr "Origem X"
 
 #. TRANSLATORS: Y Accuracy
 msgid "y-accuracy"
-msgstr ""
+msgstr "Precisão X"
 
 #. TRANSLATORS: Y Dimension
 msgid "y-dimension"
-msgstr ""
+msgstr "Dimensão Y"
 
 #. TRANSLATORS: Y Offset
 msgid "y-offset"
-msgstr ""
+msgstr "Desvio Y"
 
 #. TRANSLATORS: Y Origin
 msgid "y-origin"
-msgstr ""
+msgstr "Origem Y"
 
 #. TRANSLATORS: Z Accuracy
 msgid "z-accuracy"
-msgstr ""
+msgstr "Precisão Z"
 
 #. TRANSLATORS: Z Dimension
 msgid "z-dimension"
-msgstr ""
+msgstr "Dimensão Z"
 
 #. TRANSLATORS: Z Offset
 msgid "z-offset"
-msgstr "Deslocamento em Z"
+msgstr "Desvio Z"
 
 msgid "{service_domain}        Domain name"
-msgstr "{domínio_serviço}       Nome de domínio"
+msgstr "{service_domain}        Nome de domínio"
 
 msgid "{service_hostname}      Fully-qualified domain name"
-msgstr "{nome_servidor}         Nome de domínio absoluto"
+msgstr "{service_hostname}      Nome de domínio totalmente qualificado"
 
 msgid "{service_name}          Service instance name"
-msgstr "{nome_serviço}          Nome da instância do serviço"
+msgstr "{service_name}          Nome da instância do serviço"
 
 msgid "{service_port}          Port number"
-msgstr "{porta_serviço}         Número de porta"
+msgstr "{service_port}          Número de porto"
 
 msgid "{service_regtype}       DNS-SD registration type"
-msgstr "{tipo_registro_serviço} Tipo de registo DNS_SD"
+msgstr "{service_regtype}       Tipo de registo DNS_SD"
 
 msgid "{service_scheme}        URI scheme"
-msgstr "{esquema_serviço}       Esquema URI"
+msgstr "{service_scheme}       Esquema de URI"
 
 msgid "{service_uri}           URI"
-msgstr "{uri_serviço}           URI"
+msgstr "{service_uri}           URI"
 
 msgid "{txt_*}                 Value of TXT record key"
 msgstr "{txt_*}                 Valor de chave de registo TXT"
@@ -16400,7 +16363,7 @@ msgid "{}                      URI"
 msgstr "{}                      URI"
 
 msgid "~/.cups/lpoptions file names default destination that does not exist."
-msgstr "Ficheiro ~/.cups/lpoptions declara destino padrão que não existe."
+msgstr "Ficheiro ~/.cups/lpoptions declara destino predefinido que não existe."
 
 #, c-format
 #~ msgid "Attribute \"%s\" has empty value."
